@@ -1,0 +1,44 @@
+{
+  "type": "problem",
+  "title": "试问前程",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 3,
+  "content": "",
+  "vueScript":"/config/jhjm2024/problems/5/19.vue",
+  "answer": "SNOWSTORM",
+  "desc": "看起来驻守着某种机关，不知道里面隐藏着什么诡计。",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "按照题目的指示试试看？记得记录下来结果喔，尽管有些结果在意料之外。网站上不会为你记录重复的猜测。"
+    },
+    {
+      "title": "我对题目里“相关度”的概念不是很理解，它是如何定义的？",
+      "content": "相关指词意上相近或存在某种联想关系能够联想到，取值越大距离目标越近。如果你尝试了不在现有词表中的词语，会全部以最左侧的灰色显示（确实有可能你找到了一个很相关但很生僻的词），但对每一行，相关度能够达到最高等级的词是确定的。"
+    },
+    {
+      "title": "我感觉这题有点奇怪……似乎事情并不像我预想的那样？",
+      "content": "是的，ft中提到了这个【机关】存在着某种【诡计】：正如这个【鸡冠】的【轨迹】一样，风味文本和题目中的这些词都存在着类似的配对。相关性会同时检测两个词语并取最高值。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 137,
+    "total_guesses": 340,
+    "unique_teams": 139
+  },
+  "answerAnalysis": "\n\n\n肥鱼\n\n\n\n本题相关度的定义是基于语义相关（或存在某种特定的典故能够联想到）。\n\n本题核心机制在于每个待猜词都是一组同音词（题目中的“前程”、ft中的“驻守”、“机关”以及“诡计”都是同音词），在考虑相关度时返回的值是这些同音词中给出的相关度最高者（比如鸡蛋对应的公鸡/攻击给出了3级相关度，虽然鸡蛋和攻击这两个词压根没有关系）。\n\n所使用的同音词列表（也即每个小题所有能达到最高相关度的词语）如下：可提取出答案 **SNOWSTORM** 。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>序号</td>\n            <td>同音词</td>\n            <td>拼音</td>\n            <td>提取</td>\n            <td>提取字母</td>\n        </tr>\n        <tr>\n            <td>1</td>\n            <td>手掌/首长</td>\n            <td><span class=\"emph\">s</span>houzhang</td>\n            <td>1/9</td>\n            <td>S</td>\n        </tr>\n        <tr>\n            <td>2</td>\n            <td>公鸡/攻击</td>\n            <td>go<span class=\"emph\">n</span>gji</td>\n            <td>3/6</td>\n            <td>N</td>\n        </tr>\n        <tr>\n            <td>3</td>\n            <td>相交/香蕉</td>\n            <td>xiangjia<span class=\"emph\">o</span></td>\n            <td>9/9</td>\n            <td>O</td>\n        </tr>\n        <tr>\n            <td>4</td>\n            <td>植物/职务</td>\n            <td>zhi<span class=\"emph\">w</span>u</td>\n            <td>4/5</td>\n            <td>W</td>\n        </tr>\n        <tr>\n            <td>5</td>\n            <td>骑士/歧视</td>\n            <td>qi<span class=\"emph\">s</span>hi</td>\n            <td>3/5</td>\n            <td>S</td>\n        </tr>\n        <tr>\n            <td>6</td>\n            <td>视图/仕途/试图</td>\n            <td>shi<span class=\"emph\">t</span>u</td>\n            <td>4/5</td>\n            <td>T</td>\n        </tr>\n        <tr>\n            <td>7</td>\n            <td>宝剑/保健</td>\n            <td>ba<span class=\"emph\">o</span>jian</td>\n            <td>3/7</td>\n            <td>O</td>\n        </tr>\n        <tr>\n            <td>8</td>\n            <td>同人/瞳仁/同仁/铜人</td>\n            <td>tong<span class=\"emph\">r</span>en</td>\n            <td>5/7</td>\n            <td>R</td>\n        </tr>\n        <tr>\n            <td>9</td>\n            <td>数目/树木</td>\n            <td>shu<span class=\"emph\">m</span>u</td>\n            <td>4/5</td>\n            <td>M</td>\n        </tr>\n    </table>\n</div>\n\n\n\n对不起。\n\n这道题存在的问题一是词库实在是太小了：esc老师提供了一个llm的接口问我要不要用，但我坚持想使用自己制作的词库，但是500个词确实太不足以支持大家的猜测。二是没有对词库里没有的词和确实与这九组同音词都不相关的词在表现形式上做区分，这点如果做好可能能避免大家产生误解。\n\n预设的解题路径其实是通过词语的固有属性进行分类（制作的词库里包含了颜色/质地/词性/软硬程度/材质/形状/学科/自然人工等分类标准），但是可能大家还是会优先猜一些实词（像测试组一样）。不过也许好在答案比较容易nutri出来？不知道能否稍微让这题不那么烂。\n\n"
+}

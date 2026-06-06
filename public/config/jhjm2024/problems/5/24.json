@@ -1,0 +1,87 @@
+{
+  "type": "problem",
+  "title": "云端学习",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"container\">\n    <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/class_begins/class_begins_1.webp\" class=\"w-100 mt-4\">\n    <div class=\"my-5 split\"></div>\n    <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/class_begins/class_begins_2.webp\" class=\"w-100 mt-4\">\n</div>\n<div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n    你可以下载 <a href=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/class_begins/class_begins_2.webp\" download>学习单</div>\n</div>",
+  "answer": "CLOUD COMPUTING",
+  "desc": "不要忘记学习英语哦！",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "附件中的词云图指代了一些集合，也许你可以从中找出一些规律。你可以辨认词云图中有特色的字词，进行组合并用搜索引擎帮助你寻找。"
+    },
+    {
+      "title": "我找出了一些词云图代表的东西，但这究竟有什么意义？",
+      "content": "注意老师所说的“进阶的字母表”，也许这些主题可以和一个解谜中常用的字母表匹配，你可以尝试把一些关键词翻译成英文丢进搜索引擎中。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "十一张词云图可以和签到学生的十一种头像一一对应，从中提取（5，9）。"
+    },
+    {
+      "title": "第一行第一列的词云图代表什么？",
+      "content": "《查理九世》的二十七册书标题。"
+    },
+    {
+      "title": "第一行第二列的词云图代表什么？",
+      "content": "长江三角洲地区中的地级市。"
+    },
+    {
+      "title": "第一行第三列的词云图代表什么？",
+      "content": "不同种类的高尔夫杆。"
+    },
+    {
+      "title": "第一行第四列的词云图代表什么？",
+      "content": "印度的邦名。"
+    },
+    {
+      "title": "第二行第一列的词云图代表什么？",
+      "content": "秘鲁总统全名。"
+    },
+    {
+      "title": "第二行第二列的词云图代表什么？",
+      "content": "主角之一叫做麦克的电影。"
+    },
+    {
+      "title": "第二行第三列的词云图代表什么？",
+      "content": "十一月日历的标记。（数字下面的小字）"
+    },
+    {
+      "title": "第二行第四列的词云图代表什么？",
+      "content": "奥斯卡获奖/提名的华语电影。"
+    },
+    {
+      "title": "第三行第一列的词云图代表什么？",
+      "content": "《爸爸去哪儿》真人秀中的爸爸。"
+    },
+    {
+      "title": "第三行第二列的词云图代表什么？",
+      "content": "探戈名曲《一步之遥》歌词中文翻译。"
+    },
+    {
+      "title": "第三行第三列的词云图代表什么？",
+      "content": "兔缝缝家JK制服的名字。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 102,
+    "total_guesses": 209,
+    "unique_teams": 104
+  },
+  "answerAnalysis": "\n\n\n鸣秋\n\n\n\n<div class=\"container\">\n    附件中十一张词云图的主题如下：\n    <table class=\"solution-table\">\n        <tr>\n            <td>《查理九世》的二十七册书标题。</td>\n            <td>长江三角洲地区中的地级市。</td>\n            <td>不同种类的高尔夫杆。</td>\n            <td>印度的邦名。</td>\n        </tr>\n        <tr>\n            <td>秘鲁总统全名。</td>\n            <td>主角之一叫做麦克的电影。</td>\n            <td>十一月日历的标记。（数字下面的小字）</td>\n            <td>奥斯卡获奖/提名的华语电影。</td>\n        </tr>\n        <tr>\n            <td>《爸爸去哪儿》真人秀中的爸爸。</td>\n            <td>探戈名曲《一步之遥》歌词中文翻译。</td>\n            <td>兔缝缝家JK制服的名字。</td>\n            <td></td>\n        </tr>\n    </table>\n\n    通过联想及搜索引擎得知一定量的主题后，可以发现其与NATO字母对应单词一一对应（符合网课老师所说的“进阶的字母表”），以字母序排列，同时主题和11张学生头像对应：\n    <table class=\"solution-table\">\n        <tr>\n            <td>查理九世</td>\n            <td>长三角</td>\n            <td>高尔夫球杆</td>\n            <td>印度邦名</td>\n            <td>秘鲁政府</td>\n            <td>主角麦克</td>\n            <td>十一月</td>\n            <td>奥斯卡</td>\n            <td>爸爸去哪儿</td>\n            <td>探戈舞曲</td>\n            <td>JK制服</td>\n        </tr>\n        <tr>\n            <td>小说</td>\n            <td>江南风情</td>\n            <td>高尔夫</td>\n            <td>印度风情</td>\n            <td>南美风情</td>\n            <td>电影</td>\n            <td>秋天</td>\n            <td>红毯颁奖</td>\n            <td>亲子旅行</td>\n            <td>歌舞</td>\n            <td>裙装</td>\n        </tr>\n        <!-- TODO: image layout -->\n        <tr>\n            <td><img class=\"w-100\" src=\"class_begins/C.JPEG\" alt=\"C\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/D.JPEG\" alt=\"D\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/G.JPEG\" alt=\"G\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/I.JPEG\" alt=\"I\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/L.JPEG\" alt=\"L\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/M.JPEG\" alt=\"M\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/N.JPEG\" alt=\"N\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/O.JPEG\" alt=\"O\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/P.JPEG\" alt=\"P\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/T.JPEG\" alt=\"T\"></td>\n            <td><img class=\"w-100\" src=\"class_begins/U.JPEG\" alt=\"U\"></td>\n        </tr>\n        <tr>\n            <td>Charlie</td>\n            <td>Delta</td>\n            <td>Golf</td>\n            <td>India</td>\n            <td>Lima</td>\n            <td>Mike</td>\n            <td>November</td>\n            <td>Oscar</td>\n            <td>Papa</td>\n            <td>Tango</td>\n            <td>Uniform</td>\n        </tr>\n        <tr>\n            <td>C</td>\n            <td>D</td>\n            <td>G</td>\n            <td>I</td>\n            <td>L</td>\n            <td>M</td>\n            <td>N</td>\n            <td>O</td>\n            <td>P</td>\n            <td>T</td>\n            <td>U</td>\n        </tr>\n    </table>\n    因此，按头像顺序匹配字母，竖着提取（5，9）得到答案：CLOUD COMPUTING。\n</div>\n\n\n\n<div class=\"container\">\n<p>这道题的思路来源是PNKU2的《雷达峰的反射电波图》。</p>\n<p>一直觉得从云图的文字碎片中反推出文本来源很有趣，属于是那种可以用百度做，但是如果能突然一眼看出会有很强正反馈的题目。确立了云图的形式以后，就自然而然想到了用北约来提取，这也能导向很多有趣的主题——国民童年《查理九世》、长三角、JK制服…… 至于提示北约的方式，为了让整道题的调性一致，没有选择使用无线电/北约这样的clue phrase，而是虚构了一个网课的情景，用字母表来暗示提取。</p>\n<p>当然出完题听说幕后组有一半的人没看过《查理九世》就是后话了。</p>\n</div>\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

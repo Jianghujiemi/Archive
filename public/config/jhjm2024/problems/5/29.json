@@ -1,0 +1,63 @@
+{
+  "type": "problem",
+  "title": "最美心意",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "    <style>\n        body {\n            margin: 0;\n            padding: 20px;\n            font-family: Arial, sans-serif;\n        }\n        \n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-bottom: 20px;\n        }\n        \n        td {\n            vertical-align: middle;\n            padding: 0;\n        }\n        \n        img {\n            width: 100%;\n            height: auto;\n            display: block;\n        }\n        \n        hr {\n            margin: 10px 0;\n            border: 0;\n            border-top: 1px solid #ccc;\n        }\n        \n        .text-center {\n            text-align: center;\n            font-weight: bold;\n            font-size: 18px;\n        }\n        \n        .emotion-container {\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n    </style>\n    <div class=\"emotion-container\">\n        <!-- 第一行 -->\n        <table>\n            <tr>\n                <td style=\"width: 50%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_1_1.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 33.33%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_1_3.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 16.67%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_1_2.webp\" alt=\"\">\n                </td>\n            </tr>\n        </table>\n        \n        <hr>\n        \n        <!-- 第二行 -->\n        <table>\n            <tr>\n                <td style=\"width: 16.67%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_2_1.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 16.67%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_2_2.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 33.33%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_2_3.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 33.33%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_2_4.webp\" alt=\"\">\n                </td>\n            </tr>\n        </table>\n        \n        <hr>\n        \n        <!-- 第三行 -->\n        <table>\n            <tr>\n                <td style=\"width: 75%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_3_1.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 25%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_3_2.webp\" alt=\"\">\n                </td>\n            </tr>\n        </table>\n        \n        <hr>\n        \n        <!-- 第四行 -->\n        <table>\n            <tr>\n                <td style=\"width: 33.33%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_4_1.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 25%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_4_2.webp\" alt=\"\">\n                </td>\n                <td style=\"width: 41.67%;\">\n                    <img src=\"/config/jhjm2024/static/assets/puzzle_resources/emotion/img_4_3.webp\" alt=\"\">\n                </td>\n            </tr>\n        </table>\n        \n        <hr>\n        \n        <div class=\"text-center\"> _ _ _ _    _ _ _ _ _ _ _ </div>\n    </div>",
+  "answer": "NUKE PHYSICS",
+  "desc": "\"金风玉露一相逢，便胜却人间无数。\"<br>原来天庭中的神仙也与凡人一样受爱恨纠缠吗？",
+  "tips": [
+    {
+      "title": "我应该从哪里开始？",
+      "content": "每个方框中应该填入1个汉字。不同的小题中出现的相同emoji有时代表同一个意思的不同汉字，例如红色的方块可以代表【红】或【朱】。别忘了，不需要做出所有小题就可以尝试下一步。"
+    },
+    {
+      "title": "我得到了里程碑，但不确定是哪一个版本怎么办？",
+      "content": "这些小题对应的东西应该全部来源于【里程碑】的同一个版本，可以通过ft当中的某两个字得到验证。"
+    },
+    {
+      "title": "我没有找到权威的数据大全，应该去哪里找呢？",
+      "content": "https://news.4399.com/gonglue/zmxy3/zhuangbei，但是这个数据库确实相对不是很完整。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "注意第一次提取时提取的是红框的何种形式。如果你的对应关系没有找错，其应当与每小题红框的总长度在1.汉字字数 2.拼音总长度两种意义上一致。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "zaomengxiyo",
+      "message": "目前完全正确……记得把最后的u补上",
+      "extra": ""
+    },
+    {
+      "answer": "zaomengxiyou",
+      "message": "目前完全正确！在拼音输入法或是搜索引擎里打一遍试试看？",
+      "extra": ""
+    },
+    {
+      "answer": "造梦西游",
+      "message": "目前完全正确！请寻找合适的游戏版本。",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 72,
+    "total_guesses": 467,
+    "unique_teams": 94
+  },
+  "answerAnalysis": "\n\n\n肥鱼\n\n\n\n首先需要判断每个小题对应的诗句/词句，\n有效的判断方法包括搜索题目中出现的字句、图片、寻找以（7 4 4 5）结尾的词牌名、含有“云 花 金”的七言诗等。\n同一个emoji在多个小题中大概率代表同一个字（除了红/朱不同），因而简单的小题能为其他小题提供线索。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>诗句/词句</td>\n            <td>来源</td>\n            <td>红框部分拼音</td>\n            <td>提取</td>\n            <td>提取字母</td>\n        </tr>\n        <tr>\n            <td>去年今日此门中，人面桃花相映红。<br>人面不知何处去，桃花依旧笑春风。</td>\n            <td>《题都城南庄》</td>\n            <td>men<span class=\"emph\">z</span>hongren</td>\n            <td>4/11</td>\n            <td>Z</td>\n        </tr>\n        <tr>\n            <td>诸法因缘生，我说是因缘；<br>因缘尽故灭，我作如是说。</td>\n            <td>《佛说造塔功德经》</td>\n            <td>fayinyu<span class=\"emph\">a</span>n</td>\n            <td>8/9</td>\n            <td>A</td>\n        </tr>\n        <tr>\n            <td>笑语盈盈暗香去。众里寻他千百度。<br>蓦然回首，那人却在，灯火阑珊处。</td>\n            <td>《青玉案·元夕》</td>\n            <td>anxiangquzh<span class=\"emph\">o</span>ng</td>\n            <td>12/14</td>\n            <td>O</td>\n        </tr>\n        <tr>\n            <td>宝马雕车香满路。<br>凤箫声动，玉壶光转，一夜鱼龙舞。</td>\n            <td>《青玉案·元夕》</td>\n            <td>chexiang<span class=\"emph\">m</span>anlu</td>\n            <td>9/13</td>\n            <td>M</td>\n        </tr>\n        <tr>\n            <td>我欲乘风归去，又恐琼楼玉宇，<br>高处不胜寒。起舞弄清影，何似在人间。</td>\n            <td>《水调歌头·明月几时有》</td>\n            <td>chubush<span class=\"emph\">e</span>ng</td>\n            <td>8/10</td>\n            <td>E</td>\n        </tr>\n        <tr>\n            <td>相见时难别亦难，东风无力百花残。<br>春蚕到死丝方尽，蜡炬成灰泪始干。<br>晓镜但愁云鬓改，夜吟应觉月光寒。<br>蓬山此去无多路，青鸟殷勤为探看。</td>\n            <td>《无题》</td>\n            <td>jianshi<span class=\"emph\">n</span>anbie</td>\n            <td>8/13</td>\n            <td>N</td>\n        </tr>\n        <tr>\n            <td>锦瑟无端五十弦，一弦一柱思华年。<br>庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br>沧海月明珠有泪，蓝田日暖玉生烟。<br>此情可待成追忆，只是当时已惘然。</td>\n            <td>《锦瑟》</td>\n            <td>shen<span class=\"emph\">g</span>xiaomengmi</td>\n            <td>5/15</td>\n            <td>G</td>\n        </tr>\n        <tr>\n            <td>侍儿扶起娇无力，始是新承恩泽时。<br>云鬓花颜金步摇，芙蓉帐暖度春宵。<br>春宵苦短日高起，从此君王不早朝。</td>\n            <td>《长恨歌》</td>\n            <td>shi<span class=\"emph\">x</span>inchengen</td>\n            <td>4/13</td>\n            <td>X</td>\n        </tr>\n        <tr>\n            <td>老夫聊发少年狂，左牵黄，右擎苍，<br>锦帽貂裘，千骑卷平冈。</td>\n            <td>《江城子·密州出猎》</td>\n            <td>j<span class=\"emph\">i</span>nmaodiaoqiu</td>\n            <td>2/13</td>\n            <td>I</td>\n        </tr>\n        <tr>\n            <td>西城杨柳弄春柔，动离忧，泪难收。<br>犹记多情、曾为系归舟。<br>碧野朱桥当日事，人不见，水空流。</td>\n            <td>《江城子·西城杨柳弄春柔》</td>\n            <td>xicheng<span class=\"emph\">y</span>ang</td>\n            <td>8/11</td>\n            <td>Y</td>\n        </tr>\n        <tr>\n            <td>玉炉香，红蜡泪，偏照画堂秋思。<br>眉翠薄，鬓云残，夜长衾枕寒。<br>梧桐树，三更雨，不道离情正苦。<br>一叶叶，一声声，空阶滴到明。</td>\n            <td>《更漏子·玉炉香》</td>\n            <td>cuib<span class=\"emph\">o</span>bin（取bo）</td>\n            <td>5/8</td>\n            <td>O</td>\n        </tr>\n        <tr>\n            <td>纤云弄巧，飞星传恨，银汉迢迢暗度。<br>金风玉露一相逢，便胜却人间无数。</td>\n            <td>《鹊桥仙》</td>\n            <td>fengbianshengq<span class=\"emph\">u</span>e</td>\n            <td>15/16</td>\n            <td>U</td>\n        </tr>\n    </table>\n</div>\n\n从对应位置提取拼音得到中间答案 **ZAOMENGXIYOU**（造梦西游）。\n\n搜索“造梦西游 诸法因缘生，我说是因缘”或“造梦西游 诗词”，能够指向造梦西游中装备上的诗词。\n\nft中的“天庭”指向所有寻找的装备全部是《造梦西游3：大闹天庭篇》中的装备，可以在4399的游戏界面下拉找到[装备大全](https://news.4399.com/gonglue/zmxy3/zhuangbei)点击查看，\n或在b站、百度知道等地方找到不一定完整的装备诗词列表。\n\n每个小题能够唯一对应到该版本中的一件装备，其满足：\n\n1. 装备上的诗词有一句来源于或化用于对应诗词；\n2. 装备的名称长度等于红框个数；\n3. 装备的名称拼音总长度等于红框内拼音总长度。\n\n最终能够得到下表：\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td style=\"min-width: 10rem;\">装备名</td>\n            <td>装备上的诗词</td>\n            <td>来源</td>\n            <td>装备名拼音</td>\n            <td>提取</td>\n            <td>提取字母</td>\n        </tr>\n        <tr>\n            <td>宣花坠</td>\n            <td><span class=\"emph\">花映红，春风笑</span>，佳人佩美坠，不知与谁同</td>\n            <td>《题都城南庄》</td>\n            <td>xua<span class=\"emph\">n</span>huazhui</td>\n            <td>4/11</td>\n            <td>N</td>\n        </tr>\n        <tr>\n            <td>尾火棍</td>\n            <td class=\"emph\">诸法因缘生，我说是因缘；因缘尽故灭，我作如是说</td>\n            <td>《佛说造塔功德经》</td>\n            <td>weihuog<span class=\"emph\">u</span>n</td>\n            <td>8/9</td>\n            <td>U</td>\n        </tr>\n        <tr>\n            <td>混元龙铠</td>\n            <td>龙吟恨，且<span class=\"emph\">回首，却在灯火阑珊</span></td>\n            <td>《青玉案·元夕》</td>\n            <td>hunyuanlong<span class=\"emph\">k</span>ai</td>\n            <td>12/14</td>\n            <td>K</td>\n        </tr>\n        <tr>\n            <td>混元雷叉</td>\n            <td>倾盆雨，惊天雷，<span class=\"emph\">众里寻他</span>而去</td>\n            <td>《青玉案·元夕》</td>\n            <td>hunyuanl<span class=\"emph\">e</span>icha</td>\n            <td>9/13</td>\n            <td>E</td>\n        </tr>\n        <tr>\n            <td>宣花袍</td>\n            <td><span class=\"emph\">人离合，月圆缺</span>，花开又花谢，不愿再相逢</td>\n            <td>《水调歌头·明月几时有》</td>\n            <td>xuanhua<span class=\"emph\">p</span>ao</td>\n            <td>8/10</td>\n            <td>P</td>\n        </tr>\n        <tr>\n            <td>马官指环</td>\n            <td>马行处，雪无痕，<span class=\"emph\">相见难，别亦难</span></td>\n            <td>《无题》</td>\n            <td>maguanz<span class=\"emph\">h</span>ihuan</td>\n            <td>8/13</td>\n            <td>H</td>\n        </tr>\n        <tr>\n            <td>青云手镯</td>\n            <td><span class=\"emph\">珠有泪，玉生烟</span>，稀白头不胜簪，<span class=\"emph\">只是当时惘然</span></td>\n            <td>《锦瑟》</td>\n            <td>qing<span class=\"emph\">y</span>unshouzhuo</td>\n            <td>5/15</td>\n            <td>Y</td>\n        </tr>\n        <tr>\n            <td>顽石金刚</td>\n            <td>心若顽石，不生多情，多情空于恨，<span class=\"emph\">此恨无绝期</span></td>\n            <td>《长恨歌》</td>\n            <td>wan<span class=\"emph\">s</span>hijingang</td>\n            <td>4/13</td>\n            <td>S</td>\n        </tr>\n        <tr>\n            <td>银弹金弓</td>\n            <td><span class=\"emph\">挽金弓，如满月</span>，望人间，凝伫久</td>\n            <td>《江城子密州出猎》</td>\n            <td>y<span class=\"emph\">i</span>ndanjingong</td>\n            <td>2/13</td>\n            <td>I</td>\n        </tr>\n        <tr>\n            <td>宣花锤</td>\n            <td>街喧闹，人过往，且记曾相识，<span class=\"emph\">不为少年留</span></td>\n            <td>《江城子·西城杨柳弄春柔》</td>\n            <td>xuanhua<span class=\"emph\">c</span>hui</td>\n            <td>8/11</td>\n            <td>C</td>\n        </tr>\n        <tr>\n            <td>枯叶衫</td>\n            <td>落黄昏，<span class=\"emph\">三更雨</span>，临行密密缝，离愁丝丝苦</td>\n            <td>《更漏子·玉炉香》</td>\n            <td>kuye<span class=\"emph\">s</span>han</td>\n            <td>5/8</td>\n            <td>S</td>\n        </tr>\n    </table>\n</div>\n\n复用之前的提取得到答案 **NUKE PHYSICS** 。\n\n\n\n\n还是有两点比较可惜……\n\n一是出题出的不够完善，这里题目里的提取应该确确实实就写成类似答案里（4/11）的形式会能够避免误解，\n看到不少队伍在这里卡了提取，那一定是我记号用的不对，让大家误以为单个字的拼音长度全都能对上了。\n\n二是，造3没有一个好用的在线百科，如果没在b站上找到那个装备合集就得在4399上一个个点开看，大概有50个左右的工作量。\n\n下次一定不塞私货了（也许吧）。\n\n"
+}

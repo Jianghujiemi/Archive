@@ -1,0 +1,63 @@
+{
+  "type": "problem",
+  "title": "浊理一新",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"container\"><style>\n    .bilibili-wrapper {\n        position: relative;\n        width: 100%;\n        height: 0;\n        padding-bottom: 60%;\n        box-shadow: 0 0 5px 2px gray;\n    }\n    .bilibili-wrapper iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        max-width: 100%;\n    }\n</style><div class=\"bilibili-wrapper\"><iframe src=\"//player.bilibili.com/player.html?aid=1050915980&amp;bvid=BV1xH4y1J7rt&amp;cid=1447781022&amp;p=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"></iframe></div><br><div class=\"w-100\"><img src=\"/config/jhjm2024/static/assets/puzzle_resources/dirt/dirt.jpg\" width=\"100%\" height=\"100%\" alt=\"dirt\"></div><hr /><div class=\"text-center fw-bold\">(3 5)</div></div>",
+  "answer": "ICE CREAM",
+  "desc": "我有128种问题但是污渍不是一种~",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "视频中出现了很多材料，它们的英文刚好可以填入下列的空格。"
+    },
+    {
+      "title": "我得到了一些编号，然后该怎么办？",
+      "content": "这里需要用ASCII将对应的编号转换成字符。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "运用第二步的操作重新转化你得到的东西，以提取（3，5）。"
+    },
+    {
+      "title": "视频中的第一个东西是什么？",
+      "content": "这是一种中国传统调料。我们需要填他的拼音"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "stainlistofomo",
+      "message": "目前为止完全正确……然后，OMO是什么呢？也许与这题有些联系。",
+      "extra": ""
+    },
+    {
+      "answer": "eightyfour",
+      "message": "目前为止完全正确。",
+      "extra": ""
+    },
+    {
+      "answer": "84",
+      "message": "目前为止完全正确。",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 94,
+    "total_guesses": 333,
+    "unique_teams": 97
+  },
+  "answerAnalysis": "\n\n\n鸣秋\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

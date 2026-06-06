@@ -1,0 +1,155 @@
+看起来驻守着某种机关，不知道里面隐藏着什么诡计。
+{: .flavor}
+<div id="global-error" class="d-none alert alert-danger"></div>
+<div class="container p-5 border border-black mb-3">
+    <form id="submit-form" autocomplete="off" action="javascript:void(0);">
+        <div class="my-3 row">
+            <input id="guess" type="text" placeholder="请输入二字词语" >
+            <button id="submit" class="btn galatic-btn" type="submit">确认</button>
+        </div>
+    </form>
+    <div>
+        <div class="row">
+            <div class="col-2 text-center"></div>
+            <div class="col-10 align-self-center text-center"><span id="word"></span>相关度</div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">1/9</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-0"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">3/6</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-1"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">9/9</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-2"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">4/5</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-3"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">3/5</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-4"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">4/5</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-5"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">3/7</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-6"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">5/7</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-7"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center">4/5</div>
+            <div class="p-0 col-10 align-self-center progress-stacked" id="result-8"><div class="progress qt-progress"><div class="progress-bar qt-p0"></div></div></div>
+        </div>
+    </div>
+</div>
+<style>
+    #guess {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #submit {
+        width: 20%;
+    }
+    .qt-progress {
+        width: 20%;
+        border-right: 2px solid white;
+    }
+    .empty-progress {
+        width: 0%;
+    }
+    .qt-p0 {
+        background-color: #999;
+    }
+    .qt-p1 {
+        background-color: #F5B7B1;
+    }
+    .qt-p2 {
+        background-color: #F9E79F;
+    }
+    .qt-p3 {
+        background-color: #D4EFDF;
+    }
+    .qt-p4 {
+        background-color: #0F0;
+    }
+    .galatic-btn {
+        background: rgb(0, 85, 170);
+        color: #fff;
+    }
+    .galatic-btn:hover,
+    .galatic-btn:focus {
+        color: #fff;
+        background: #2af;
+    }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    async function submit() {
+        $('#guess').prop("disabled", true);
+        $('#submit').prop("disabled", true);
+        let csrftoken = getCookie('csrftoken');
+        const guessWord = $('#guess').val();
+        try {
+            let result = await fetch("/puzzle/guess_what/submit", {
+                method: 'POST',
+                body: JSON.stringify({
+                    guess: guessWord,
+                }),
+                headers: { "X-CSRFToken": csrftoken },
+            });
+            if (!result.ok) {
+                // HTTP response code was not 2xx. Maybe introspect more...
+                $('#global-error').text(`出现错误 ${result.status} ${result.statusText} 请联系管理员解决！`);
+                $('#global-error').removeClass('d-none');
+            } else {
+                let res = await result.json();
+                if (res.error != "") {
+                    $('#global-error').text(`Error: ${res.error}`);
+                    $('#global-error').removeClass('d-none');
+                } else {
+                    for (let i = 0; i < res.relevance.length; i++) {
+                        $('#result-' + i).empty();
+                        for (let j = 0; j <= res.relevance[i]; j++) {
+                            $('#result-' + i).append(`<div class="progress qt-progress"><div class="progress-bar qt-p${j}"></div></div>`);
+                        }
+                        console.log($('#result-' + i))
+                    }
+                    $('#word').text("“" + guessWord + "”")
+                }
+            }
+        } catch (e) {
+            $('#global-error').text(`Error: ${res.error}`);
+            $('#global-error').removeClass('d-none');
+        }
+        $('#guess').prop("disabled", false);
+        $('#submit').prop("disabled", false);
+    }
+    // https://docs.djangoproject.com/en/dev/ref/csrf/#ajax
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    $('#submit-form').on('submit', submit);
+});
+</script>

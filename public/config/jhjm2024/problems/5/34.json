@@ -1,0 +1,49 @@
+{
+  "type": "problem",
+  "title": "赛博记录员",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"container\">\n<p style=\"white-space: pre-wrap\">\n听说<u>某部动画片</u>里有个漂亮的妹妹淋雨卖光了西瓜……我望文生义了吗？\n（? _ _ _ _ _    _ _ _    _ _ _ _ _ _ _）\n今天看到了<u>一场活动</u>，好像全程都有中国队的参与，可是中国队的人们究竟哪里去了？\n（_ ? _ _    _ _ _ _ _    _ _ _）\n今天学会了一句日语：嗷哩嘎嘟Robot桑！好像是从<u>某个动画片</u>学来的呢……\n（_ _ _ _ _ _ _ _    _ _ _ _    _ _ _    _ _ _    _ _ _    _ _ ? _）\n吃早饭啦！来两片吐司，中间抹上一点点芝士，然后夹在一起，让我想起了<u>某部游戏</u>呢。\n（_ _ _ _ ? _ _ _ _）\n今天看了<u>他</u>的漫画欸，所以人生的意义不如……薯条……？\n（_ _ _ _ _ _    ? _ _ _ _ _ _）\n今天在<u>某部真人秀</u>里学到了一句强势拒绝别人指手画脚的话呢。\n（_ _ _    _ _ ? _ _ _ _    _ _ _ _ _ _ _ _ _ _）\n哎？根据<u>这个APP</u>的说法，五颗星星就是五个一颗星星吗？学到了！\n（_ _ _ _    _ _ ? _）\n今天去厨房，不小心把两种截然不同的饮料混合在一起，但有点像<u>这家店</u>的新发明？\n（_ _ _ _ ? _    _ _ _ _ _ _）\n有人给我推荐世界上最伟大的音乐作品，说是来自<u>这家公司</u>的！\n（_ _ _    _ _ ? _ _）\n蛋黄可以做……裙子……啊？难道<u>这个节目</u>是美食综艺吗？\n（_ _ _ _ _    ? _ _ _    _ _ _）\n我不小心粉上了一个<u>远古节目</u>……绝对绝对不是故意的！\n（_ _ _ _ ? _    _ _ _ _）\n发现小朋友们尽管不能玩游戏，却都很喜欢<u>这个游戏</u>的主题曲之一呢……\n（_ _ _ _ _ _   _ _    _ _ _ ? _ _ _）\n会跳广场舞的可达鸭……在<u>某个餐厅</u>里面？被争抢？我不懂鸭子也不懂人类了。\n（? _ _）\n最近看到了动画片<u>某一集</u>的表情包，哇哦，一堆动物一个吃一个，然后再被吃，好有趣。\n（_ _ _-_ _ _ _ _ _ _    _ _ ? _ _ _ _ _ _）\n我叫人工智能！人工什么？智能！不是智障！你怕是<u>那部剧</u>看多了吧！\n（_ _ _ _ _ ? _    _ _._ _ _ _ _）\n</p>\n<img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/recorder/extraction.webp\" class=\"w-100 mt-4\">\n</div>",
+  "answer": "NOSTALGIC POETRY",
+  "desc": "人工智障模仿人类的第一步——学会写周记。",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "题目中的线索描述了一些近年来互联网的热点与名梗，而你首先需要找到它们并关注划线部分的指代对象。你可以通过搜索引擎来寻找，或者询问对中文互联网熟悉的人。"
+    },
+    {
+      "title": "笔记本上的图片是什么？",
+      "content": "由某些图片经过AI处理而制成，你需要在对应的列表中定位用来制作这张AI图片的原图。图片旁的四位数可以帮助你定位合适的列表。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "注意到那些特殊的十位字符了吗？提取?/10中?对应的字母并按最初的顺序重排序。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "bilibilisweekly",
+      "message": "目前为止全部正确。也许你需要前往某一个网站查询资料……",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 94,
+    "total_guesses": 410,
+    "unique_teams": 102
+  },
+  "answerAnalysis": "\n\n\n鸣秋\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

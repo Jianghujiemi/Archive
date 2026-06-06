@@ -1,0 +1,39 @@
+{
+  "type": "problem",
+  "title": "猪逻辑公园",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"container text-center\">\n    <div class=\"mb-5\">\n        <h3><a href=\"https://puzz.link/rules.html?statuepark\" target=\"_blank\">STATUE PARK</a></h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-1.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>???????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-2.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>????????????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-3.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>????????????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-4.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>??????????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-5.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>?????????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-6.svg\" class=\"w-50\" alt=\"\">\n    </div>\n    <div class=\"mb-5\">\n        <h3>???????????? PARK</h3>\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/pigs/pig-logic-7.svg\" class=\"w-75\" alt=\"\">\n    </div>\n    <div class=\"mb-5 split\"></div>\n    <div class=\"fw-bold\">(????? ????)</div>\n    <div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n        你也可以 <a href=\"https://docs.qq.com/sheet/DWEt5TG1sSHhWcGxQ?tab=BB08J2\">复制一份腾讯文档</a>\n    </div>\n</div>",
+  "answer": "THEME PARK",
+  "desc": "我刚来到这新开幕的公园，毫无头猪。圈里的这五只都是些什么动物？",
+  "tips": [
+    {
+      "title": "我需要干什么？",
+      "content": "你需要用一种符合题意的动物名字进行STATUE PARK逻辑谜题。其中所用的拼图块是对应单词的猪圈密码。E中间的空格可以被当做特殊情况。"
+    },
+    {
+      "title": "我需要用什么单词？",
+      "content": "你需要找到5种只能在“侏罗纪公园”里出现的动物。白提示看起来很像是他们的骨架"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 77,
+    "total_guesses": 431,
+    "unique_teams": 96
+  },
+  "answerAnalysis": "\n\n\n落葉子\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

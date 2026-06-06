@@ -1,0 +1,326 @@
+{
+  "type": "problem",
+  "title": "PUZZLE",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"my-4 split\"></div>\n<div class=\"container\">\n    <p>\n        PUZZLE，常有WIN。<br><br>\n        碰见PIG时，如果不知TOY，不经BOW就MAN地STRIKE，常因势力BAD而碰HIM，ICU在ZLE的WIN中。<br><br>\n        在ZLE里BIGPUZ的WER中，与其VOYAGE，不如BOWSER势力，当你HUMANS，才能毫无DNA地动用CPU，STR直取对方的JOB。\n    </p>\n</div>\n<div class=\"my-4 split\"></div>\n<img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/chaos/puzzle.webp\" class=\"w-100\" alt=\"pic\">\n<div class=\"mb-5 split\"></div>\n<div class=\"fw-bold text-center\">(10 7)</div>\n<div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n    获取全部清晰图片，你可以<a href=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/chaos/PUZZLE.pptx\" download>下载ppt</div>\n</div>",
+  "answer": "BACKGROUND PROCESS",
+  "desc": "一段中西**合璧**的教导……**真不知道是几个意思啊**。",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "可以试试分析底下所有22张图片分别是什么【意思】？它们已按某个顺序排列，对应的答案需要填入上面的文段。请不要纠结这道题所有的英文代表什么，刚开始先把它们都当成空位。"
+    },
+    {
+      "title": "ft中被加粗了的词语是什么【意思】？",
+      "content": "ft中加粗的词与下面需要寻找的所有词语有着共同的性质：它们在图片中是一个【意思】，在上面的文段中是另一个【意思】。ft的最后一句也暗示了这一点。对所有的词语我们提供有里程碑验证。"
+    },
+    {
+      "title": "这么多稀奇古怪的英文字母是在干什么？",
+      "content": "每个字母并不单独与下面的词语对应，而是以不同【三字母组合】的方式对应不同的词语。对应方式没有任何规律和意义，仅仅出于幽默效果。这也解释了本题的标题为什么与其他所有题不同地是”英语“标题，实际上应该是两个词语。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "如果这道题是PUZ  ZLE，那答案应该是……"
+    },
+    {
+      "title": "我不确定底下的22张图片对应的东西是啥，请给我一些关于它们的信息。",
+      "content": "它们是按照首字母顺序排列的词语，首字母分别是B,B,C,C,D,D,F,H,J,J,J；M,M,M,P,S,S,X,Y,Z,Z,Z。其余信息请参考【锦囊2】。本题目前提供所有词语的里程碑验证，但请不要【盲目】【摸索】。你不需要知道所有的对应关系就能通过本题。"
+    },
+    {
+      "title": "请给我几个完整的对应关系，我很需要验证我的猜测。",
+      "content": "这道谜题的标题是”【行走】【江湖】“（同时也是文本的第一个分句），下面的图片中包含这两个词的本义（本来的意思）。如果需要更多信息（验证已有的填写是否正确），请在询道时以【江湖肥鱼】开头，并附带已有结果（按表格顺序，或直接附带共享文档链接），肥鱼将视情况返还一定碎银。你不需要知道所有对应关系就能通过本题。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "polysemy",
+      "message": "是的！这个谐音梗说明下面需要寻找的词都是多义词，也许会减小思考量。",
+      "extra": ""
+    },
+    {
+      "answer": "多义词",
+      "message": "是的！这说明下面需要寻找的词都是多义词（更确切地，具有比喻义），也许会减小思考量。",
+      "extra": ""
+    },
+    {
+      "answer": "包袱",
+      "message": "是的，底下的图片中含有【包袱】。",
+      "extra": ""
+    },
+    {
+      "answer": "不平",
+      "message": "是的，底下的图片中含有【不平】。",
+      "extra": ""
+    },
+    {
+      "answer": "沉没",
+      "message": "是的，底下的图片中含有【沉没】。",
+      "extra": ""
+    },
+    {
+      "answer": "出手",
+      "message": "是的，底下的图片中含有【出手】。",
+      "extra": ""
+    },
+    {
+      "answer": "单薄",
+      "message": "是的，底下的图片中含有【单薄】。",
+      "extra": ""
+    },
+    {
+      "answer": "钉子",
+      "message": "是的，底下的图片中含有【钉子】。",
+      "extra": ""
+    },
+    {
+      "answer": "风波",
+      "message": "是的，底下的图片中含有【风波】。",
+      "extra": ""
+    },
+    {
+      "answer": "风浪",
+      "message": "实际上，底下的图片中含有【风波】。",
+      "extra": ""
+    },
+    {
+      "answer": "后台",
+      "message": "是的，底下的图片中含有【后台】。",
+      "extra": ""
+    },
+    {
+      "answer": "机械",
+      "message": "是的，底下的图片中含有【机械】。",
+      "extra": ""
+    },
+    {
+      "answer": "江湖",
+      "message": "是的，底下的图片中含有【江湖】。",
+      "extra": ""
+    },
+    {
+      "answer": "进程",
+      "message": "是的，底下的图片中含有【进程】。",
+      "extra": ""
+    },
+    {
+      "answer": "盲目",
+      "message": "是的，底下的图片中含有【盲目】。",
+      "extra": ""
+    },
+    {
+      "answer": "眉目",
+      "message": "是的，底下的图片中含有【眉目】。",
+      "extra": ""
+    },
+    {
+      "answer": "摸索",
+      "message": "是的，底下的图片中含有【摸索】。",
+      "extra": ""
+    },
+    {
+      "answer": "漂流",
+      "message": "是的，底下的图片中含有【漂流】。",
+      "extra": ""
+    },
+    {
+      "answer": "手腕",
+      "message": "是的，底下的图片中含有【手腕】。",
+      "extra": ""
+    },
+    {
+      "answer": "算盘",
+      "message": "实际上，底下的图片中含有【算账】。",
+      "extra": ""
+    },
+    {
+      "answer": "算账",
+      "message": "是的，底下的图片中含有【算账】。",
+      "extra": ""
+    },
+    {
+      "answer": "行走",
+      "message": "是的，底下的图片中含有【行走】。",
+      "extra": ""
+    },
+    {
+      "answer": "咽喉",
+      "message": "是的，底下的图片中含有【咽喉】。",
+      "extra": ""
+    },
+    {
+      "answer": "栽培",
+      "message": "是的，底下的图片中含有【栽培】。",
+      "extra": ""
+    },
+    {
+      "answer": "掌握",
+      "message": "是的，底下的图片中含有【掌握】。",
+      "extra": ""
+    },
+    {
+      "answer": "琢磨",
+      "message": "是的，底下的图片中含有【琢磨】。",
+      "extra": ""
+    },
+    {
+      "answer": "baofu",
+      "message": "是的，底下的图片中含有【包袱】。",
+      "extra": ""
+    },
+    {
+      "answer": "buping",
+      "message": "是的，底下的图片中含有【不平】。",
+      "extra": ""
+    },
+    {
+      "answer": "chenmo",
+      "message": "是的，底下的图片中含有【沉没】。",
+      "extra": ""
+    },
+    {
+      "answer": "chushou",
+      "message": "是的，底下的图片中含有【出手】。",
+      "extra": ""
+    },
+    {
+      "answer": "dingzi",
+      "message": "是的，底下的图片中含有【钉子】。",
+      "extra": ""
+    },
+    {
+      "answer": "fengbo",
+      "message": "是的，底下的图片中含有【风波】。",
+      "extra": ""
+    },
+    {
+      "answer": "fenglang",
+      "message": "实际上，底下的图片中含有【风波】。",
+      "extra": ""
+    },
+    {
+      "answer": "houtai",
+      "message": "是的，底下的图片中含有【后台】。",
+      "extra": ""
+    },
+    {
+      "answer": "jixie",
+      "message": "是的，底下的图片中含有【机械】。",
+      "extra": ""
+    },
+    {
+      "answer": "jianghu",
+      "message": "是的，底下的图片中含有【江湖】。",
+      "extra": ""
+    },
+    {
+      "answer": "jincheng",
+      "message": "是的，底下的图片中含有【进程】。",
+      "extra": ""
+    },
+    {
+      "answer": "mangmu",
+      "message": "是的，底下的图片中含有【盲目】。",
+      "extra": ""
+    },
+    {
+      "answer": "meimu",
+      "message": "是的，底下的图片中含有【眉目】。",
+      "extra": ""
+    },
+    {
+      "answer": "mosuo",
+      "message": "是的，底下的图片中含有【摸索】。",
+      "extra": ""
+    },
+    {
+      "answer": "piaoliu",
+      "message": "是的，底下的图片中含有【漂流】。",
+      "extra": ""
+    },
+    {
+      "answer": "shouwan",
+      "message": "是的，底下的图片中含有【手腕】。",
+      "extra": ""
+    },
+    {
+      "answer": "suanpan",
+      "message": "实际上，底下的图片中含有【算账】。",
+      "extra": ""
+    },
+    {
+      "answer": "suanzhang",
+      "message": "是的，底下的图片中含有【算账】。",
+      "extra": ""
+    },
+    {
+      "answer": "xingzou",
+      "message": "是的，底下的图片中含有【行走】。",
+      "extra": ""
+    },
+    {
+      "answer": "yanhou",
+      "message": "是的，底下的图片中含有【咽喉】。",
+      "extra": ""
+    },
+    {
+      "answer": "zaipei",
+      "message": "是的，底下的图片中含有【栽培】。",
+      "extra": ""
+    },
+    {
+      "answer": "zhangwo",
+      "message": "是的，底下的图片中含有【掌握】。",
+      "extra": ""
+    },
+    {
+      "answer": "zhuomo",
+      "message": "是的，底下的图片中含有【琢磨】。",
+      "extra": ""
+    },
+    {
+      "answer": "zuomo",
+      "message": "是的，底下的图片中含有【琢磨】。",
+      "extra": ""
+    },
+    {
+      "answer": "duoyici",
+      "message": "是的！这说明下面需要寻找的词都是【多义词】（更确切地，具有比喻义），也许会减小思考量。",
+      "extra": ""
+    },
+    {
+      "answer": "danbao",
+      "message": "是的，底下的图片中含有【单薄】（但正确的念法是dān bó）。",
+      "extra": ""
+    },
+    {
+      "answer": "xiaoren",
+      "message": "这个词与其他词具有类似的性质，不过这张图片里的人在【行走】。",
+      "extra": ""
+    },
+    {
+      "answer": "danbo",
+      "message": "是的，底下的图片中含有【单薄】.",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 89,
+    "total_guesses": 5071,
+    "unique_teams": 91
+  },
+  "answerAnalysis": "\n\n\n肥鱼\n\n\n\n观察能够发现所有的英文字母总是三个一起出现（长度总是3的倍数）。一共恰有22种三字母组合，每个三字母组合对应着一个两字词语。\n（因为其他所有题的标题都是汉字，这题的标题也应当是汉字的“行走江湖”）\n\n这些词语在下面的图片中以本义展示，而在上面的文段中需要使用比喻义，这也是 FT 中“真不知道是几个意思”的意义。通过分析词性与语境，需要将所有词语还原到文段当中。\n\n原文段与填写完成的文段对比如下（版本可能与网站上有细微差异）：\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>PUZZLE，常有WIN。</td>\n            <td>行走江湖，常有风波。</td>\n        </tr>\n        <tr>\n            <td>碰见PIG时，如果不知TOY，不经BOW就MAN地STRIKE，</td>\n            <td>碰见不平时，如果不知眉目，不经琢磨就机械地出手算账，</td>\n        </tr>\n        <tr>\n            <td>常因势力BAD而碰HIM，被ZLE的WIN卷入而ICU。</td>\n            <td>常因势力单薄而碰钉子，被江湖的风波卷入而沉没。</td>\n        </tr>\n        <tr>\n            <td>在ZLE里独自BIG的WER中，与其VOYAGE，不如BOWSER势力，</td>\n            <td>在江湖里独自漂流的进程中，与其盲目摸索，不如琢磨栽培势力，</td>\n        </tr>\n        <tr>\n            <td>当你HUMANS，才能毫无DNA地动用CPU，STR直取对方的JOB。</td>\n            <td>当你掌握后台，才能毫无包袱地动用手腕，出手直取对方的咽喉。</td>\n        </tr>\n    </table>\n</div>\n\n所有的三字母组合与词语的对应关系如下：\n\n<div class=\"container-fluid\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>三字母</td>\n            <td>DNA</td>\n            <td>PIG</td>\n            <td>ICU</td>\n            <td>STR</td>\n            <td>BAD</td>\n            <td>HIM</td>\n            <td>WIN</td>\n            <td class=\"emph\">ANS</td>\n            <td class=\"emph text-dark\">MAN</td>\n            <td>ZLE</td>\n            <td class=\"emph\">WER</td>\n        </tr>\n        <tr>\n            <td>词语</td>\n            <td>包袱</td>\n            <td>不平</td>\n            <td>沉没</td>\n            <td>出手</td>\n            <td>单薄</td>\n            <td>钉子</td>\n            <td>风波</td>\n            <td class=\"emph\">后台</td>\n            <td class=\"emph text-dark\">机械</td>\n            <td>江湖</td>\n            <td class=\"emph\">进程</td>\n        </tr>\n        <tr>\n            <td>三字母</td>\n            <td>VOY</td>\n            <td>TOY</td>\n            <td>AGE</td>\n            <td>BIG</td>\n            <td>CPU</td>\n            <td>IKE</td>\n            <td class=\"emph text-dark\">PUZ</td>\n            <td>JOB</td>\n            <td>SER</td>\n            <td>HUM</td>\n            <td>BOW</td>\n        </tr>\n        <tr>\n            <td>词语</td>\n            <td>盲目</td>\n            <td>眉目</td>\n            <td>摸索</td>\n            <td>漂流</td>\n            <td>手腕</td>\n            <td>算账</td>\n            <td class=\"emph text-dark\">行走</td>\n            <td>咽喉</td>\n            <td>栽培</td>\n            <td>掌握</td>\n            <td>琢磨</td>\n        </tr>\n    </table>\n</div>\n\n由于标题对应的两组三字母分别是PUZ ZLE，在上表中寻找到答案ANS WER对应的两个词语“后台”“进程”，翻译成英文得到 **BACKGROUND PROCESS**。\n\n\n\n喜欢原本ft的人太少啦……原本的ft还是太烂了，所以中间改了两次还是删掉了那个polysemy（）\n\n这题本来不准备提供中间答案验证，但是考虑到确实存在不可区分的多义词（风浪/风波，算盘/算账），\n可能还是需要使用中间答案验证来区分词性和组成文本。算是……比较难get到想法的一道题，奠定了三区的感情基调（悲\n\n"
+}

@@ -1,0 +1,44 @@
+{
+  "type": "index",
+  "title": "江湖解谜 2024 存档站",
+  "content": "所有的题目均已存档，请点击主页面按钮查看。",
+  "navs": [
+    {
+      "title": "首页",
+      "type": "index",
+      "path": "/index"
+    },
+    {
+      "title": "江湖解谜 主页",
+      "type": "page",
+      "path": "/main/jhjm2024"
+    }
+  ],
+  "links": [
+    {
+      "title": "初入武当",
+      "path": "/area/jhjm2024/4",
+      "pgid": 4
+    },
+    {
+      "title": "玉虚宫练武",
+      "path": "/area/jhjm2024/5",
+      "pgid": 5
+    },
+    {
+      "title": "门生擂台",
+      "path": "/area/jhjm2024/6",
+      "pgid": 6
+    },
+    {
+      "title": "排行榜",
+      "type": "scoreboard",
+      "path": "/scoreboard/jhjm2024"
+    },
+    {
+      "title": "公告",
+      "type": "announcements",
+      "path": "/announcements/jhjm2024"
+    }
+  ]
+}

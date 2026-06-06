@@ -1,0 +1,49 @@
+{
+  "type": "problem",
+  "title": "思维驰",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<style>\n    .puzzle-console {\n        line-height: 1.6;\n    }\n</style>\n<div class=\"container puzzle-console\">\n    <ol>\n        <li>你偷走了星星并绑架了公主和收到署名公主的信而来的三个人，但被一头绿色恐龙坏了你的好事。 [3]</li>\n        <li>你和公主和朋友一起去了一个游乐园，为了玩人间大炮你们变成了弹球，轮到公主时人间大炮打歪了。 [2]</li>\n        <li>你作为一位人形的龙从千年沉眠中苏醒，为与邪龙对抗拯救大陆收集了12枚戒指。 [5]</li>\n        <li>你和你的哥哥在纽约的下水道系统里不断打败各种敌人以收集钱币。 [5]</li>\n        <li>你来自苏联，是世界赛中除冠军外排行第四的选手。一天，一个小个子通过灵活的进攻和巧妙的防守击败了你，那时你还不知道他最终挑战了泰森。 [6]</li>\n        <li>你派你的七个孩子入侵了七个王国，偷走了魔杖并把国王变成了动物。 [3]</li>\n        <li>你是四大师之一，拥有出众的手臂力量。你与一位运动员见面并交手后认可了他，你被邪恶侵蚀后也是这位运动员拯救了你。 [4]</li>\n        <li>你是岛上的博物馆馆长，岛上由一只狗负责政务管理，还有一位狸猫店老板。（等级1/2） [7]</li>\n        <li>你们在你们这个种族中以攻击力见长。在你们和另外一只生物战斗时，一位船长从船里摔了出来，在他的哨声下你们成功打败了那只生物。 [2]</li>\n    </ol>\n</div>",
+  "answer": "AAMIR KHAN",
+  "desc": "你发现了一台用9V电池供电的思维驰游戏机，但是旁边的游戏卡带……有的塞不进去？看来相比游戏本身，运行游戏的架势更加重要。",
+  "tips": [
+    {
+      "title": "这些句子描述的都是什么？",
+      "content": "搜索思维驰可以发现思维驰是 Nintendo Switch 中 Switch 的音译，这些句子描述的都是任天堂的游戏，但不一定都是 Switch 游戏。"
+    },
+    {
+      "title": "得到中间答案后接下来该怎么做？",
+      "content": "请找到中间答案对应系列在 2023 年的作品，本题接下来的步骤需要使用该作品的部分信息。"
+    },
+    {
+      "title": "如何进行最终提取？",
+      "content": "最终提取需要同时用到每句话对应的游戏和中间答案对应的游戏。请找到中间答案对应的游戏中与九伏特相关的部分，按照每句话代表的游戏对应的英文架势提取。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "warioware",
+      "message": "是的！It's me, M...Wario! 你认识我的好朋友九伏特吗？",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 108,
+    "total_guesses": 693,
+    "unique_teams": 128
+  },
+  "answerAnalysis": "\n\n\nCaiji\n\n\n\n搜索或观察“思维驰游戏机”这个名字可以发现其指的是任天堂 Switch 游戏机（参见下图和[这个视频](https://www.bilibili.com/video/BV1kV4y1y7Uq/)）\n\n<img class=\"w-100\" src=\"console-switch-ad.jpg\" alt=\"这张图片\">\n\n由此继续观察线索描述可以发现这是一些任天堂游戏的剧情，进行搜索后得到下表：\n\n| 序号 | 游戏名称 | “你”对应的角色的英文名 | 提取位 | 提取结果 |\n| --- | --- | --- | --- | --- |\n| 1 | Super Mario 64 DS | `BOWSER` | 3 | `W` |\n| 2 | Mario Pinball Land | `MARIO` | 2 | `A` |\n| 3 | Fire Emblem Engage | `ALEAR` | 5 | `R` |\n| 4 | Mario Bros. | `LUIGI` | 5 | `I` |\n| 5 | Punch-Out!! | `SODA POPINSKI` | 6 | `O` |\n| 6 | Super Mario Bros. 3 | `BOWSER` | 3 | `W` |\n| 7 | Ring Fit Adventure | `ARMANDO` | 4 | `A` |\n| 8 | Animal Crossing: New Horizons | `BLATHERS` | 7 | `R` |\n| 9 | Pikmin 2 | `RED PIKMIN` | 2 | `E` |\n\n提取 `WARIOWARE` 后，可以得到瓦里奥制造这一游戏系列。查询游戏系列介绍可以发现其中有一名叫做九伏特的角色（对应于题目中 9V 电池供电的描述），可以发现九伏特对应的小游戏往往以任天堂的其他游戏为主题。根据这些描述对应的游戏可以找到本题所用的部分是《超级舞动 瓦力欧制造》中“孤身一人的漆黑任务”章节，阅读游戏介绍可以发现每个游戏有一个用到的架势，由此：\n\n| 序号 | 游戏名称和等级 | 对应的架势 | 提取位 | 提取结果 |\n| --- | --- | --- | --- | --- |\n| 1 | Super Mario 64 DS | `SCALES` | 3 | `A` |\n| 2 | Mario Pinball Land | `MASSAGE` | 2 | `A` |\n| 3 | Fire Emblem Engage | `HAND MODEL` | 5 | `M` |\n| 4 | Mario Bros. | `FASHIONISTA` | 5 | `I` |\n| 5 | Punch-Out!! | `LIFTER` | 6 | `R` |\n| 6 | Super Mario Bros. 3 | `BA-KAW` | 3 | `K` |\n| 7 | Ring Fit Adventure | `FASHIONISTA` | 4 | `H` |\n| 8 | Animal Crossing: New Horizons (等级 1/2) | `TUG-OF-WAR` | 7 | `A` |\n| 9 | Pikmin 2 | `KNIGHT` | 2 | `N` |\n\n提取得到最终答案 `AAMIR KHAN`。\n\n"
+}

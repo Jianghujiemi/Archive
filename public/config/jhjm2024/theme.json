@@ -1,0 +1,474 @@
+{
+  "colors": {
+    "1": {
+      "text": "#000",
+      "bg": "#fff",
+      "navBg": "#FFFFFF"
+    }
+  },
+  "root": {
+    "banner": "/config/jhjm2024/banner_BB6E5F4ABA576F8C69B70C1816AA5173.png",
+    "originalHeight": 1080,
+    "originalWidth": 2663,
+    "snapMargin": 5.85,
+    "logo": "/config/logos/icon_0cd88872.png"
+  },
+  "areas": {
+    "4": {
+      "banner": "/config/jhjm2024/static/banners/4.png.webp",
+      "originalWidth": 1280,
+      "originalHeight": 720,
+      "bg": "/config/jhjm2024/static/assets/puzzles_static/images/bg/round-intro.webp",
+      "mapItem": [
+        {
+          "pid": 11,
+          "slug": "intro_round_meta",
+          "title": "吐纳心法",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/meta.webp",
+          "left": "75%",
+          "top": "65%",
+          "width": 256,
+          "height": 216,
+          "puzzle_type": 1,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 12,
+          "slug": "time",
+          "title": "绝情本是",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/1.webp",
+          "left": "70.0%",
+          "top": "7.5%",
+          "width": 256,
+          "height": 180,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 13,
+          "slug": "scene",
+          "title": "古城记忆",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/2.webp",
+          "left": "37.0%",
+          "top": "36.0%",
+          "width": 384,
+          "height": 288,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 14,
+          "slug": "lantern",
+          "title": "上元节灯会",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/3.webp",
+          "left": "5%",
+          "top": "5%",
+          "width": 384,
+          "height": 288,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 15,
+          "slug": "byline",
+          "title": "行间字里",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/4.webp",
+          "left": "1.5%",
+          "top": "68%",
+          "width": 192,
+          "height": 172.8,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 16,
+          "slug": "eat_it",
+          "title": "吃货考试",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_1/5.webp",
+          "left": "17.0%",
+          "top": "65.0%",
+          "width": 230.4,
+          "height": 144,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+    "5": {
+      "banner": "/config/jhjm2024/static/banners/5.png.webp",
+      "originalWidth": 1280,
+      "originalHeight": 1440,
+      "bg": "/config/jhjm2024/static/assets/puzzles_static/images/bg/round-kungfu.webp",
+      "mapItem": [
+        {
+          "pid": 17,
+          "slug": "console",
+          "title": "思维驰",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/console.webp",
+          "left": "3%",
+          "top": "10%",
+          "width": 128,
+          "height": 216,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 18,
+          "slug": "pigs",
+          "title": "猪逻辑公园",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/pigs.webp",
+          "left": "77.5%",
+          "top": "30.75%",
+          "width": 115.2,
+          "height": 194.4,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 19,
+          "slug": "guess_what",
+          "title": "试问前程",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/guess_what.webp",
+          "left": "88%",
+          "top": "38%",
+          "width": 128,
+          "height": 144,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 20,
+          "slug": "write",
+          "title": "午间随笔",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/write.webp",
+          "left": "71%",
+          "top": "44.125%",
+          "width": 102.4,
+          "height": 82.8,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 21,
+          "slug": "deer",
+          "title": "神鹿",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/deer.webp",
+          "left": "11.5%",
+          "top": "14%",
+          "width": 192,
+          "height": 144,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 22,
+          "slug": "swim",
+          "title": "遨游江湖",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/swim.webp",
+          "left": "75.5%",
+          "top": "25.125%",
+          "width": 89.6,
+          "height": 75.6,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 23,
+          "slug": "beam",
+          "title": "亮点自寻",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/beam.webp",
+          "left": "17.5%",
+          "top": "0%",
+          "width": 115.2,
+          "height": 172.8,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 24,
+          "slug": "class_begins",
+          "title": "云端学习",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/class_begins.webp",
+          "left": "9%",
+          "top": "30.5%",
+          "width": 179.2,
+          "height": 100.8,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 25,
+          "slug": "scout",
+          "title": "斥候外传",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/scout.webp",
+          "left": "43.5%",
+          "top": "29.75%",
+          "width": 64,
+          "height": 108,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 26,
+          "slug": "trip",
+          "title": "日行千里",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/trip.webp",
+          "left": "60%",
+          "top": "20.5%",
+          "width": 128,
+          "height": 144,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 27,
+          "slug": "bracket",
+          "title": "诗词大赛",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/bracket.webp",
+          "left": "52%",
+          "top": "39%",
+          "width": 76.8,
+          "height": 129.6,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 28,
+          "slug": "dirt",
+          "title": "浊理一新",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/dirt.webp",
+          "left": "69%",
+          "top": "35.25%",
+          "width": 76.8,
+          "height": 93.6,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 29,
+          "slug": "emotion",
+          "title": "最美心意",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/emotion.webp",
+          "left": "83%",
+          "top": "0%",
+          "width": 230.4,
+          "height": 259.2,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 30,
+          "slug": "logic",
+          "title": "无中生有",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/logic.webp",
+          "left": "36%",
+          "top": "32.5%",
+          "width": 76.8,
+          "height": 57.6,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 31,
+          "slug": "psychic",
+          "title": "大通灵师",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/psychic.webp",
+          "left": "60%",
+          "top": "34.5%",
+          "width": 102.4,
+          "height": 115.2,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 32,
+          "slug": "city_walk",
+          "title": "城市漫游",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/city_walk.webp",
+          "left": "1%",
+          "top": "32%",
+          "width": 102.4,
+          "height": 230.4,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 33,
+          "slug": "algebra",
+          "title": "口算300练",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/algebra.webp",
+          "left": "22.5%",
+          "top": "41.25%",
+          "width": 192,
+          "height": 108,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 34,
+          "slug": "recorder",
+          "title": "赛博记录员",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/recorder.webp",
+          "left": "43%",
+          "top": "19.5%",
+          "width": 128,
+          "height": 72,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 35,
+          "slug": "kungfu_meta_fist",
+          "title": "太极拳法",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/kungfu_meta_fist_solved.webp",
+          "left": "0.002%",
+          "top": "58.889%",
+          "width": 421,
+          "height": 592,
+          "puzzle_type": 1,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 36,
+          "slug": "kungfu_meta_weapon_solved",
+          "title": "玄门剑修",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/kungfu_meta_weapon_solved.webp",
+          "left": "33.333%",
+          "top": "53.29%",
+          "width": 426,
+          "height": 672,
+          "puzzle_type": 1,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 37,
+          "slug": "kungfu_meta_move_solved",
+          "title": "凌波微步",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_2/kungfu_meta_move_solved.webp",
+          "left": "66.667%",
+          "top": "54.37%",
+          "width": 426,
+          "height": 657,
+          "puzzle_type": 1,
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+    "6": {
+      "banner": "/config/jhjm2024/static/banners/6.png.webp",
+      "originalWidth": 1280,
+      "originalHeight": 720,
+      "bg": "/config/jhjm2024/static/assets/puzzles_static/images/bg/round-duel.webp",
+      "mapItem": [
+        {
+          "pid": 46,
+          "slug": "duel_round_meta",
+          "title": "打得一拳开",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/meta-solved.webp",
+          "left": "40.0%",
+          "top": "15.0%",
+          "width": 256,
+          "height": 376,
+          "puzzle_type": 1,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 38,
+          "slug": "split",
+          "title": "经文残本",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/1.webp",
+          "left": "5.0%",
+          "top": "10.0%",
+          "width": 256,
+          "height": 288,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 39,
+          "slug": "bases",
+          "title": "密宗筑基",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/2.webp",
+          "left": "26.0%",
+          "top": "16.0%",
+          "width": 230.4,
+          "height": 259.2,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 40,
+          "slug": "fox_say",
+          "title": "狐狸怎么叫？",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/3.webp",
+          "left": "60.0%",
+          "top": "6.0%",
+          "width": 256,
+          "height": 288,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 41,
+          "slug": "zhihu",
+          "title": "谢邀，人在江湖，身不由己",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/4.webp",
+          "left": "80.0%",
+          "top": "10.0%",
+          "width": 256,
+          "height": 288,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 42,
+          "slug": "world",
+          "title": "世界奇妙物语",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/5.webp",
+          "left": "0.0%",
+          "top": "50.0%",
+          "width": 256,
+          "height": 216,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 43,
+          "slug": "planet",
+          "title": "失联星球",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/6.webp",
+          "left": "14.0%",
+          "top": "56.5%",
+          "width": 281.6,
+          "height": 295.2,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 44,
+          "slug": "chaos",
+          "title": "PUZZLE",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/7.webp",
+          "left": "60.0%",
+          "top": "46.0%",
+          "width": 230.4,
+          "height": 216,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        },
+        {
+          "pid": 45,
+          "slug": "crossover",
+          "title": "交点之下",
+          "imgUrl": "/config/jhjm2024/static/assets/puzzles_static/images/puzzle-logos/round_3/8.webp",
+          "left": "80.0%",
+          "top": "56.0%",
+          "width": 204.8,
+          "height": 230.4,
+          "puzzle_type": 0,
+          "color": "#FFFFFF"
+        }
+      ]
+    }
+  }
+}

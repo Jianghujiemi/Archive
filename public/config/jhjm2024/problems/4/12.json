@@ -1,0 +1,46 @@
+{
+  "type": "problem",
+  "title": "绝情更是",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<h3>生物 数学 物理 化学 金融 音乐</h3><hr />\n如果把人的品[ #1 ]为团队精神考量，那么[ ]能力就是最重要的一环。<br><br>\n夜还没过去多久，天空刚刚[ #4 ]，我们就抵达了肯德[ ]羽鸡培育场.<br><br>\n馋的让我胃里反[ ]的湖北的热干面得用[ #8 ]面做.<br><br>\n心理医生希望她的咨询与[ #7 ]能帮人们离[ ]望和悲伤。<br><br>\n我的女朋友是中国东航的[ #5 ]，她有许[ ]妹和兄弟。<br><br>\n美国大学有时会举办[ #2 ]活动，这让许多留学生[ ]跑的他们吸引住目光，然后羞的转过头去。<br><br>\n<br><br>\n<br><br>\n<b># + （-# = 4） = 答案</b>",
+  "answer": "pretty ugly",
+  "desc": "**东**边日出**西**边雨，道是**无**晴却**有**晴。\n\n我该怎么**形容**这矛盾的感觉？",
+  "tips": [
+    {
+      "title": "我（自认为）是一个解谜新手！能为我介绍一下一道谜题的各个组成部分吗？",
+      "content": "好的！ 一道谜题通常由4个部分组成：标题（可能是这道题相关的主题），flavor text（缩写为ft，通常是前几行的斜体字，可能暗示着这道题的突破口甚至是核心机制），主体部分（可能由文字，图片，音频，视频等组成）和提取部分（用某种方式得出这道题的答案）。"
+    },
+    {
+      "title": "我（自认为）是一个解谜新手！能为我解释一下谜题中常见的这些稀奇古怪的符号吗？",
+      "content": "你需要在每组括号里写出一对词语，这对词语有着一些特殊的关系。你需要找到他们的英文并提取他们。"
+    },
+    {
+      "title": "这些词感觉……和我的理解有些不一样？",
+      "content": "他们确实都是反义词，只不过是在很特殊的条件下。请注意他们的英语单词也应该是这个条件下时候的说法。"
+    },
+    {
+      "title": "最后一步是什么意思？",
+      "content": "你应该在上一步得到了一个6字词语，和本题的主题一样，你需要提交的另一个词语是这个词的反义词。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "初入武当",
+    "path": "/area/jhjm2024/4",
+    "pgid": 4
+  },
+  "_stats": {
+    "correct_count": 165,
+    "total_guesses": 523,
+    "unique_teams": 181
+  },
+  "answerAnalysis": "出题人：小白狐九月\n\n\n\n我们可以尝试的填写下面的部分答案，例如反“酸水”，“碱水”面，或是“天空泛白”，“肯德基白羽鸡培育场”。另外，在上方风味文字中，东西，有无也被标记为重点词汇，意味着这一题的主题和反义词有关。\n但是，为什么“基”和“泛”是反义词？在上面给出的学科列表给出了答案——这些词语在这些领域的中确实是反义词！\n找到对应带有索引的词语的英文形容词形态（作为这个领域的专业词语）我们可以得到如下提取。\n\n<table class=\"solution-table\">\n    <thead>\n        <tr>\n            <td>词组</td>\n            <td>提取词语</td>\n            <td>英文</td>\n            <td>索引</td>\n            <td>提取结果</td>\n            <td>领域</td>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>【质合】作</td>\n            <td>质</td>\n            <td>prime</td>\n            <td>1</td>\n            <td>p</td>\n            <td>数学（质数和合数）</td>\n        </tr>\n        <tr>\n            <td>【泛基】白</td>\n            <td>泛</td>\n            <td>overtonal</td>\n            <td>4</td>\n            <td>r</td>\n            <td>音乐（基音和泛音）</td>\n        </tr>\n        <tr>\n            <td>【酸碱】水</td>\n            <td>碱</td>\n            <td>alkaline</td>\n            <td>8</td>\n            <td>e</td>\n            <td>化学</td>\n        </tr>\n        <tr>\n            <td>开【导绝】</td>\n            <td>导</td>\n            <td>conductive</td>\n            <td>8</td>\n            <td>t</td>\n            <td>物理（导电和绝缘）</td>\n        </tr>\n        <tr>\n            <td>【空多】姐</td>\n            <td>空</td>\n            <td>short</td>\n            <td>5</td>\n            <td>t</td>\n            <td>金融（做多和做空）</td>\n        </tr>\n        <tr>\n            <td>【裸被】奔</td>\n            <td>裸</td>\n            <td>gymnospermous</td>\n            <td>2</td>\n            <td>y</td>\n            <td>生物（裸子植物和被子植物）</td>\n        </tr>\n    </tbody>\n</table>\n\n<style>\nthead td {\n    text-align: center;\n}\ntd {\n    border: 1px solid #E1E1E1 !important;\n    padding: 1rem !important;\n}\n</style>\n\n根据提取结果，我们得到答案pretty。\n在根据指示再进行一次反义词游戏后，我们得到了一个最终答案，也是一个合法词组，**PRETTY UGLY**。\n\n"
+}

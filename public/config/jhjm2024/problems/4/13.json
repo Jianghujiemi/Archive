@@ -1,0 +1,61 @@
+{
+  "type": "problem",
+  "title": "古城记忆",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p1.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n    ① __ __ __ __ __ __ __     __ __ __ __ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p2.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n    __ __ __ __ __ __ __ __     __ __ __ ③ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p3.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ __ __ __ __ __ __ ⑥     __ __ __ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p4.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ __ __ __ __ __ __     __ __ __ __ ② __\n</h1>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p5.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ __ __ __ __     ⑧ __ __ __ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p6.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ ④ __ __ __ __ __ __ __ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p7.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ __ __ __ __     __ __ __ __ ⑦ __ __ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_p8.webp\" class=\"w-100 mx-3\" alt=\"\">\n<h1>\n__ __ __ __ __ __ __     __ __ __ __ ⑤ __\n</h1>\n<br>\n\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/scene/scene_extraction.webp\" class=\"w-100 mx-3 mb-4\" alt=\"\">\n<br>\n<b> （十  六  四  四）→ (3 7) </b>",
+  "answer": "pop culture",
+  "desc": "看起来是某个地方的风景，充满新鲜空气和诗情画意。",
+  "tips": [
+    {
+      "title": "我（自认为）是一个解谜新手！能为我介绍一下一道谜题的各个组成部分吗？",
+      "content": "好的！ 一道谜题通常由4个部分组成：标题（可能是这道题相关的主题），flavor text（缩写为ft，通常是前几行的斜体字，可能暗示着这道题的突破口甚至是核心机制），主体部分（可能由文字，图片，音频，视频等组成）和提取部分（用某种方式得出这道题的答案）。"
+    },
+    {
+      "title": "我（自认为）是一个解谜新手！能为我解释一下谜题中常见的这些稀奇古怪的符号吗？",
+      "content": "通常情况下，每段横线或问号会代表一个未知字符。题目中出现的数字有时用来排序，有时提供了答案的某种性质。每道题中出现的其它符号在不同的题中可能代表不同的含义。"
+    },
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "像ft的前半句所说的，这些图片来自同一个地方。每张图片上的白色横线数量与图片是对应的，试试先填出它们，你可以获得一个里程碑。"
+    },
+    {
+      "title": "我找到了里程碑！但我下一步该做什么？",
+      "content": "在与里程碑相关的某个视频产物中依次出现过很多风景，能够对应上这些地方在本题中所处的位置顺序。ft的后半句话也许能让你有所联想。"
+    },
+    {
+      "title": "我把能填的都填出来了！除了答案之外……我怎么得到答案？（该如何提取？）",
+      "content": "提取部分的蓝色箭头表示两个字之间能够“形成联系”，即能够组成一个词语；底下的每个中文数字代表着答案为中文时，每个汉字的笔画数。至于怎么把中文答案变成英文提交？唔……可以问问神奇海螺。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "olympics",
+      "message": "目前为止正确……它和ft的城市以及”新鲜空气“有什么联系呢？",
+      "extra": ""
+    },
+    {
+      "answer": "liuxingwenhua",
+      "message": "目前为止正确……不过师父们还是更喜欢英语。",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "初入武当",
+    "path": "/area/jhjm2024/4",
+    "pgid": 4
+  },
+  "_stats": {
+    "correct_count": 186,
+    "total_guesses": 354,
+    "unique_teams": 205
+  },
+  "answerAnalysis": "\n\n\n肥鱼\n\n\n\n\n作为第一步，寻找到这些地点的名称并转化为英文填入图片上方的白色横线区域，可以提取出中间答案 **OLYMPICS** 。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>地点</td>\n            <td>英文名</td>\n            <td>提取序号</td>\n            <td>提取字母</td>\n        </tr>\n        <tr>\n            <td>鸟巢 国家体育场</td>\n            <td>Bird&#39;<span class=\"emph\">s</span> Nest</td>\n            <td>8</td>\n            <td>S</td>\n        </tr>\n        <tr>\n            <td>北海公园</td>\n            <td>Beihai <span class=\"emph\">P</span>ark</td>\n            <td>5</td>\n            <td>P</td>\n        </tr>\n        <tr>\n            <td>普渡寺</td>\n            <td>Pudu Te<span class=\"emph\">m</span>ple</td>\n            <td>4</td>\n            <td>M</td>\n        </tr>\n        <tr>\n            <td>博雅塔</td>\n            <td>Bo<span class=\"emph\">y</span>a Tower</td>\n            <td>3</td>\n            <td>Y</td>\n        </tr>\n        <tr>\n            <td>八达岭长城</td>\n            <td>Badaling Great Wal<span class=\"emph\">l</span></td>\n            <td>2</td>\n            <td>L</td>\n        </tr>\n        <tr>\n            <td>琉璃厂</td>\n            <td>L<span class=\"emph\">i</span>ulichang</td>\n            <td>6</td>\n            <td>I</td>\n        </tr>\n        <tr>\n            <td>北京奥林匹克水上公园</td>\n            <td>Olympic R<span class=\"emph\">o</span>wing-Canoeing Park</td>\n            <td>1</td>\n            <td>O</td>\n        </tr>\n        <tr>\n            <td>水立方</td>\n            <td>Water <span class=\"emph\">C</span>ube</td>\n            <td>7</td>\n            <td>C</td>\n        </tr>\n    </table>\n</div>\n\n根据olympics以及ft中“新鲜空气”等信息，可以联想到2008年北京奥运会的主题曲《北京欢迎你》，\n其mv中按顺序依次出现了以上地点（中间还有其他地点，被省略）。这也就能解释为什么无论是哪次提取，这些图片均没有按照提取数字的顺序排序。\n\n第二步将出现对应地点时的歌词填入图片下方的黑色横线处，可以提取出8个汉字。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>地点</td>\n            <td>歌词</td>\n            <td>提取序号</td>\n            <td></td>\n        </tr>\n        <tr>\n            <td>鸟巢 国家体育场</td>\n            <td><span class=\"emph\">气</span>息改变情味不变 茶香飘满情谊</td>\n            <td>1</td>\n            <td>气</td>\n        </tr>\n        <tr>\n            <td>北海公园</td>\n            <td>拥抱过就有了默契 你会爱<span class=\"emph\">上</span>这里</td>\n            <td>3</td>\n            <td>上</td>\n        </tr>\n        <tr>\n            <td>普渡寺</td>\n            <td>不管远近都是客<span class=\"emph\">人</span> 请不用客气</td>\n            <td>6</td>\n            <td>人</td>\n        </tr>\n        <tr>\n            <td>博雅塔</td>\n            <td>我家种着万年青 开放每段<span class=\"emph\">传</span>奇</td>\n            <td>2</td>\n            <td>传</td>\n        </tr>\n        <tr>\n            <td>八达岭长城</td>\n            <td>北京欢迎你 <span class=\"emph\">为</span>你开天辟地</td>\n            <td>8</td>\n            <td>为</td>\n        </tr>\n        <tr>\n            <td>琉璃厂</td>\n            <td>流<span class=\"emph\">动</span>中的魅力充满着朝气</td>\n            <td>4</td>\n            <td>动</td>\n        </tr>\n        <tr>\n            <td>北京奥林匹克水上公园</td>\n            <td>北京欢迎你 在太阳下<span class=\"emph\">分</span>享呼吸</td>\n            <td>7</td>\n            <td>分</td>\n        </tr>\n        <tr>\n            <td>水立方</td>\n            <td>我家大门常打开 开怀容纳<span class=\"emph\">天</span>地</td>\n            <td>5</td>\n            <td>天</td>\n        </tr>\n    </table>\n</div>\n\n已经填入的部分能够看出：箭头表示能够组词，而下方的汉字数字表示需要寻找的字的笔画数。\n\n第三步完成组词，得到【流行文化】并转化为英语词组**pop culture**。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>气</td>\n            <td>上</td>\n            <td>天</td>\n            <td>分</td>\n        </tr>\n        <tr style=\"background-color: #ff0;\">\n            <td>流</td>\n            <td>行</td>\n            <td>文</td>\n            <td>化</td>\n        </tr>\n        <tr>\n            <td>传</td>\n            <td>动</td>\n            <td>人</td>\n            <td>为</td>\n        </tr>\n    </table>\n</div>\n\n## 作者的话\n\n这题初稿完成于23年8月9号（当时没有olmpics的中间答案）。\n当时苦思冥想有没有一个好点的从中文转英文的提取，凑来凑去选了组词，没想到押到ccbc的提取上去了。很惊喜。\n\n\n"
+}

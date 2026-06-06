@@ -1,0 +1,6553 @@
+{
+  "type": "scoreboard",
+  "title": "排行榜",
+  "content": "【存档版说明】排行榜手动复制黏贴的，有错误请谅解",
+  "using_gph": 1,
+  "using_days": 0,
+  "scoreboarddata": {
+    "finished_groups": [
+      {
+        "gid": 1,
+        "groupName": "怪盗解谜团",
+        "users": [
+          {
+            "username": "yyao yyds！！！",
+            "avatar": "a8e873b64d77b6491a1911534906bb2e"
+          },
+          {
+            "username": "欢迎关注公众号“解谜怪盗团”！",
+            "avatar": ""
+          },
+          {
+            "username": "队员：方伯，兰扎特，大灰狼，yyao，风怒大汉堡",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 41.48333333,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 2,
+        "groupName": "十步杀一题，千里不留行",
+        "users": [
+          {
+            "username": "纵死侠骨香",
+            "avatar": "186a78aca10c46955dc73d98f84a3df8"
+          },
+          {
+            "username": "深藏身与名",
+            "avatar": ""
+          },
+          {
+            "username": "飒沓如流星",
+            "avatar": ""
+          },
+          {
+            "username": "事了拂衣去",
+            "avatar": ""
+          },
+          {
+            "username": "吴钩霜雪明",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 41.68333333,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 3,
+        "groupName": "花田水划吃江次通发超普鱼踢侠是拉里会群惹包队果娃谜宝桶谜吧睡汪观卷会育等先芳多赏论逻觉午配题行小腹队一无江野留红选巡格普林只如天法许旅偶剑环的到力杀小开狗千天全轶唯小不级但是择偷餐体特菇十饼宗今独罚谜吃题人手点题想反客课就死月恶案朗光一风芋在象混天弱敢人一湖组孤雀不军通岛的华仙盟丹唯解道第杂答如称打尔孬有鸡案跑你不花武辈了之长级你我将笑积对尊山上菜谜队分什合汪队兽潜主闲有善呃菜套出棉文队是算组探独",
+        "users": [
+          {
+            "username": "愚公移山",
+            "avatar": "6c1f59d86910bc0b9793b60decda3c9a"
+          },
+          {
+            "username": "马骉马",
+            "avatar": "ac7b59233370f502d15d884b407313aa"
+          },
+          {
+            "username": "🐎",
+            "avatar": "dedbbf5f16ffddf2484baa3474dca4ed"
+          },
+          {
+            "username": "傣伐你",
+            "avatar": "20ebe52bcb7cc19b874931ad3ea3fea9"
+          },
+          {
+            "username": "愚山移公",
+            "avatar": "96a4336dfce602b35ef4ded2b2735d52"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 48.26666667,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 4,
+        "groupName": "Anonymous",
+        "users": [
+          {
+            "username": "MyriadL",
+            "avatar": "f1d4e0a4a279a7eaa457ef8a809629b1"
+          },
+          {
+            "username": "xxuurruuii",
+            "avatar": "dcd45d16b91f29134cfb4fdd04e0a896"
+          },
+          {
+            "username": "Brightly_",
+            "avatar": "c98daee79994c7f777bb27c07372f1d7"
+          },
+          {
+            "username": "CAT-FISH",
+            "avatar": "c15c6d91cbea9def0192840ee5e0eb43"
+          },
+          {
+            "username": "J.R.",
+            "avatar": "041440f89f16c5b1176544be22a26e96"
+          },
+          {
+            "username": "shedarshian（观战）",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 48.28333333,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 5,
+        "groupName": "谜途旅人",
+        "users": [
+          {
+            "username": "伏龙坛二掌门",
+            "avatar": "1c21d7683758143743f70ee422aaecda"
+          },
+          {
+            "username": "武当山扫地僧",
+            "avatar": ""
+          },
+          {
+            "username": "百花谷大当家",
+            "avatar": ""
+          },
+          {
+            "username": "少林寺无神大师",
+            "avatar": "2a2a551fb9b9981adcadc8dd348f888d"
+          },
+          {
+            "username": "太吾传人",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 48.46666667,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 6,
+        "groupName": "华山论剑",
+        "users": [
+          {
+            "username": "黄药师",
+            "avatar": "1ea827846d896a8fb9308cd46ab109d1"
+          },
+          {
+            "username": "欧阳锋",
+            "avatar": "be50398e7621ca3b0561f8e2d15d4383"
+          },
+          {
+            "username": "一灯",
+            "avatar": ""
+          },
+          {
+            "username": "洪七公",
+            "avatar": ""
+          },
+          {
+            "username": "王重阳",
+            "avatar": "3ebacf8492a77f3f2e03e622d0848e26"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 54.23333333,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 7,
+        "groupName": "武当山野炊组",
+        "users": [
+          {
+            "username": "WJ",
+            "avatar": "f602f5d468d96cb907308f93d82b57a5"
+          },
+          {
+            "username": "奶油酱",
+            "avatar": "17caf29cc17b4f06658288fd4f94b07d"
+          },
+          {
+            "username": "凌风cold",
+            "avatar": "9e35348b5a7d829efb65881d0ea7d2d7"
+          },
+          {
+            "username": "zyx",
+            "avatar": "93c103854b3125afe227b4a2c40135d8"
+          },
+          {
+            "username": "水帝WaterKing",
+            "avatar": "d09f86931c361fd5d3170ca6071e7421"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 60.75,
+        "finishedPuzzleCount": 33
+      },
+      {
+        "gid": 8,
+        "groupName": "闲散解谜！",
+        "users": [
+          {
+            "username": "Fivero",
+            "avatar": "a65d0945a294ba5f40c14868b4db030a"
+          },
+          {
+            "username": "五月",
+            "avatar": ""
+          },
+          {
+            "username": "CallMeMushroom",
+            "avatar": "e2088de1359948af348f4a06f8f0d838"
+          },
+          {
+            "username": "COL",
+            "avatar": ""
+          },
+          {
+            "username": "Sonic(没电脑)",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 63.18333333,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 9,
+        "groupName": "Bacteriophage University",
+        "users": [
+          {
+            "username": "dailycrazy",
+            "avatar": "6da9227388cc81c284e84619593c4fa5"
+          },
+          {
+            "username": "Logistick",
+            "avatar": "7cca3a6eb278716e950de6e80dbe8582"
+          },
+          {
+            "username": "Cheney",
+            "avatar": "b3d804c94389381d365aa80d327a3ec4"
+          },
+          {
+            "username": "Arya",
+            "avatar": "8a2f43556432fa4850e48211bc9b2633"
+          },
+          {
+            "username": "hahahaHAha",
+            "avatar": "8006282429ba3b168179d420c12bef40"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 70.3,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 10,
+        "groupName": "-------🥇🥇🥇-------",
+        "users": [
+          {
+            "username": "skyline",
+            "avatar": "9a2cc5ec2c04ecf5f78799cf39464724"
+          },
+          {
+            "username": "WYXkk",
+            "avatar": "8a5132e35b1f8887240142b847b9ee3e"
+          },
+          {
+            "username": "Inferno",
+            "avatar": "c3ae2c356e93e065d8346191eaee8a12"
+          },
+          {
+            "username": "Suika_predator",
+            "avatar": "d06e264f1ab33feb57a20f65a2d7e4de"
+          },
+          {
+            "username": "starxingchenc",
+            "avatar": "d5da84616148c80a7ef019b2aa731ada"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 70.95,
+        "finishedPuzzleCount": 34
+      },
+      {
+        "gid": 11,
+        "groupName": "肥鱼如果出孬题就在群里发红包吧",
+        "users": [
+          {
+            "username": "肥肥",
+            "avatar": "5b5596e6c793cc7294b70afa3287895f"
+          },
+          {
+            "username": "肥",
+            "avatar": "956d909090c83f47d7b628bf01a35713"
+          },
+          {
+            "username": "肥鱼",
+            "avatar": "407d4c9957344845e19a73dc66419204"
+          },
+          {
+            "username": "鱼",
+            "avatar": "a105c2a6ed81bb521ce1a56dcd3fd935"
+          },
+          {
+            "username": "鱼鱼",
+            "avatar": "242f48ddcebdff965ba4df5df9b2783a"
+          },
+          {
+            "username": "关注世界美食official谢谢喵（其实并没有第六个人，但是发现怎么还能添加队员）",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 71.05,
+        "finishedPuzzleCount": 28
+      },
+      {
+        "gid": 12,
+        "groupName": "识文解意的追迹者",
+        "users": [
+          {
+            "username": "榆木华",
+            "avatar": "dee48e21d9337bf87696b25949653382"
+          },
+          {
+            "username": "Tellurium",
+            "avatar": "1fb2c23b6ade8d290c0fe8acb5eee3ce"
+          },
+          {
+            "username": "D3D4",
+            "avatar": "d6ecbf181299d87e71cd0777721f9dd5"
+          },
+          {
+            "username": "YQ",
+            "avatar": "48e0e3ff74d2e72c20fe1ca431980492"
+          },
+          {
+            "username": "古明地上的彗星",
+            "avatar": "a21868c00aec0cb900fdc5849c5e0a11"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 73.73333333,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 13,
+        "groupName": "队名含有不适宜内容",
+        "users": [
+          {
+            "username": "河马",
+            "avatar": "ff72008e30a8ff3141fd742c9f0bbf92"
+          },
+          {
+            "username": "雷霆",
+            "avatar": "1540fadc886f58b57c3a839de85e901f"
+          },
+          {
+            "username": "洪水",
+            "avatar": ""
+          },
+          {
+            "username": "走方",
+            "avatar": "1aaad3ca31267ad3daf8c64e18932633"
+          },
+          {
+            "username": "帅哥",
+            "avatar": "512cffb383310eefeb5abcd7d8de3924"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 75.05,
+        "finishedPuzzleCount": 28
+      },
+      {
+        "gid": 14,
+        "groupName": "Live Fast Die Young但是队名我有二不起，活得快的我不起因为他善，死得早的我也不起因为他忠。",
+        "users": [
+          {
+            "username": "孜然",
+            "avatar": "724f1bf539f21833ada75b50770d0656"
+          },
+          {
+            "username": "0jacky0",
+            "avatar": "1cbab35570fa6adef1a4db0b2117e8eb"
+          },
+          {
+            "username": "42i196",
+            "avatar": "06f288dc7a1a38469b3fae01b782005f"
+          },
+          {
+            "username": "玩命嘟嘟",
+            "avatar": ""
+          },
+          {
+            "username": "蒸羊羔蒸熊掌蒸鹿尾儿烧花鸭烧雏鸡烧子鹅卤猪卤鸭酱鸡腊肉松花小肚儿晾肉香肠儿什锦苏盘儿熏鸡白肚儿清蒸八宝猪江米酿鸭子罐儿野鸡罐儿鹌鹑卤什件儿卤子鹅山鸡兔脯菜蟒银鱼清蒸哈士蟆",
+            "avatar": "c05bee24fecae77370fcbae4ce400686"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 76.28333333,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 15,
+        "groupName": "你在为难我胖虎",
+        "users": [
+          {
+            "username": "resurgam、",
+            "avatar": "a7ce5d14910697e91bea9c48a3e09c16"
+          },
+          {
+            "username": "融少要当小太阳",
+            "avatar": "afd631f2818375c66c14f6ba0172fe52"
+          },
+          {
+            "username": "0 is start",
+            "avatar": "55723b69206da710bdf2265ff8aabb38"
+          },
+          {
+            "username": "mwm",
+            "avatar": "a8b2e81f5f7f5aa521bdc437eeb076ca"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 89.65,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 16,
+        "groupName": "反卷睡觉桶",
+        "users": [
+          {
+            "username": "npl",
+            "avatar": "c02ec62a4093bd628d491b92fd14ecbe"
+          },
+          {
+            "username": "Star",
+            "avatar": "b6ddccfa33d3074e4072ffae046ef8cc"
+          },
+          {
+            "username": "lzjsy",
+            "avatar": "840627e103ab51e38c21ffc641a245e9"
+          },
+          {
+            "username": "Satori5",
+            "avatar": "316f19c0d2ff87726dfbf0cf118793e6"
+          },
+          {
+            "username": "驯龙高手seekr",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 92.15,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 17,
+        "groupName": "独孤月饼",
+        "users": [
+          {
+            "username": "Lithium",
+            "avatar": "5814e5469d7e5a3af53f54157c09d1c9"
+          },
+          {
+            "username": "月下桜丶天国",
+            "avatar": ""
+          },
+          {
+            "username": "阿斯蒂芬峰",
+            "avatar": ""
+          },
+          {
+            "username": "inequality",
+            "avatar": ""
+          },
+          {
+            "username": "amway",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 92.45,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 18,
+        "groupName": "爆宗门",
+        "users": [
+          {
+            "username": "44日落",
+            "avatar": "c0988ebc434fce71a59c10642b1095a6"
+          },
+          {
+            "username": "403日落",
+            "avatar": ""
+          },
+          {
+            "username": "52乔落",
+            "avatar": ""
+          },
+          {
+            "username": "小王子",
+            "avatar": ""
+          },
+          {
+            "username": "狐狸",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 92.51666667,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 19,
+        "groupName": "幼稚园的小猫咪",
+        "users": [
+          {
+            "username": "OUXlG",
+            "avatar": "0827466e7273de5ac652f967c180a986"
+          },
+          {
+            "username": "OUXIG",
+            "avatar": "0781a0979dd66a66ece04cef910e33b3"
+          },
+          {
+            "username": "0UXlG",
+            "avatar": "ef1846217b5d4f5cfbccba634e010b7f"
+          },
+          {
+            "username": "0UXIG",
+            "avatar": "9a97abd7a1bef88fce766e5f483629c1"
+          },
+          {
+            "username": "OUX1G",
+            "avatar": "071e6881a76ca64cf8c6434e5eabe333"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 93.63333333,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 20,
+        "groupName": "FloorOfLava",
+        "users": [
+          {
+            "username": "LargoDream",
+            "avatar": "94fac81d226aa79d38680797501bbd3e"
+          },
+          {
+            "username": "cl1694",
+            "avatar": ""
+          },
+          {
+            "username": "Liano",
+            "avatar": "5a371904d10137087e1480968682c4a1"
+          },
+          {
+            "username": "MrRaindrop",
+            "avatar": ""
+          },
+          {
+            "username": "AquaCat",
+            "avatar": "a9bfcebf5362a67bf79bc20b959d536a"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 93.66666667,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 21,
+        "groupName": "韦小宝的配偶",
+        "users": [
+          {
+            "username": "二舅~❤想你啦二舅~❤二舅生气了吗，嘻嘻~❤杂鱼❤杂鱼~~❤",
+            "avatar": "6c788ad53733239ee5b12ac9b68c75f6"
+          },
+          {
+            "username": "柯镇恶,朱聪,韩宝驹,南希仁,张阿生,全金发,韩小莹,黄钟公,黑白子,秃笔翁,丹青生,桃根仙,桃干仙,桃枝仙,桃叶仙,桃花仙,桃实仙,段延庆,叶二娘,南海鳄神,云中鹤,刘乘风,花铁干,陆天杼,水岱",
+            "avatar": "a70990b3415acb38a54008b48cb3a46c"
+          },
+          {
+            "username": "OKBob的中文是创可贴~☆",
+            "avatar": "a1baac9d66d4b246b01797026cf08bf6"
+          },
+          {
+            "username": "秃秃秃不秃，77🐾喵喵喵🐾",
+            "avatar": "4b11143724e921615e75255651385dbf"
+          },
+          {
+            "username": "起名不难,起名好难,起名太难,起名巨难",
+            "avatar": "e371d444d804b225b8637b9eaaf592e5"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 94.18333333,
+        "finishedPuzzleCount": 34
+      },
+      {
+        "gid": 22,
+        "groupName": "一车面包人",
+        "users": [
+          {
+            "username": "海豹",
+            "avatar": "407eca38e4c33daacbfefced3945f7ba"
+          },
+          {
+            "username": "恭喜",
+            "avatar": ""
+          },
+          {
+            "username": "九条可怜",
+            "avatar": ""
+          },
+          {
+            "username": "猫",
+            "avatar": ""
+          },
+          {
+            "username": "阿無",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 94.21666667,
+        "finishedPuzzleCount": 35
+      },
+      {
+        "gid": 23,
+        "groupName": "Cyfur🐺🐱",
+        "users": [
+          {
+            "username": "卡尔沃夫",
+            "avatar": "c7f12d2a8630703f65006ee91af5dafe"
+          },
+          {
+            "username": "无铭之剑",
+            "avatar": "7a18445e311ec52e5f8df48aae6b4c60"
+          },
+          {
+            "username": "九华猫妖",
+            "avatar": "e8a6efdb7ebb4cc7c3d32f1a4be871ad"
+          },
+          {
+            "username": "寒冰真气",
+            "avatar": "d73920a7306736af760fd650a4edfd40"
+          },
+          {
+            "username": "识时务者",
+            "avatar": "e1012892257352dd99bbe2297d024e8b"
+          },
+          {
+            "username": "渔歌互答(观战)",
+            "avatar": "7741a807d73c78f8ff0455b9b06bc636"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 94.5,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 24,
+        "groupName": "龙喵",
+        "users": [
+          {
+            "username": "月饼",
+            "avatar": "319e36c35b1be25d0fa6ec60e94cec1d"
+          },
+          {
+            "username": "逆光",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 95.03333333,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 25,
+        "groupName": "puzzlesweeper [a-z]",
+        "users": [
+          {
+            "username": "little_meow",
+            "avatar": "32311f5dd93556c2e4d2669788d99843"
+          },
+          {
+            "username": "tonyXFY",
+            "avatar": "afb6be7e16bb2523eb89765479e1157d"
+          },
+          {
+            "username": "地上扫雷888",
+            "avatar": "330d2a3321905a001e7c668728882d2e"
+          },
+          {
+            "username": "Samarra",
+            "avatar": ""
+          },
+          {
+            "username": "鸡肉卷",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 96.45,
+        "finishedPuzzleCount": 33
+      },
+      {
+        "gid": 26,
+        "groupName": "zitmen",
+        "users": [
+          {
+            "username": "Euphonium",
+            "avatar": "5ee0cdab2aa9571c22bf0d100274fdbb"
+          },
+          {
+            "username": "𝕯𝖆𝖛𝖎𝖘𝖈𝖆𝖗𝖙𝖊𝖘",
+            "avatar": ""
+          },
+          {
+            "username": "zitman",
+            "avatar": ""
+          },
+          {
+            "username": "粉",
+            "avatar": ""
+          },
+          {
+            "username": "四方巡",
+            "avatar": "bcada388ba9ed648a456c472585edbb4"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 110.7166667,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 27,
+        "groupName": "普普通通",
+        "users": [
+          {
+            "username": "普通的解谜人",
+            "avatar": "ae21ae8fbcd15e9818010253c3fc3369"
+          },
+          {
+            "username": "favorski",
+            "avatar": "8e88031bb499eb384c0aa3912f60a088"
+          },
+          {
+            "username": "阿豹",
+            "avatar": "3fe0dabf6ce0d03009abd89f7f3ed660"
+          },
+          {
+            "username": "理所当然的解谜人",
+            "avatar": "73f250a23b7a61b730a0c92d64e8d2ed"
+          },
+          {
+            "username": "staffhook",
+            "avatar": "fc438ee00a092c8b154161a088ac2e5f"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 114.8833333,
+        "finishedPuzzleCount": 35
+      },
+      {
+        "gid": 28,
+        "groupName": "cocvgwt",
+        "users": [
+          {
+            "username": "rikimaruyyds",
+            "avatar": "61275a6d7dfac7537eb080ed79a6b230"
+          },
+          {
+            "username": "mk20",
+            "avatar": ""
+          },
+          {
+            "username": "1212",
+            "avatar": ""
+          },
+          {
+            "username": "开朗",
+            "avatar": ""
+          },
+          {
+            "username": "阳光",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 116.2666667,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 29,
+        "groupName": "NZND",
+        "users": [
+          {
+            "username": "加特林",
+            "avatar": "04bc7818b4985429f5268b74d007c38a"
+          },
+          {
+            "username": "茅山镇",
+            "avatar": "343d394b628f025575ca9454add25d39"
+          },
+          {
+            "username": "猫闪王",
+            "avatar": "876ea4a42783eadc98282eef5d8990ac"
+          },
+          {
+            "username": "飞鸿",
+            "avatar": "2330339177a03f452658b65a5b63465f"
+          },
+          {
+            "username": "理科沈",
+            "avatar": "80282aa382486e58f79386735968d8fe"
+          },
+          {
+            "username": "Toradin（观战员）",
+            "avatar": ""
+          },
+          {
+            "username": "Mysti（观战员）",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 116.35,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 30,
+        "groupName": "幼齒",
+        "users": [
+          {
+            "username": "thamblurr",
+            "avatar": "8c21e193aaa8e466c1f0de5da4c6aa5b"
+          },
+          {
+            "username": "Felix",
+            "avatar": ""
+          },
+          {
+            "username": "InvalidD",
+            "avatar": "98cefa9d827841c8a93fb732daad5495"
+          },
+          {
+            "username": "katian",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 120.65,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 31,
+        "groupName": "Winfrid单推",
+        "users": [
+          {
+            "username": "驯龙高手",
+            "avatar": "da435d0ce776827fb3240ef51e598aa7"
+          },
+          {
+            "username": "ending",
+            "avatar": ""
+          },
+          {
+            "username": "小吉",
+            "avatar": "fa6339b88d2c836cafae8861e07d7c07"
+          },
+          {
+            "username": "此人不适合解谜已被移出本队",
+            "avatar": ""
+          },
+          {
+            "username": "CeI2NK7",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 124.0833333,
+        "finishedPuzzleCount": 33
+      },
+      {
+        "gid": 32,
+        "groupName": "PromoteUNO水の划",
+        "users": [
+          {
+            "username": "NONE",
+            "avatar": "d219af79b45e5891507fda4c4c2139a0"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 124.3,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 33,
+        "groupName": "博平禅宗",
+        "users": [
+          {
+            "username": "毕辟希 aka benpigchu",
+            "avatar": "57113df2578bed69b33dc9c60de6293d"
+          },
+          {
+            "username": "Kanata",
+            "avatar": ""
+          },
+          {
+            "username": "BCMonomial",
+            "avatar": "9183b12497bb9e494130f303b0c3fbb5"
+          },
+          {
+            "username": "CPK",
+            "avatar": "7fe2843ef7eb72a8e503375576fa377f"
+          },
+          {
+            "username": "Nitro硝基me",
+            "avatar": "a88f776e9d62a49b6084fe957c869bd9"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 134.05,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 34,
+        "groupName": "江湖轶笑如风",
+        "users": [
+          {
+            "username": "苍穹玥夜",
+            "avatar": "0ba86af88ffa943604a372e101665984"
+          },
+          {
+            "username": "Chords",
+            "avatar": "2a681f01a50fd57a1d03c5a8d4724182"
+          },
+          {
+            "username": "渡",
+            "avatar": "d3d3cfd3922d0105a641972e4e820aa1"
+          },
+          {
+            "username": "苦力怕演说家",
+            "avatar": "390d220250ebb72c33bcfe4fa6863602"
+          },
+          {
+            "username": "changgong",
+            "avatar": "2eee7fe87c135943d2935d9817f76729"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 136.7166667,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 35,
+        "groupName": "🌊🛩️水上飞机🛩️🌊",
+        "users": [
+          {
+            "username": "patrick",
+            "avatar": "267c6a4c083850f523fba4beeef918f3"
+          },
+          {
+            "username": "wayne",
+            "avatar": ""
+          },
+          {
+            "username": "bryan",
+            "avatar": ""
+          },
+          {
+            "username": "mark",
+            "avatar": ""
+          },
+          {
+            "username": "anderson",
+            "avatar": ""
+          },
+          {
+            "username": "clue",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 138.9333333,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 36,
+        "groupName": "有道法体育慕课答案",
+        "users": [
+          {
+            "username": "这是一个古风名字",
+            "avatar": "6c2f7d206a1d21071f309360c1135e7d"
+          },
+          {
+            "username": "行走江湖_披个马甲",
+            "avatar": "9ae98434eb89408f16fbd2b89e4a066f"
+          },
+          {
+            "username": "晨雨古城",
+            "avatar": ""
+          },
+          {
+            "username": "皮皮学数学",
+            "avatar": ""
+          },
+          {
+            "username": "502",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 141.95,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 37,
+        "groupName": "furmine",
+        "users": [
+          {
+            "username": "逍蝶&沔鴳",
+            "avatar": "d5ddfa29ff2a1d3e0e4f40955bda39c0"
+          },
+          {
+            "username": "脉冲星",
+            "avatar": "6c35cd7bcccec60bb29a86dd39c688e2"
+          },
+          {
+            "username": "救赎F-D",
+            "avatar": "d6431d26d204b40e32f19ac138ac7a51"
+          },
+          {
+            "username": "Friends",
+            "avatar": "c2b5ad26280cc382b17f474f9d469544"
+          },
+          {
+            "username": "USER #1000",
+            "avatar": "da8ac15dd0769cdabb448b3a901d6e8b"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 142.0166667,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 38,
+        "groupName": "全军偷🐔",
+        "users": [
+          {
+            "username": "Y",
+            "avatar": "19a20f4922ca149e9d160965fad860e2"
+          },
+          {
+            "username": "金陵",
+            "avatar": ""
+          },
+          {
+            "username": "原神怎么你了",
+            "avatar": ""
+          },
+          {
+            "username": "吉祥物",
+            "avatar": ""
+          },
+          {
+            "username": "理塘最強伝說と絕兇の猛虎!純真丁一郎です!",
+            "avatar": "ccbf516e8e4b51311a3caa44f6956071"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 146.7,
+        "finishedPuzzleCount": 34
+      },
+      {
+        "gid": 39,
+        "groupName": "拉格朗日积分组合",
+        "users": [
+          {
+            "username": "AcetylCholine233",
+            "avatar": "a9c136b613a2d1fa50fcf7dcc8dac593"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 146.9333333,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 40,
+        "groupName": "谜题但是午餐",
+        "users": [
+          {
+            "username": "杏杳杳",
+            "avatar": "ff948d3e300e9b24a95a94626894840b"
+          },
+          {
+            "username": "滴水之恩涌泉相报，布莱斯恩何以相报?",
+            "avatar": ""
+          },
+          {
+            "username": "蛋糕但是吐司",
+            "avatar": "d48eb1fd0d0917614fe89db0a8663f5a"
+          },
+          {
+            "username": "转换头聚变中",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 149.05,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 41,
+        "groupName": "浅色墨点",
+        "users": [
+          {
+            "username": "whiteqwq",
+            "avatar": "8e739b8383bebd904d66020b8fd04e15"
+          },
+          {
+            "username": "135_Morisummer",
+            "avatar": "2c2a4f78b8212b294a9ba4c4d56117b4"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 162.65,
+        "finishedPuzzleCount": 36
+      },
+      {
+        "gid": 42,
+        "groupName": "三十六计",
+        "users": [
+          {
+            "username": "走为上策",
+            "avatar": "6bb8d95c82dd4ca0aece62ace502f840"
+          },
+          {
+            "username": "移花接木",
+            "avatar": "d027b722a45d08ce405f0197d5ca883b"
+          },
+          {
+            "username": "瞒天过海",
+            "avatar": "d9f93df51b2304c679983bd0e9f12e04"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 164.2166667,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 43,
+        "groupName": "X,Y,Z",
+        "users": [
+          {
+            "username": "析月",
+            "avatar": ""
+          },
+          {
+            "username": "桃月十七",
+            "avatar": ""
+          },
+          {
+            "username": "天依子云",
+            "avatar": "9d9c035c64203b4db491dd732675ad27"
+          },
+          {
+            "username": "robin",
+            "avatar": ""
+          },
+          {
+            "username": "鹤",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 184.1833333,
+        "finishedPuzzleCount": 34
+      },
+      {
+        "gid": 44,
+        "groupName": "eternalFJOI",
+        "users": [
+          {
+            "username": "hhoppitree",
+            "avatar": "60498a308bb201652a1c71dbe98eb730"
+          },
+          {
+            "username": "Lazy_Labs",
+            "avatar": "dde8fe81104060a0b29351740fa5ffe6"
+          },
+          {
+            "username": "宿城真弘",
+            "avatar": "2f3d2665569cd2f89ebbe6d23928689a"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 187.5,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 45,
+        "groupName": "MyGORILLA!!!!!",
+        "users": [
+          {
+            "username": "Cyril",
+            "avatar": "607445a1dfc798640df8fd016c032184"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 190.4,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 46,
+        "groupName": "ADT",
+        "users": [
+          {
+            "username": "GOD梓",
+            "avatar": "c5fa68cd4edc7b1ba5849e9910d214c2"
+          },
+          {
+            "username": "我是阿熹",
+            "avatar": "44d0b05eb32629c356c974ebbc1d2426"
+          },
+          {
+            "username": "耄耋之年的小饕餮",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 190.45,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 47,
+        "groupName": "花睡墨玉！",
+        "users": [
+          {
+            "username": "积依晕菌",
+            "avatar": "6016b85a234574ea872247b4c6984769"
+          },
+          {
+            "username": "Mulder",
+            "avatar": ""
+          },
+          {
+            "username": "时光机",
+            "avatar": ""
+          },
+          {
+            "username": "洋入虎口",
+            "avatar": ""
+          },
+          {
+            "username": ":)",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 190.4833333,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 48,
+        "groupName": "只有队长不打雀",
+        "users": [
+          {
+            "username": "SilverHawks",
+            "avatar": "c177555361b13ad1fc92b85d85a7dc06"
+          },
+          {
+            "username": "Encyclopedia",
+            "avatar": "a58e7f2d60a4a141c66ffe945a49ceb9"
+          },
+          {
+            "username": "琳雨空",
+            "avatar": "442aa6d56ce30f994aafa187d6e1ce61"
+          },
+          {
+            "username": "黑科技商贩",
+            "avatar": "8eeb922443e038988808a645249bcfac"
+          },
+          {
+            "username": "Liechtenstein.",
+            "avatar": "52fe8edeff420b8c6de416453af4fe99"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 190.8666667,
+        "finishedPuzzleCount": 35
+      },
+      {
+        "gid": 49,
+        "groupName": "木棺祖墓派",
+        "users": [
+          {
+            "username": "棺左",
+            "avatar": "86b651ca8e8fd4667fa86cd98403b68d"
+          },
+          {
+            "username": "吳斿",
+            "avatar": ""
+          },
+          {
+            "username": "zy",
+            "avatar": ""
+          },
+          {
+            "username": "派克特",
+            "avatar": ""
+          },
+          {
+            "username": "沐梓",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 195.65,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 50,
+        "groupName": "炮灰破坏平衡",
+        "users": [
+          {
+            "username": "PurpleSpaz",
+            "avatar": "0f854864f9423f39f9217d77e137a925"
+          },
+          {
+            "username": "tyc",
+            "avatar": ""
+          },
+          {
+            "username": "圈圈",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 195.95,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 51,
+        "groupName": "野兽先辈探案组",
+        "users": [
+          {
+            "username": "老白鼠",
+            "avatar": "a2de4babec2410ec5bee1fabc8d2b07c"
+          },
+          {
+            "username": "气泡喵",
+            "avatar": ""
+          },
+          {
+            "username": "剪刀",
+            "avatar": ""
+          },
+          {
+            "username": "小乔",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 197.0833333,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 52,
+        "groupName": "TheGeniusTeam1",
+        "users": [
+          {
+            "username": "卡布",
+            "avatar": "cf2d5dab5ce27486c66653dba28e056c"
+          },
+          {
+            "username": "木制天枰15",
+            "avatar": "101258df66e0ea2fca3b6468da78627b"
+          },
+          {
+            "username": "SWCartel伊橙",
+            "avatar": "63181a87c0a69b1adbf1891d6f7c0ac0"
+          },
+          {
+            "username": "素素浪客",
+            "avatar": "fbe639e32439b62911ed603d2b5d133b"
+          },
+          {
+            "username": "素质高地",
+            "avatar": "832f6c7d5b575f2ca82dcbb6561228df"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 198.45,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 53,
+        "groupName": "红花会",
+        "users": [
+          {
+            "username": "G",
+            "avatar": "8c45fd373bef8a633fd0661a4604b80d"
+          },
+          {
+            "username": "T",
+            "avatar": "08b95324023ea2909ad1d69e4c3c9270"
+          },
+          {
+            "username": "X",
+            "avatar": "88f56edc8f13e1b79ac7a8865ffbe5e3"
+          },
+          {
+            "username": "Y",
+            "avatar": "1e98cb4ce1ac4f889d40f46b21d7a1f0"
+          },
+          {
+            "username": "S",
+            "avatar": "f355f2ab01c524a3a8f9e325e2aa7906"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 204.8666667,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 54,
+        "groupName": "Team_202",
+        "users": [
+          {
+            "username": "RyanXee",
+            "avatar": "5eb2bf0887f30646431b63afbaf77993"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 206.7166667,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 55,
+        "groupName": "generals.io",
+        "users": [
+          {
+            "username": "mashiro",
+            "avatar": "7fbf7503384c5a443d76aa2680511a9d"
+          },
+          {
+            "username": "Mithraaaa",
+            "avatar": "7e89bea2dab198d12119d9a67da68ffa"
+          },
+          {
+            "username": "Q.tr",
+            "avatar": "31f889729134de70ed01a582fe767f2f"
+          },
+          {
+            "username": "linkoel",
+            "avatar": "a85dcdb479003bdf278ac2c27765afd4"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 207.7666667,
+        "finishedPuzzleCount": 35
+      },
+      {
+        "gid": 56,
+        "groupName": "马上相逢无纸笔",
+        "users": [
+          {
+            "username": "穆桂英抱着锁麟囊",
+            "avatar": "f0084885a5a1eaf291034f9cdb561f5b"
+          },
+          {
+            "username": "贝雨易与",
+            "avatar": ""
+          },
+          {
+            "username": "Spathodea",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 208.5833333,
+        "finishedPuzzleCount": 33
+      },
+      {
+        "gid": 57,
+        "groupName": "还没想好取什么名字2.0",
+        "users": [
+          {
+            "username": "反问号",
+            "avatar": "e8b52f978eb49ff100a2d222df6ff426"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 209.4833333,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 58,
+        "groupName": "不许套娃",
+        "users": [
+          {
+            "username": "c0pyc4t",
+            "avatar": "ce49464be02e7d159f29196c4ad46d12"
+          },
+          {
+            "username": "cī水汪",
+            "avatar": "549ad4cc3f6b9aa0479e87ff22031f68"
+          },
+          {
+            "username": "挨cī汪",
+            "avatar": ""
+          },
+          {
+            "username": "Roo",
+            "avatar": "073c5c5c0d86a5eae51eb1bfdf7b7b56"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 209.65,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 59,
+        "groupName": "卡在那个题",
+        "users": [
+          {
+            "username": "Sushi",
+            "avatar": "475e0a593fe4f387bab560c2c6a877e4"
+          },
+          {
+            "username": "Dan",
+            "avatar": "79473bd66f332a7f0d7fba287108d17e"
+          },
+          {
+            "username": "Herman",
+            "avatar": "59f9d023ccd3cfa488f1d34f8ed21576"
+          },
+          {
+            "username": "Darren",
+            "avatar": "52a876ce3f55c55534e876cb3835e9ae"
+          },
+          {
+            "username": "Benji",
+            "avatar": "e0214e138422371893c98ee7e40f92c0"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 213.2333333,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 60,
+        "groupName": "猪猪乐园",
+        "users": [
+          {
+            "username": "毛",
+            "avatar": "87da391d6971d1374374cc0d62c2e13f"
+          },
+          {
+            "username": "叉",
+            "avatar": ""
+          },
+          {
+            "username": "侬",
+            "avatar": ""
+          },
+          {
+            "username": "青",
+            "avatar": ""
+          },
+          {
+            "username": "帅哥",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 213.5833333,
+        "finishedPuzzleCount": 31
+      },
+      {
+        "gid": 61,
+        "groupName": "汪汪队",
+        "users": [
+          {
+            "username": "淡水海边",
+            "avatar": "12d21ebb84eb23d185c35d1a269e6f99"
+          },
+          {
+            "username": "🦄",
+            "avatar": "0d6211a26b2526c1f2d592027848fc67"
+          },
+          {
+            "username": "婆娑姽婳",
+            "avatar": "d4d10392c90cd871a9f4524f9387343b"
+          },
+          {
+            "username": "xika",
+            "avatar": "96c2bf486b4c816396a241d70c695d3e"
+          },
+          {
+            "username": "ZFSR",
+            "avatar": "d64896c7b0c11043e88466bcd1a7b0a9"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 213.65,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 62,
+        "groupName": "老贼",
+        "users": [
+          {
+            "username": "1",
+            "avatar": "cf41521997168ec7d2de38d77f63fd49"
+          },
+          {
+            "username": "Garadox1,Garadox2,Garadox3,Garadox4,Garadox5,Garadox6,Garadox7,Garadox8,Garadox9,Garadox10",
+            "avatar": "d9c8bb7099a03f3deda355c64515f829"
+          },
+          {
+            "username": "北岛",
+            "avatar": "a6b56d0981050c1182b04497bc3077bf"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 213.8333333,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 63,
+        "groupName": "蘑力爆破团",
+        "users": [
+          {
+            "username": "chacun",
+            "avatar": "aac3ff978388b25c58350c0df2cffd99"
+          },
+          {
+            "username": "噗噗",
+            "avatar": ""
+          },
+          {
+            "username": "Ahem（围观）",
+            "avatar": ""
+          },
+          {
+            "username": "辣鱼",
+            "avatar": ""
+          },
+          {
+            "username": "东黎",
+            "avatar": "21b91c15d608d3272cb8c9167eb593cb"
+          },
+          {
+            "username": "六六",
+            "avatar": ""
+          },
+          {
+            "username": "菠罗（围观）",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 213.95,
+        "finishedPuzzleCount": 28
+      },
+      {
+        "gid": 64,
+        "groupName": "稠环芳烃",
+        "users": [
+          {
+            "username": "圆周率",
+            "avatar": "1e9ce37421b2af0e0d4d275907947c53"
+          },
+          {
+            "username": "铂钼",
+            "avatar": ""
+          },
+          {
+            "username": "Rhenium",
+            "avatar": "58dcb13db7c36cac26d44d5df265dad0"
+          },
+          {
+            "username": "shenlan6",
+            "avatar": "d625172704e0b9502aff66bbefbb1a1c"
+          },
+          {
+            "username": "Zhenxin",
+            "avatar": "051387d10165f8791a59c783bf750bdc"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 214.7833333,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 65,
+        "groupName": "重力加速度",
+        "users": [
+          {
+            "username": "timrep",
+            "avatar": "f0a0e845608121fc7295627fbfb19f8b"
+          },
+          {
+            "username": "黃金易大師",
+            "avatar": "0a33211acfabd4147f758e8f497b059d"
+          },
+          {
+            "username": "猜猜我是誰",
+            "avatar": "67bd698d7b53cf66e06b55c8cd9c2394"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 215.6333333,
+        "finishedPuzzleCount": 30
+      },
+      {
+        "gid": 66,
+        "groupName": "养老开学队",
+        "users": [
+          {
+            "username": "镜哈哈哈哈",
+            "avatar": "b6a863fe465da2a56613bcb33ab70b26"
+          },
+          {
+            "username": "浑然天宸",
+            "avatar": ""
+          },
+          {
+            "username": "サトシーラ",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 215.7833333,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 67,
+        "groupName": "PonX",
+        "users": [
+          {
+            "username": "Non-Chinese Team",
+            "avatar": "ba07732f7b54a247b85ac8c7ce60f73d"
+          }
+        ],
+        "isFinish": 1,
+        "totalTime": 215.8166667,
+        "finishedPuzzleCount": 28
+      }
+    ],
+    "groups": [
+      {
+        "gid": 68,
+        "groupName": "ADDD",
+        "users": [
+          {
+            "username": "doyo2019",
+            "avatar": "5ccf99f4a6ba0e1e365371cdf7a45a38"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 69,
+        "groupName": "ClashのRPC",
+        "users": [
+          {
+            "username": "ClashのRPC",
+            "avatar": "5a684313cfc9fbd64760306b9f6a14f6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 27
+      },
+      {
+        "gid": 70,
+        "groupName": "simplicissimus",
+        "users": [
+          {
+            "username": "sevenkplus",
+            "avatar": "3decc08caf106a7231bf54d336645ce9"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 71,
+        "groupName": "Mmm",
+        "users": [
+          {
+            "username": "mer",
+            "avatar": "fb3aa1dcbd51b09916581b60c50016d3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 72,
+        "groupName": "Ω-V",
+        "users": [
+          {
+            "username": "N1k0lai",
+            "avatar": "a65a3dfde127dd303917a5d6c57140d7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 73,
+        "groupName": "侠客岛赏善罚恶小分队",
+        "users": [
+          {
+            "username": "坏了注册完才发现队名不能改了，那只好弃队了。但是即使放弃这个队伍，也不表示我们会放弃对赏善惩恶的追求！孬题，纳命来！",
+            "avatar": "e9049cb6ca957933063f03a0ef616fb2"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 74,
+        "groupName": "特级山芋",
+        "users": [
+          {
+            "username": "特级山芋将不会组队参加，但姑且在这放着。说不定有朝一日我就用特级山芋组队但没参赛的队伍信息出一道题笑",
+            "avatar": "ec8be03ce33fe67c6d210e98597c8e26"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 75,
+        "groupName": "Sleepy Cat",
+        "users": [
+          {
+            "username": "SpadeA261",
+            "avatar": "1295d845fb9c081a3fa7cc08e7d5b3ee"
+          },
+          {
+            "username": "Coffee_zzz",
+            "avatar": "88540f74a6bf7e70399ca764a6ec69f0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 76,
+        "groupName": "敢惹我你算是踢到棉花了",
+        "users": [
+          {
+            "username": "Ghett0Artist",
+            "avatar": "97bda3ce49c80fa3e3284ccb6d3d07e6"
+          },
+          {
+            "username": "接二连珊",
+            "avatar": ""
+          },
+          {
+            "username": "Perlight",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 77,
+        "groupName": "今天吃什么",
+        "users": [
+          {
+            "username": "随便",
+            "avatar": "67feaf645ae1a7da63f332da6b2c1671"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 78,
+        "groupName": "下腹丹田",
+        "users": [
+          {
+            "username": "wonderepublic",
+            "avatar": "70ba7f7aec1ebd5fa91ce1dadf41e7a5"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 79,
+        "groupName": "25:00 at nightcord",
+        "users": [
+          {
+            "username": "A KEY",
+            "avatar": "3d4dcda75a7cd531a6c8f1c75f3ba385"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 80,
+        "groupName": "开尔文",
+        "users": [
+          {
+            "username": "小宝贝",
+            "avatar": "deeb0a654a2c9bc60ea071cd9052f793"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 81,
+        "groupName": "呃呃",
+        "users": [
+          {
+            "username": "呃呃",
+            "avatar": "e5f25c923c4698f58e73ae0617d5579c"
+          },
+          {
+            "username": "哦哦",
+            "avatar": "74b00bb878c7bbaa2c136e199d0152e9"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 82,
+        "groupName": "菜狗巡逻小队",
+        "users": [
+          {
+            "username": "夏鹤",
+            "avatar": "7c8a12c7b10f7bc77c82e71f6011c173"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 83,
+        "groupName": "混吃等死",
+        "users": [
+          {
+            "username": "zzbbzz",
+            "avatar": "0c27091e6b705b0e3e82f85c5bf8c868"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 9
+      },
+      {
+        "gid": 84,
+        "groupName": "zsm",
+        "users": [
+          {
+            "username": "Satori5",
+            "avatar": "eaeb8760caece4d8af331ecadc05cffd"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 85,
+        "groupName": "菜鸡队本次将选择观光",
+        "users": [
+          {
+            "username": "刍藁增二",
+            "avatar": "98102b247e7da7171a14142e544812ce"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 86,
+        "groupName": "yuyuyu",
+        "users": [
+          {
+            "username": "yuyuyu",
+            "avatar": "99d05ccc55e981664c0040f3ac4f48d9"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 87,
+        "groupName": "OKKK",
+        "users": [
+          {
+            "username": "之初",
+            "avatar": "57b38a4155556709037ee2e8490065b9"
+          },
+          {
+            "username": "不对",
+            "avatar": "a3a9c4570b8c64a68faac2af73e02d5e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 88,
+        "groupName": "杂环芳烃",
+        "users": [
+          {
+            "username": "ItzSetrods",
+            "avatar": "06dc7448ab9bb6e4005bd1246221126b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 89,
+        "groupName": "多人对",
+        "users": [
+          {
+            "username": "kfc2333",
+            "avatar": "bcca052e16a192379590e1ffa73ffe0d"
+          },
+          {
+            "username": "Diego17",
+            "avatar": "d5ff394ffef4215be737d66a875770ff"
+          },
+          {
+            "username": "zyy",
+            "avatar": "0855c8c3744cd8a1831e454dfa2fc99f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 13
+      },
+      {
+        "gid": 90,
+        "groupName": "之",
+        "users": [
+          {
+            "username": "枣丸",
+            "avatar": "18500aabf0f231ac02a526ae4b496b2c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 91,
+        "groupName": "武林第一高手江湖人称仙宗盟主天上天下唯我独尊唯一的弱点是不会解谜",
+        "users": [
+          {
+            "username": "A1",
+            "avatar": "a399f85a6abda120c4a64ae78ef8aba2"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 28
+      },
+      {
+        "gid": 92,
+        "groupName": "蘑菇的潜力你无法想象",
+        "users": [
+          {
+            "username": "苦力怕划水猴头菇",
+            "avatar": "f7c2a979c9bc2e6611e7823b9aa1e2c7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 93,
+        "groupName": "密谋禁止",
+        "users": [
+          {
+            "username": "Milkball",
+            "avatar": ""
+          },
+          {
+            "username": "海象妈妈",
+            "avatar": "0e9a9e707aff831b3952bd9a15d0d8e6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 94,
+        "groupName": "temp",
+        "users": [
+          {
+            "username": "cmjmickey",
+            "avatar": "b910c4c725e3b2b5b6e5f83eea521698"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 95,
+        "groupName": "喵喵喵",
+        "users": [
+          {
+            "username": "占位符",
+            "avatar": "d219af79b45e5891507fda4c4c2139a0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 96,
+        "groupName": "围城里的气泡水",
+        "users": [
+          {
+            "username": "Nicoss",
+            "avatar": "496a7c286c6fe25157aa2382fe3d3c19"
+          },
+          {
+            "username": "贾文和",
+            "avatar": "7ede4a0b6c855c76940806323e23e88f"
+          },
+          {
+            "username": "深蓝",
+            "avatar": ""
+          },
+          {
+            "username": "新竹",
+            "avatar": ""
+          },
+          {
+            "username": "bingo",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 97,
+        "groupName": "还我漂漂拳",
+        "users": [
+          {
+            "username": "爱",
+            "avatar": "b56898b83e8457ab7aa86f42c3a65818"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 98,
+        "groupName": "冬离",
+        "users": [
+          {
+            "username": "冬离",
+            "avatar": "10bd2ae7a39696035c65f59167f5d3ab"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 99,
+        "groupName": "lzz",
+        "users": [
+          {
+            "username": "TEmPETaTiON",
+            "avatar": "229ca72f734bc3bc409df7972f8a6694"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 100,
+        "groupName": "夜安勿念",
+        "users": [
+          {
+            "username": "月哀未匿",
+            "avatar": "2e184181b971e67fa722729003f0607b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 101,
+        "groupName": "莱茵生命在逃干员",
+        "users": [
+          {
+            "username": "莱茵生命摸鱼科",
+            "avatar": "f8ca9db2400b0e8a72e53845af7f0cc6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 102,
+        "groupName": "vdrigf.",
+        "users": [
+          {
+            "username": "Acjyc.",
+            "avatar": "3ae3f269b7fa44e02069dc84d26beda4"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 103,
+        "groupName": "真·524书院",
+        "users": [
+          {
+            "username": "lidh15",
+            "avatar": "495b323790102a4b7c31104c3071a68c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 104,
+        "groupName": "沉浮",
+        "users": [
+          {
+            "username": "梓苏",
+            "avatar": "7272a69afb192d1b0b37d7c217a97be2"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 105,
+        "groupName": "Z",
+        "users": [
+          {
+            "username": "Z",
+            "avatar": "38eb70fea1e01fdf6b35f514602f2285"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 106,
+        "groupName": "摆烂",
+        "users": [
+          {
+            "username": "北辰",
+            "avatar": "e705df4664920e1a25d395e57044afea"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 107,
+        "groupName": "大概率单推",
+        "users": [
+          {
+            "username": "普通人",
+            "avatar": "b42af78e3ce1a5aa03e09128d59cde9f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 20
+      },
+      {
+        "gid": 108,
+        "groupName": "二十四番花信风",
+        "users": [
+          {
+            "username": "wyfbbh",
+            "avatar": "bca8586f1d0ab792edfcf1d47e615bc7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 109,
+        "groupName": "FREE",
+        "users": [
+          {
+            "username": "plutohe",
+            "avatar": "bb88f1a938073f9419f48b1035f4ec64"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 110,
+        "groupName": "啊哈",
+        "users": [
+          {
+            "username": "嘻嘻",
+            "avatar": "afcd32afef8cdf3db0fccf090d951852"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 111,
+        "groupName": "FBI第一摆烂大队",
+        "users": [
+          {
+            "username": "於星",
+            "avatar": "e85aa4576ecd38432f4f900f1989c71f"
+          },
+          {
+            "username": "云吞",
+            "avatar": "7369090489363b16cf788d8fba19f962"
+          },
+          {
+            "username": "悍匪",
+            "avatar": "f2790ff54a3c219c1551d6881d2b399f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 112,
+        "groupName": "晚饭去哪里了喵",
+        "users": [
+          {
+            "username": "Augenstern.（手持沐白女装）",
+            "avatar": "3831e04c58753b883935610254d22716"
+          },
+          {
+            "username": "k3771（手持沐白女装）",
+            "avatar": "7f638398f11af35deade04c329b488f7"
+          },
+          {
+            "username": "Selina（手持沐白女装）",
+            "avatar": "ff254fc7bd16b17cc7ee04cef08e47bf"
+          },
+          {
+            "username": "沐白（已女装）（手持自己女装）",
+            "avatar": ""
+          },
+          {
+            "username": "皮特贝（手持白白女装）",
+            "avatar": ""
+          },
+          {
+            "username": "沐白女装照，发生了会如何，不发生又会如何。 生活中，若沐白女装照出现了，我们就不得不考虑它出现了的事实。 沐白女装照的发生，到底需要如何做到，不沐白女装照的发生，又会如何产生。 可是，即使是这样，沐白女装照的出现仍然代表了一定的意义。 现在，解决沐白女装照的问题，是非常非常重要的。 所以， 我认为， 吉格·金克拉在不经意间这样说过，如果你能做梦，你就能实现它。这启发了我， 这样看来， 沐白女装照的发生，到底需要如何做到，不沐白女装照的发生，又会如何产生。 既然如此， 经过上述讨论， 韩非说过一句富有哲理的",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 22
+      },
+      {
+        "gid": 113,
+        "groupName": "距想出队名还有2周",
+        "users": [
+          {
+            "username": "Tinr",
+            "avatar": "c02bca8227cdf87e706fad39ee7eda91"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 114,
+        "groupName": "轻静轻和",
+        "users": [
+          {
+            "username": "PNI",
+            "avatar": "1fffd0b1d9b3808ba854af871330522f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 25
+      },
+      {
+        "gid": 115,
+        "groupName": "一题都答不队QAQ",
+        "users": [
+          {
+            "username": "掸去尘灰",
+            "avatar": "01a425051b10734c65938257bcc47453"
+          },
+          {
+            "username": "Evita",
+            "avatar": "7e41bfa76a869b7438823ad7dd304c14"
+          },
+          {
+            "username": "小蛙酱",
+            "avatar": "c77cdee3f21a411d1bda4531f4668782"
+          },
+          {
+            "username": "Tooru",
+            "avatar": "d8c158ef967d0cb8599203ae24f492c9"
+          },
+          {
+            "username": "花花",
+            "avatar": "8967fec901c94b956f190957b880455a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 116,
+        "groupName": "suiying123",
+        "users": [
+          {
+            "username": "随影菌",
+            "avatar": "4f163e5843e669601a2259e4a22f7a8a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 117,
+        "groupName": "我的小队",
+        "users": [
+          {
+            "username": "小蛙酱",
+            "avatar": "7a6dcf7c1e73188d0122eebbd744a3bf"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 118,
+        "groupName": "微笑调查队",
+        "users": [
+          {
+            "username": "iksio",
+            "avatar": "eb7ac45c6d9657c164f2becb2447d2a8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 119,
+        "groupName": "GOGO",
+        "users": [
+          {
+            "username": "M无",
+            "avatar": "6a28e73d01e7eaec7dbc4ac17a13db3f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 120,
+        "groupName": "璞琅古董鉴定文化有限公司",
+        "users": [
+          {
+            "username": "Tey729",
+            "avatar": "879ad7de6d0c99195e94d27855e8041c"
+          },
+          {
+            "username": "沼跃鱼",
+            "avatar": "0321000bf9f6f0a04c9f926b4dd41a09"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 121,
+        "groupName": "七七",
+        "users": [
+          {
+            "username": "七七",
+            "avatar": "8efd4fa2272addf9af9c8c07218ca278"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 122,
+        "groupName": "BMCA",
+        "users": [
+          {
+            "username": "MasterRedDust",
+            "avatar": "179771e2cc040148d6983d1d92e9f874"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 11
+      },
+      {
+        "gid": 123,
+        "groupName": "挂件",
+        "users": [
+          {
+            "username": "萌小名",
+            "avatar": "f97c28084617d9ebf7d8d2380e9ac39d"
+          },
+          {
+            "username": "V-o-y-a-g-e-r",
+            "avatar": "4f06bf09087b84b9b5ac388273c0b519"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 13
+      },
+      {
+        "gid": 124,
+        "groupName": "叽里咕噜",
+        "users": [
+          {
+            "username": "是星星啊",
+            "avatar": "76a1eda1f283a0994b2f7e9c558d2394"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 125,
+        "groupName": "做了一天一道没队",
+        "users": [
+          {
+            "username": "moku",
+            "avatar": "43a7a0303473dd290e3b3f27ed103c03"
+          },
+          {
+            "username": "kukuri",
+            "avatar": "9737ff39d0c431e6cbe4fd42ea8e789c"
+          },
+          {
+            "username": "Honaroser",
+            "avatar": "58396a91ccc2820a8229c010af8d1754"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 8
+      },
+      {
+        "gid": 126,
+        "groupName": "懒得想",
+        "users": [
+          {
+            "username": "利威尔未官宣的女朋友",
+            "avatar": "c1adb793d278980ca53f53a3ea014145"
+          },
+          {
+            "username": "Saki",
+            "avatar": "c276a58c56f4648943eabfb9a872fd43"
+          },
+          {
+            "username": "御坂美琴未官宣的男朋友",
+            "avatar": "4dad230d0be061e6e70e5ca143a8cd42"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 127,
+        "groupName": "UESTC",
+        "users": [
+          {
+            "username": "pp",
+            "avatar": "2c27a0772b2a83640914fc47532057e7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 128,
+        "groupName": "kinderzoo",
+        "users": [
+          {
+            "username": "gira",
+            "avatar": "6dd3791ae426caec76d57a5215cde0e1"
+          },
+          {
+            "username": "casper",
+            "avatar": "c42a21a47e303d818a41c0f078c2eedb"
+          },
+          {
+            "username": "ifuture",
+            "avatar": "f8889d0f83c17a4f3ae709970d0b82a6"
+          },
+          {
+            "username": "conzrov",
+            "avatar": "6041c6e24984f9b076b1e590c5537dfb"
+          },
+          {
+            "username": "ISaac",
+            "avatar": "e1adcdbc1d73fdd9999bb80b0ce37aab"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 20
+      },
+      {
+        "gid": 129,
+        "groupName": "2πr",
+        "users": [
+          {
+            "username": "Hydrogen001",
+            "avatar": "8da63b19e011a508486c67b72e1ae65d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 130,
+        "groupName": "Q群管家",
+        "users": [
+          {
+            "username": "nosajuil",
+            "avatar": "7175b23b5c9f436ef99a82060d7fcc44"
+          },
+          {
+            "username": "PetitSouris",
+            "avatar": "cf9bce3a63253f8c7373b7a3bf2e9c65"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 131,
+        "groupName": "Submachine",
+        "users": [
+          {
+            "username": "denpao",
+            "avatar": "1dc8bc06428d9dd88add71ff955c95f5"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 132,
+        "groupName": "夸哥",
+        "users": [
+          {
+            "username": "Aziz",
+            "avatar": "dd983238a49332bf7bdd2c4c10f11f66"
+          },
+          {
+            "username": "shiny",
+            "avatar": "e9e977ff36eb70a20329d7447edb77d0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 133,
+        "groupName": "🐱",
+        "users": [
+          {
+            "username": "Jeff D",
+            "avatar": "c7f3775461f0b63971998e2f440e8a5a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 134,
+        "groupName": "你说的队",
+        "users": [
+          {
+            "username": "k",
+            "avatar": "e10389aa748f98eac680d96125abb68c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 135,
+        "groupName": "Withdrawal Doubts",
+        "users": [
+          {
+            "username": "S",
+            "avatar": "261144bb3b7ef80ba3bd51aad691908f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 136,
+        "groupName": "CoBbLeR",
+        "users": [
+          {
+            "username": "simpleton",
+            "avatar": "6100156d4121702ca9fa6853d689bf8d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 137,
+        "groupName": "野村代表团",
+        "users": [
+          {
+            "username": "好吃的乌拉锅",
+            "avatar": "4d4294b7440bdbf449ec5a34752dc17a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 138,
+        "groupName": "虎头帮",
+        "users": [
+          {
+            "username": "老虎外婆",
+            "avatar": "ddfa4df64121e042c7ab1b22d7e61d2d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 139,
+        "groupName": "浇老大的队",
+        "users": [
+          {
+            "username": "尧尧",
+            "avatar": "73192f333b00702e28f917105016d49d"
+          },
+          {
+            "username": "浇浇",
+            "avatar": "283f8afbbfe52258b612a6d1c295d272"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 19
+      },
+      {
+        "gid": 140,
+        "groupName": "SoloRaven",
+        "users": [
+          {
+            "username": "CRaven",
+            "avatar": "f9857bfe77d83e87d81e978a28293eb4"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 141,
+        "groupName": "I have a pen",
+        "users": [
+          {
+            "username": "Pen",
+            "avatar": "35669b6a3d2c52cd36b363201f0f8125"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 142,
+        "groupName": "teamname1",
+        "users": [
+          {
+            "username": "Kathleen",
+            "avatar": "33693184c2c033f0659ae7bd0205655b"
+          },
+          {
+            "username": "Erika",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 143,
+        "groupName": "jh2024",
+        "users": [
+          {
+            "username": "Hile_Meow，镜流，艾丝妲，流萤，花火，阮梅，知更鸟，胡桃，雷电将军，芙宁娜，刻晴，纳西妲，神里绫华，妮露",
+            "avatar": "06a9453ba912e052a83590a2a0d8c86d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 144,
+        "groupName": "PIZZA HUTer HopeS to Eat a Full piZza",
+        "users": [
+          {
+            "username": "Hikari",
+            "avatar": ""
+          },
+          {
+            "username": "Starraildashen",
+            "avatar": "22f43c5e068c1d3f3d55b45f96cbb2ca"
+          },
+          {
+            "username": "Enquantumbrok",
+            "avatar": "93aa1c77e07a7b04a311e45af69865c9"
+          },
+          {
+            "username": "Frozenmelon",
+            "avatar": ""
+          },
+          {
+            "username": "Zero-4",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 17
+      },
+      {
+        "gid": 145,
+        "groupName": "及时报名",
+        "users": [
+          {
+            "username": "酸甜的话梅",
+            "avatar": "f0e8550493bebf3950767cff2158ccb1"
+          },
+          {
+            "username": "奶茶不加糖",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 146,
+        "groupName": "barf",
+        "users": [
+          {
+            "username": "bec",
+            "avatar": "fac8a71fe16bbc34244b3420aa1482cd"
+          },
+          {
+            "username": "dory",
+            "avatar": ""
+          },
+          {
+            "username": "fxwang",
+            "avatar": ""
+          },
+          {
+            "username": "notareyou",
+            "avatar": ""
+          },
+          {
+            "username": "victor",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 5
+      },
+      {
+        "gid": 147,
+        "groupName": "🐛🐛🐛",
+        "users": [
+          {
+            "username": "namabili",
+            "avatar": "dbddc89fdb9ec24cc0f0707dbd017c7e"
+          },
+          {
+            "username": "pfire",
+            "avatar": "49c716f08ac4ec696724a71e7f934fb1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 148,
+        "groupName": "flatdog",
+        "users": [
+          {
+            "username": "keke",
+            "avatar": "80fd792b21e1207d780a5af6f70fc286"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 15
+      },
+      {
+        "gid": 149,
+        "groupName": "海晏河清",
+        "users": [
+          {
+            "username": "肥金鱼",
+            "avatar": "f4e19bbff42f953c413500f8ae3634cc"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 150,
+        "groupName": "猫咪无敌",
+        "users": [
+          {
+            "username": "小猫咪",
+            "avatar": "5e86fa37723f3b4d635285020b4b4fc1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 151,
+        "groupName": "externalFJOI",
+        "users": [
+          {
+            "username": "test",
+            "avatar": "bf58432148b643a8b4c41c3901b81d1b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 152,
+        "groupName": "鱼丸小队",
+        "users": [
+          {
+            "username": "麦吉的好朋友",
+            "avatar": "833a924e71ed461a1ea742390a58a649"
+          },
+          {
+            "username": "雪憨憨",
+            "avatar": ""
+          },
+          {
+            "username": "贝莉的死忠粉",
+            "avatar": ""
+          },
+          {
+            "username": "加文在转圈圈",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 153,
+        "groupName": "看热闹",
+        "users": [
+          {
+            "username": "看热闹",
+            "avatar": "2804182a545548eef6b377ab1645c458"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 154,
+        "groupName": "Puzzle WonderLand",
+        "users": [
+          {
+            "username": "Shallow Dream",
+            "avatar": "18b026560456c1612891f6463eae9428"
+          },
+          {
+            "username": "Fruits",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 155,
+        "groupName": "单打独斗队?",
+        "users": [
+          {
+            "username": "杏木",
+            "avatar": "5aba712860800238dd78b3c7efddf595"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 156,
+        "groupName": "花！",
+        "users": [
+          {
+            "username": "花姐",
+            "avatar": "9ef14a5218b87975f185bdda6dceb516"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 157,
+        "groupName": "点",
+        "users": [
+          {
+            "username": "新新",
+            "avatar": "9a9b751711f1257dbf03a71a8b7fd311"
+          },
+          {
+            "username": "萌萌",
+            "avatar": "d5f682de0dfbc34d9bedb336837b5251"
+          },
+          {
+            "username": "蘑菇",
+            "avatar": "12801de483849caa8af771b1b4b75582"
+          },
+          {
+            "username": "寰骁瓴",
+            "avatar": "e68f413f0d5b42bf71d7cac7c0807159"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 23
+      },
+      {
+        "gid": 158,
+        "groupName": "Euphonium",
+        "users": [
+          {
+            "username": "队伍已弃用",
+            "avatar": "e8bc4ba9049ce4304d1b64c545c844f6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 159,
+        "groupName": "圣火猫猫教",
+        "users": [
+          {
+            "username": "自然渲告HY",
+            "avatar": "e52d2b502298f8124d30a6d4111644fb"
+          },
+          {
+            "username": "娟",
+            "avatar": "9b501a13dbf43f37191c2cbfc519c0be"
+          },
+          {
+            "username": "追忆",
+            "avatar": "edd38aaef735e915ee5824f93cb85691"
+          },
+          {
+            "username": "Keciei",
+            "avatar": "5c4a8afc2fe54f1ef6ec88cff1f0cc6a"
+          },
+          {
+            "username": "棋",
+            "avatar": "6caa2d90692e5196f2c2aab0075a7c25"
+          },
+          {
+            "username": "瑩",
+            "avatar": "8e8e47365dec6e329bbc8230045c32fb"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 14
+      },
+      {
+        "gid": 160,
+        "groupName": "序章都过不去的屑",
+        "users": [
+          {
+            "username": "DSDBF",
+            "avatar": "ee9cb0d07af3b67d793df303a5d3f209"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 161,
+        "groupName": "无定向发散思维队",
+        "users": [
+          {
+            "username": "杰少",
+            "avatar": "c16aaf38d4e7e96f4bc6bc98e6b49b95"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 162,
+        "groupName": "一笑泯恩仇",
+        "users": [
+          {
+            "username": "0LMY",
+            "avatar": "e58aef43d59e871aaa3a10eb73614735"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 163,
+        "groupName": "人联科学院",
+        "users": [
+          {
+            "username": "00100",
+            "avatar": "6480bb26564e4620d1d99be701ab5bed"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 164,
+        "groupName": "月下寒潭萧声起，周易卦爻现祥瑞",
+        "users": [
+          {
+            "username": "最强摸鱼挂件-殇月",
+            "avatar": "c3e6356da129cb429ace4ff267f705ca"
+          },
+          {
+            "username": "最强思维大脑-JosephChen",
+            "avatar": ""
+          },
+          {
+            "username": "最强数据构筑-瑞瑞",
+            "avatar": "4faecd7a0eda410bc9986475dcca3128"
+          },
+          {
+            "username": "最强才智爆发-萧潇潇",
+            "avatar": "e75eac4c8711c12b4a947d161d7c3326"
+          },
+          {
+            "username": "最强纸笔速通-寒潭鸦舍",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 165,
+        "groupName": "三个臭皮匠",
+        "users": [
+          {
+            "username": "皮匠一号",
+            "avatar": "fe64c836a95a3fca45da81c2209160b9"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 166,
+        "groupName": "咸者江湖",
+        "users": [
+          {
+            "username": "阿咸",
+            "avatar": "1aba961824e28e5a4b5c6c0dd2de2a78"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 167,
+        "groupName": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+        "users": [
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": "8c531d2aa7b0562d307dbb311b3cf7b3"
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          },
+          {
+            "username": "糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳糳",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 17
+      },
+      {
+        "gid": 168,
+        "groupName": "114514",
+        "users": [
+          {
+            "username": "月如歌",
+            "avatar": "4ec8d3639f1a058b22b6304c5d7da4eb"
+          },
+          {
+            "username": "左岚",
+            "avatar": ""
+          },
+          {
+            "username": "祭天",
+            "avatar": ""
+          },
+          {
+            "username": "烬明",
+            "avatar": ""
+          },
+          {
+            "username": "混子一号",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 169,
+        "groupName": "口算心算天天算",
+        "users": [
+          {
+            "username": "47",
+            "avatar": "dd0179f5d66ad29e7e5fa296ff8ab4a3"
+          },
+          {
+            "username": "枫灯",
+            "avatar": "d687b7f95c08956f4c2862f29a478552"
+          },
+          {
+            "username": "沙尘暴",
+            "avatar": "a0b63c4e40cf1ab9cdf7a65601169c66"
+          },
+          {
+            "username": "夜猫",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 22
+      },
+      {
+        "gid": 170,
+        "groupName": "我认为江湖解密跟P&KU、CCBC等中文hunt一样，都是推动解密发展不可或缺的一部分。我选择惊天地泣鬼神队，是因为了解到队长在这方面有人才需求，我想在这个队伍里深耕，为队伍作贡献。惊天地泣鬼神队的天才全联萌闻名，我希望能在这个队伍里学到真本领，努力让自己获得更好的发展平台。",
+        "users": [
+          {
+            "username": "78211",
+            "avatar": "f1967fe00691124636caee7f65ec339e"
+          },
+          {
+            "username": "70888",
+            "avatar": ""
+          },
+          {
+            "username": "99243",
+            "avatar": ""
+          },
+          {
+            "username": "76363",
+            "avatar": ""
+          },
+          {
+            "username": "77207",
+            "avatar": ""
+          },
+          {
+            "username": "18290督战",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 21
+      },
+      {
+        "gid": 171,
+        "groupName": "叮咯咙咚呛",
+        "users": [
+          {
+            "username": "宁",
+            "avatar": "f23ac362c54837993c180da8f3dac82c"
+          },
+          {
+            "username": "Churman",
+            "avatar": "6a6047da6f417d0b2ddb8f24d7f06c27"
+          },
+          {
+            "username": "赛Q狼",
+            "avatar": "d150a51c3148a05c61f0e8eaf87169c1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 11
+      },
+      {
+        "gid": 172,
+        "groupName": "阿乔今天吃什么",
+        "users": [
+          {
+            "username": "加个热",
+            "avatar": "7674963dfd246e4b79a3c967c63fc7ed"
+          },
+          {
+            "username": "联赛勇士",
+            "avatar": "f9665edfeb0d57943a1cc0669b1a642c"
+          },
+          {
+            "username": "盗杭苗",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 173,
+        "groupName": "鱼左来随便瞄一眼",
+        "users": [
+          {
+            "username": "鱼左",
+            "avatar": "c2e848ef59a6038b264a75f7a9ad56b6"
+          },
+          {
+            "username": "纬纬子",
+            "avatar": "228914723708a861da4fba4ecaf8df75"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 174,
+        "groupName": "NotLA",
+        "users": [
+          {
+            "username": "NotLA, NotLAEither, StillNotLA, DefinitelyNotLA",
+            "avatar": "617e77ad3601dae97f16772608db6ff3"
+          },
+          {
+            "username": "LoveLA",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 175,
+        "groupName": "SODA",
+        "users": [
+          {
+            "username": "钦天司时",
+            "avatar": "a96a7c83e69bdb3eed41b09756762786"
+          },
+          {
+            "username": "水蓝色黎明",
+            "avatar": "168c158dfc1f928461500411f345380c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 176,
+        "groupName": "determined raging souls 2024",
+        "users": [
+          {
+            "username": "cmjmickey",
+            "avatar": "992361dea0af3adf40585fab46e46edb"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 177,
+        "groupName": "希望好运",
+        "users": [
+          {
+            "username": "纸",
+            "avatar": "3c7159d57e6547cbb3e5925adf4c1213"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 178,
+        "groupName": "趴玻璃上看热闹",
+        "users": [
+          {
+            "username": "浮城",
+            "avatar": "9e12e873a3a547abf7bce40f04de7914"
+          },
+          {
+            "username": "九川",
+            "avatar": "aedeb7fd919242e7f0cbb28f6b34c85d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 179,
+        "groupName": "这什么？Hunt？爆一下！",
+        "users": [
+          {
+            "username": "Bluecoin",
+            "avatar": "1ff3d93d89ea468a2fd8825944dfebc6"
+          },
+          {
+            "username": "爱谁谁",
+            "avatar": "d3d0a50790c359682c96691c6e3741bf"
+          },
+          {
+            "username": "龙猫",
+            "avatar": ""
+          },
+          {
+            "username": "苦力怕保护协会会长",
+            "avatar": ""
+          },
+          {
+            "username": "书翁",
+            "avatar": ""
+          },
+          {
+            "username": "观战-醋花",
+            "avatar": ""
+          },
+          {
+            "username": "观战-怂怂",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 24
+      },
+      {
+        "gid": 180,
+        "groupName": "One Problem Mattters",
+        "users": [
+          {
+            "username": "roston",
+            "avatar": "4395e10777fb3aaaa55239537e0dce99"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 181,
+        "groupName": "骡的岛",
+        "users": [
+          {
+            "username": "瓦塔西若只刀客塔得死",
+            "avatar": "13d9b021d339a021fd1ee182b813da2c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 182,
+        "groupName": "白无月的解谜小栈",
+        "users": [
+          {
+            "username": "白无月",
+            "avatar": "a9820bd149ec712fc21aa97b28c363ac"
+          },
+          {
+            "username": "兔三月",
+            "avatar": "d2cea1b32118c5bb6bbc35bcb4483acf"
+          },
+          {
+            "username": "飞鱼",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 183,
+        "groupName": "梅毛冰",
+        "users": [
+          {
+            "username": "梅星晴",
+            "avatar": "62f59b548a1ce0401ecf938d6113305f"
+          },
+          {
+            "username": "梅凡瑙",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 14
+      },
+      {
+        "gid": 184,
+        "groupName": "摸鱼王的进化",
+        "users": [
+          {
+            "username": "摸鱼仔",
+            "avatar": "157b08b0ca79fb7d08049e28c39cd148"
+          },
+          {
+            "username": "摸鱼王",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 185,
+        "groupName": "叮当咚咚当当",
+        "users": [
+          {
+            "username": "汪汪汪",
+            "avatar": "56b5c25ee53e168a897110f35a913e41"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 186,
+        "groupName": "你说的都队",
+        "users": [
+          {
+            "username": "一言不发的孜孜",
+            "avatar": "d5ad0ec8c098f7ba65709cbea8d87918"
+          },
+          {
+            "username": "一只甜菜吖",
+            "avatar": ""
+          },
+          {
+            "username": "甜菜支付",
+            "avatar": ""
+          },
+          {
+            "username": "DerDer",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 14
+      },
+      {
+        "gid": 187,
+        "groupName": "冰激凌好吃呀",
+        "users": [
+          {
+            "username": "冰激凌",
+            "avatar": "14fe84af1ac65b22f4f5aa90edf394e4"
+          },
+          {
+            "username": "冰淇淋",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 188,
+        "groupName": "123",
+        "users": [
+          {
+            "username": "26",
+            "avatar": "2acd3e519920f97de0166938363eefdf"
+          },
+          {
+            "username": "37",
+            "avatar": "0d30148705c3dcba5dae44ca2a59164f"
+          },
+          {
+            "username": "55",
+            "avatar": ""
+          },
+          {
+            "username": "繁星",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 189,
+        "groupName": "2pair",
+        "users": [
+          {
+            "username": "H001",
+            "avatar": "3398c2d1c3a0e5472f49ecfee5855db7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 190,
+        "groupName": "Nan",
+        "users": [
+          {
+            "username": "南墙",
+            "avatar": "aeb5503441aa1c140a91a599c56e0445"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 191,
+        "groupName": "无",
+        "users": [
+          {
+            "username": "没有",
+            "avatar": "4b45ea2f1be85cb16abc301eec934bab"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 192,
+        "groupName": "666",
+        "users": [
+          {
+            "username": "Brentchong",
+            "avatar": "e492356fa46cf05a507c44ccf6fed5f3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 193,
+        "groupName": "江河湖海解谜踪",
+        "users": [
+          {
+            "username": "无色魁",
+            "avatar": "01dc9e11c036fc122b7a2b2c31da2c95"
+          },
+          {
+            "username": "Ra",
+            "avatar": ""
+          },
+          {
+            "username": "wind1900",
+            "avatar": ""
+          },
+          {
+            "username": "fby",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 32
+      },
+      {
+        "gid": 194,
+        "groupName": "Hello World!",
+        "users": [
+          {
+            "username": "沁水亦寒",
+            "avatar": "2502d19462e3d9407ac4625d1d0b7c2a"
+          },
+          {
+            "username": "DD",
+            "avatar": ""
+          },
+          {
+            "username": "弘子",
+            "avatar": ""
+          },
+          {
+            "username": "氧气",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 195,
+        "groupName": "九十四",
+        "users": [
+          {
+            "username": "49",
+            "avatar": "ec18b9ec3e3829638b17e87a478cc288"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 196,
+        "groupName": "蓝山最爱的召召",
+        "users": [
+          {
+            "username": "Eihwaz",
+            "avatar": "3d35f563049bc2f5aea35a9fd13fa143"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 197,
+        "groupName": "给橘猫大爷开个猫罐头队",
+        "users": [
+          {
+            "username": "Dorință",
+            "avatar": "6d80e097e32c5a2f486fb7257062bc2b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 198,
+        "groupName": "局",
+        "users": [
+          {
+            "username": "局内人",
+            "avatar": "eede4c3268224e97348e206683b474ac"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 199,
+        "groupName": "We Can't Read Chinese",
+        "users": [
+          {
+            "username": "cranir",
+            "avatar": "f36f3ae49dd5d970eae4779e3c6f6063"
+          },
+          {
+            "username": "PokerFaz",
+            "avatar": "18c6ed73209224d5f2b2bcc984ba3f03"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 200,
+        "groupName": "K.O.LIKI",
+        "users": [
+          {
+            "username": "李健",
+            "avatar": "f0b4c4ed5f9b136305d552c51f69bf8b"
+          },
+          {
+            "username": "刮风这天我试过握着你手",
+            "avatar": ""
+          },
+          {
+            "username": "但偏偏雨渐渐大到我看你不见",
+            "avatar": ""
+          },
+          {
+            "username": "从前从前有个人爱你很久",
+            "avatar": ""
+          },
+          {
+            "username": "但偏偏风渐渐把距离吹得好远",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 201,
+        "groupName": "悠然见南山",
+        "users": [
+          {
+            "username": "兰儿",
+            "avatar": "a55f6fb5a34b9921644d3455d42b777a"
+          },
+          {
+            "username": "啊菠蘿",
+            "avatar": "995e16d4844787fc9d0ad7c79cb322db"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 202,
+        "groupName": "五猫战队",
+        "users": [
+          {
+            "username": "瞾瞾梯云纵",
+            "avatar": "5bf0850c7b1d03a4ab5da6857b258fd9"
+          },
+          {
+            "username": "酸菜殴打胖老鼠",
+            "avatar": "a348844f70c367e99aead5c32ab49f18"
+          },
+          {
+            "username": "小美爱跑酷",
+            "avatar": ""
+          },
+          {
+            "username": "奶啤三更唤船长蹴鞠",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 203,
+        "groupName": "V5",
+        "users": [
+          {
+            "username": "otto",
+            "avatar": "e3a7a7e02cb7f4006c2007cb84a21ced"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 204,
+        "groupName": "摆烂酱油队",
+        "users": [
+          {
+            "username": "Hex",
+            "avatar": "3bba83968a4f828ea06b986cbffc5702"
+          },
+          {
+            "username": "Charlotte",
+            "avatar": "093861ff4a092e20d3d82d7b7f9db07b"
+          },
+          {
+            "username": "余月夏",
+            "avatar": "771289521ace24ffb97f282ed0752ed9"
+          },
+          {
+            "username": "黑夜小吃货",
+            "avatar": "c0110ad52d8acb83ea579320749ae302"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 205,
+        "groupName": "性感李健",
+        "users": [
+          {
+            "username": "Liki",
+            "avatar": "dba22a3ba6cbbad8bbc610618d04a092"
+          },
+          {
+            "username": "心宽体胖",
+            "avatar": ""
+          },
+          {
+            "username": "K.O.Liki",
+            "avatar": ""
+          },
+          {
+            "username": "李嗙皮",
+            "avatar": "444e91ab388af0cf307aed7539793a40"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 206,
+        "groupName": "该队伍未命名",
+        "users": [
+          {
+            "username": "筱妮",
+            "avatar": "55bdfa16d769ce77286235833bcbd2ce"
+          },
+          {
+            "username": "李较瘦",
+            "avatar": ""
+          },
+          {
+            "username": "阿德利企鹅",
+            "avatar": ""
+          },
+          {
+            "username": "蹦蹦",
+            "avatar": ""
+          },
+          {
+            "username": "Rita",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 207,
+        "groupName": "我不是大侠",
+        "users": [
+          {
+            "username": "我不是良伟",
+            "avatar": "1644eb5bd124db1cea99dfbe983ee165"
+          },
+          {
+            "username": "尹翊翎",
+            "avatar": "d318b4121a563e6e6eb5cad2354cce03"
+          },
+          {
+            "username": "小青龙傲天",
+            "avatar": "447105a6be5fa45555501d349e9708f1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 208,
+        "groupName": "V",
+        "users": [
+          {
+            "username": "V",
+            "avatar": "9bd4d47ecfd4d81de590ec4638cc4f8a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 209,
+        "groupName": "路过的一只猫",
+        "users": [
+          {
+            "username": "阿汐",
+            "avatar": "0220811e359da743114381b9b9b418c8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 210,
+        "groupName": "黄河远上白云间",
+        "users": [
+          {
+            "username": "小黄",
+            "avatar": "ec3d6ac0b9ce0a822513097023ddcc3f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 211,
+        "groupName": "TerryZheng",
+        "users": [
+          {
+            "username": "TerryZheng",
+            "avatar": "f2d6e114964b24cb1ab22259132984e7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 23
+      },
+      {
+        "gid": 212,
+        "groupName": "光风霁月",
+        "users": [
+          {
+            "username": "gary88",
+            "avatar": "6f202b6d500672fd718a2a02f20a9b74"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 213,
+        "groupName": "蓝田",
+        "users": [
+          {
+            "username": "蓝田",
+            "avatar": "14f082cf7b3a15fd2d02cf0525489ba7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 214,
+        "groupName": "基因重组",
+        "users": [
+          {
+            "username": "约曼",
+            "avatar": "7ba7f4cfe250846d1786568c0f010421"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 215,
+        "groupName": "SegmaTree",
+        "users": [
+          {
+            "username": "slmhh",
+            "avatar": "05679cb81240237ca12581417a7dc122"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 216,
+        "groupName": "蘑菇的爆破大队",
+        "users": [
+          {
+            "username": "爆破的白杆杆",
+            "avatar": "767374ef1cd53cd435ae399c57cc36c5"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 217,
+        "groupName": "我们有两下子.............吗？",
+        "users": [
+          {
+            "username": "以下是本次江湖解谜获最佳废物奖的名单：bcc",
+            "avatar": "7522ddb571692b096048f72b5e6c48bd"
+          },
+          {
+            "username": "szy",
+            "avatar": ""
+          },
+          {
+            "username": "D",
+            "avatar": ""
+          },
+          {
+            "username": "围观的L",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 218,
+        "groupName": "提瓦特大陆",
+        "users": [
+          {
+            "username": "原神启动",
+            "avatar": "fd5bde4ca22ce3440d31edcd89555ae5"
+          },
+          {
+            "username": "蘑菇🍄",
+            "avatar": ""
+          },
+          {
+            "username": "phone fong",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 219,
+        "groupName": "noname",
+        "users": [
+          {
+            "username": "hashinose",
+            "avatar": "7613f393d2278dfe4699ad4ab8c2cdbf"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 220,
+        "groupName": "卌二",
+        "users": [
+          {
+            "username": "红花会古兔子",
+            "avatar": "30abc0f982dec76ed63e08389598aa0c"
+          },
+          {
+            "username": "冰火魔方证大师",
+            "avatar": "b055e5d504e43330e59d734c20f2c089"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 29
+      },
+      {
+        "gid": 221,
+        "groupName": "腹愁者联盟",
+        "users": [
+          {
+            "username": "妍华",
+            "avatar": "d7160b1e6c973f0f132fc9e32c81cf00"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 222,
+        "groupName": "Smile",
+        "users": [
+          {
+            "username": "Smile0",
+            "avatar": "e88614051cd97d25de608bb7ac6ab996"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 223,
+        "groupName": "gpt4.0解谜",
+        "users": [
+          {
+            "username": "jason",
+            "avatar": "c19fd287cb0d474d61ec68dbd6bdf13f"
+          },
+          {
+            "username": "aggie",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 14
+      },
+      {
+        "gid": 224,
+        "groupName": "不取昵称就看看题",
+        "users": [
+          {
+            "username": "昵称为空",
+            "avatar": "56357ee9eab392219e5348069d9659d8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 19
+      },
+      {
+        "gid": 225,
+        "groupName": "点一了不队",
+        "users": [
+          {
+            "username": "胡萝卜头",
+            "avatar": "5ea967ff64302e3e4a4818984f4387db"
+          },
+          {
+            "username": "hyacinth",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 226,
+        "groupName": "人格",
+        "users": [
+          {
+            "username": "无",
+            "avatar": "cc8f3cfe7f9089b36e06474ebf0cea47"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 227,
+        "groupName": "坐忘道（🀄️）",
+        "users": [
+          {
+            "username": "齐素",
+            "avatar": "33ccf7df9f145625ed36a50a10fb2610"
+          },
+          {
+            "username": "风清",
+            "avatar": "3ca3da9dd4486672bca249fc68ff03dd"
+          },
+          {
+            "username": "落邪",
+            "avatar": "fd787e199fb064436eae9adaf8e3a8b9"
+          },
+          {
+            "username": "JR.柯基",
+            "avatar": ""
+          },
+          {
+            "username": "九点半神探.",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 228,
+        "groupName": "桌游也很好玩",
+        "users": [
+          {
+            "username": "假期加气夹起迦七",
+            "avatar": "9306fc4569b518ee77e9f35bc417e127"
+          },
+          {
+            "username": "nice",
+            "avatar": "7e29d6145a752e0ac34f92d62373e063"
+          },
+          {
+            "username": "划船不用桨的Mr.昌",
+            "avatar": "b564b1b3ecbd1440abf2e847e50d02e4"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 229,
+        "groupName": "你说得队",
+        "users": [
+          {
+            "username": "Dusty",
+            "avatar": "fb9b420ea79c5ea1950b2006ffde3a88"
+          },
+          {
+            "username": "Ricebean",
+            "avatar": "966bbe41fe4499d29de286d8b5477bea"
+          },
+          {
+            "username": "Dustybean",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 15
+      },
+      {
+        "gid": 230,
+        "groupName": "白芝麻",
+        "users": [
+          {
+            "username": "又饭饼了",
+            "avatar": "cd91fbde482d11ba1428093b6a936677"
+          },
+          {
+            "username": "二氧化锰",
+            "avatar": "0c26ad3b437a996eabe6aaddf889ef0c"
+          },
+          {
+            "username": "Alan65536",
+            "avatar": "ba73d944b51e7e7492d103a2bd4e56bc"
+          },
+          {
+            "username": "祉",
+            "avatar": ""
+          },
+          {
+            "username": "無馭",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 17
+      },
+      {
+        "gid": 231,
+        "groupName": "Reverous",
+        "users": [
+          {
+            "username": "o6z",
+            "avatar": "6cda9f29ce837238f12dc903ad870e1f"
+          },
+          {
+            "username": "江流",
+            "avatar": "50327f3efe8b616f9ea4e423705e20c0"
+          },
+          {
+            "username": "zyc天下第一帅哥",
+            "avatar": "e58bcbc7f997e0767846631fe6eacb3b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 232,
+        "groupName": "没时间的LALALA姑且看看题",
+        "users": [
+          {
+            "username": "LA~LA~LA~",
+            "avatar": "552e5ae874f4b08a6f4044426d632df0"
+          },
+          {
+            "username": "莫伊拉",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 9
+      },
+      {
+        "gid": 233,
+        "groupName": "倒霉儿",
+        "users": [
+          {
+            "username": "倒霉儿",
+            "avatar": "20d6a0770020b25ac376fb5ba429f530"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 234,
+        "groupName": "宁鱼桃屋猫",
+        "users": [
+          {
+            "username": "OPO",
+            "avatar": "05711b0f0afbd9cbaffd4072068d5039"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 235,
+        "groupName": "f(x)",
+        "users": [
+          {
+            "username": "暄雨",
+            "avatar": "6a3ebb036373c89ae8c79326ce3fe154"
+          },
+          {
+            "username": "detor",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 236,
+        "groupName": "Callie's Enterprise",
+        "users": [
+          {
+            "username": "Richard",
+            "avatar": "74a8fd2590ac4deb6c4dba38731fc8c6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 237,
+        "groupName": "Amateur Hour",
+        "users": [
+          {
+            "username": "Kyle",
+            "avatar": "eac1f16d48b6bc28dc76b00d12fb3e94"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 238,
+        "groupName": "欧内的手",
+        "users": [
+          {
+            "username": "zyx",
+            "avatar": "2fb207e39b6572e07859f5a5379efebe"
+          },
+          {
+            "username": "lcl",
+            "avatar": ""
+          },
+          {
+            "username": "gao",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 18
+      },
+      {
+        "gid": 239,
+        "groupName": "hizami",
+        "users": [
+          {
+            "username": "Hizami",
+            "avatar": "03d1912829f080b44683db32b976b1f5"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 240,
+        "groupName": "解铃人",
+        "users": [
+          {
+            "username": "古今人",
+            "avatar": "787fe00e32c337bd1fde582e75074fb3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 241,
+        "groupName": "爱吃糖",
+        "users": [
+          {
+            "username": "糖玩家",
+            "avatar": "823deb3a56afa0b3b5a73db394b3a123"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 242,
+        "groupName": "江湖闲散人员",
+        "users": [
+          {
+            "username": "武墨",
+            "avatar": "877c8fe4724c34c712c56ec782f00b5b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 243,
+        "groupName": "浊酒一壶醉",
+        "users": [
+          {
+            "username": "漠路",
+            "avatar": "40e26ac715c477bffe684013fe2faea2"
+          },
+          {
+            "username": "红鲤鱼与绿鲤鱼与驴",
+            "avatar": "6e73f1334d4be662de10fbf3771ae3a5"
+          },
+          {
+            "username": "小棕熊",
+            "avatar": "91b95c25fc065a5a1d39c0569c7ed2f8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 244,
+        "groupName": "可以横绝峨眉巅",
+        "users": [
+          {
+            "username": "李白",
+            "avatar": "8abdf295caebe626338a4b67013bfdad"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 245,
+        "groupName": "E谜Π解",
+        "users": [
+          {
+            "username": "夜深鸟尽墨千重",
+            "avatar": "bf1ec98efd36c5df16340a526527be9e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 246,
+        "groupName": "Lobster Mob",
+        "users": [
+          {
+            "username": "Candy",
+            "avatar": "546fa68e959e8b31a811349fca66745f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 247,
+        "groupName": "小五",
+        "users": [
+          {
+            "username": "三卜儿",
+            "avatar": "e3207be6f7cd7d4530673c8cf43e171a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 248,
+        "groupName": "Confringo",
+        "users": [
+          {
+            "username": "Confringo",
+            "avatar": "49d7022b39db65adaf7d0cec212d4cc0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 249,
+        "groupName": "雨神自己",
+        "users": [
+          {
+            "username": "雨神",
+            "avatar": "31be5a08eff79b38081349560c9db8d0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 250,
+        "groupName": "还是Ω-V但是原本队伍用户名忘了所以姑且重新弄一个",
+        "users": [
+          {
+            "username": "Nikolai",
+            "avatar": "63dc8076a707f5c82ccb64b55bec60ba"
+          },
+          {
+            "username": "gary",
+            "avatar": "e3bc7e6ef13cc44a597f99b1e5cdb20d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 18
+      },
+      {
+        "gid": 251,
+        "groupName": "[至急]",
+        "users": [
+          {
+            "username": "kri",
+            "avatar": "fd90a8faae4fb2049f51ca2a1b450b20"
+          },
+          {
+            "username": "alex9801",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 252,
+        "groupName": "sherlock",
+        "users": [
+          {
+            "username": "陪麦考夫逛大街",
+            "avatar": "bf87efb894b688fdb28245dbe110a86a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 253,
+        "groupName": "碎银不够喵",
+        "users": [
+          {
+            "username": "LowlandLu",
+            "avatar": "8349a7def968cb50f21719a4f98fd63f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 254,
+        "groupName": "同福客栈",
+        "users": [
+          {
+            "username": "ssbn",
+            "avatar": "ce19c7126528aab2d121984906abdea0"
+          },
+          {
+            "username": "fzsy",
+            "avatar": ""
+          },
+          {
+            "username": "沐晨",
+            "avatar": ""
+          },
+          {
+            "username": "高压锅",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 255,
+        "groupName": "PLAY半弧来孤独的打野",
+        "users": [
+          {
+            "username": "Aishalee",
+            "avatar": "bf6fa0db6de3bc5050476dd5c9a2fc49"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 4
+      },
+      {
+        "gid": 256,
+        "groupName": "11111",
+        "users": [
+          {
+            "username": "cauliflower",
+            "avatar": "3399ffce8cea7c24e85c621ac04b558c"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 257,
+        "groupName": "嘿",
+        "users": [
+          {
+            "username": "珑",
+            "avatar": "0dde4d8632151ae05f040b0ad74eb9de"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 258,
+        "groupName": "xcjkcjkxnczkj",
+        "users": [
+          {
+            "username": "tzc_wk",
+            "avatar": "c4d74cc26cc41102495c908d281366e3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 259,
+        "groupName": "随便",
+        "users": [
+          {
+            "username": "亚可.K",
+            "avatar": "8109fb33dfafd9b19cb70200066ea15f"
+          },
+          {
+            "username": "因吹斯汀",
+            "avatar": "a2de0db7c57b32397d6a4d4948231154"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 260,
+        "groupName": "leetcode启动",
+        "users": [
+          {
+            "username": "夕",
+            "avatar": "5243f948590ed838caa8c9020fea2468"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 261,
+        "groupName": "pits",
+        "users": [
+          {
+            "username": "pit",
+            "avatar": "90b7575db5f5f458df5ff84d220c865f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 262,
+        "groupName": "jun",
+        "users": [
+          {
+            "username": "1321498219",
+            "avatar": "5b9e00b232222d2e1d21f3bb8f1645d0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 263,
+        "groupName": "没有队名",
+        "users": [
+          {
+            "username": "皋月",
+            "avatar": "85b5803a215dfd6ff1239caffe009560"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 264,
+        "groupName": "二号机",
+        "users": [
+          {
+            "username": "皋月e",
+            "avatar": "0483c33df1b86225d3f60369dd41c386"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 265,
+        "groupName": "牤牛屯红高粱模特队",
+        "users": [
+          {
+            "username": "赵大宝",
+            "avatar": "0691afa7099033c7d1eb3c128568d838"
+          },
+          {
+            "username": "范厨师",
+            "avatar": ""
+          },
+          {
+            "username": "小辣椒",
+            "avatar": ""
+          },
+          {
+            "username": "二棉裤",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 266,
+        "groupName": "一个烧饼",
+        "users": [
+          {
+            "username": "z",
+            "avatar": "bf3651d12052a9669f535cd469fcdbd6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 267,
+        "groupName": "又吃麦当劳？",
+        "users": [
+          {
+            "username": "ln",
+            "avatar": "83d69a6a49696ba37d0e8caae1305044"
+          },
+          {
+            "username": "cos",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 268,
+        "groupName": "洛",
+        "users": [
+          {
+            "username": "烟落",
+            "avatar": "b213597a47c4e573257c72bc13283891"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 269,
+        "groupName": "17th Cup of Tea",
+        "users": [
+          {
+            "username": "chocoMint",
+            "avatar": "1822a43d699f91afdc74ec67fa305b21"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 270,
+        "groupName": "观光",
+        "users": [
+          {
+            "username": "阿踏",
+            "avatar": ""
+          },
+          {
+            "username": "羟羟",
+            "avatar": "397e7f027aa64314875e744be1cd7cd9"
+          },
+          {
+            "username": "xx",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 271,
+        "groupName": "游丝软系飘春榭",
+        "users": [
+          {
+            "username": "philippica",
+            "avatar": "148edfca5d889572d1a361daf2485009"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 272,
+        "groupName": "黑白头像组",
+        "users": [
+          {
+            "username": "阿踏",
+            "avatar": ""
+          },
+          {
+            "username": "羟羟",
+            "avatar": "7becf0ef3f49131851547251352f41b5"
+          },
+          {
+            "username": "xx",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 273,
+        "groupName": "暗部观光组",
+        "users": [
+          {
+            "username": "阿踏",
+            "avatar": ""
+          },
+          {
+            "username": "羟羟",
+            "avatar": "6a1bed39be37174f5f0b5fbced4bf50c"
+          },
+          {
+            "username": "xx",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 274,
+        "groupName": "=。=",
+        "users": [
+          {
+            "username": "haveAknifeday",
+            "avatar": "5db54fb09694b8f07ffcb8dd84666935"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 275,
+        "groupName": "sapium-copper",
+        "users": [
+          {
+            "username": "sapium-copper",
+            "avatar": "d0490f79567112699af80e834f336f97"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 276,
+        "groupName": "LS",
+        "users": [
+          {
+            "username": "Ls",
+            "avatar": "5d589f33a12b05244a49d2e02774fcd1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 24
+      },
+      {
+        "gid": 277,
+        "groupName": "bestie",
+        "users": [
+          {
+            "username": "Cirnobyl",
+            "avatar": "a96f62e1a97f3e93bad22bcf4a3ec2e5"
+          },
+          {
+            "username": "ZephyrEmbyr",
+            "avatar": ""
+          },
+          {
+            "username": "BNC_shy",
+            "avatar": ""
+          },
+          {
+            "username": "jamqwert",
+            "avatar": ""
+          },
+          {
+            "username": "Guolin",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 9
+      },
+      {
+        "gid": 278,
+        "groupName": "Just for fun",
+        "users": [
+          {
+            "username": "Dennis Meng",
+            "avatar": "bc503ffb0eb099c3e97d59716a1dd980"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 279,
+        "groupName": "不观光队",
+        "users": [
+          {
+            "username": "麦香包",
+            "avatar": "97a5009a47f0018fefe8866c33989f27"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 280,
+        "groupName": "XRET_CHR",
+        "users": [
+          {
+            "username": "XRET_CHR",
+            "avatar": "6b737ae56b928d0d1f9ab969a3c0a82e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 281,
+        "groupName": "憧憬成为hunt糕手",
+        "users": [
+          {
+            "username": "addmeal",
+            "avatar": "a3e68d1ba3b10c423758b9453326343e"
+          },
+          {
+            "username": "addsoup",
+            "avatar": ""
+          },
+          {
+            "username": "azora",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 282,
+        "groupName": "Mryy",
+        "users": [
+          {
+            "username": "Mryy",
+            "avatar": "7bb56671d81ecfdfdc3e9f26ffca5e8a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 283,
+        "groupName": "即刻问斩",
+        "users": [
+          {
+            "username": "大吼一声",
+            "avatar": "97166e099759f6897e44186b14d72c2e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 284,
+        "groupName": "不会一点",
+        "users": [
+          {
+            "username": "weiguang",
+            "avatar": "b14b5854c9371ed1680b9557d17881be"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 285,
+        "groupName": "碳机小队",
+        "users": [
+          {
+            "username": "探机",
+            "avatar": ""
+          },
+          {
+            "username": "dsds",
+            "avatar": "8b78bfd4ca7ed8581c295cfd764dcb47"
+          },
+          {
+            "username": "嗯哈",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 286,
+        "groupName": "解谜爱好者",
+        "users": [
+          {
+            "username": "晶宝",
+            "avatar": "d051e93fa46dd3a53a4ff55f41b8af16"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 287,
+        "groupName": "单刀赴会",
+        "users": [
+          {
+            "username": "x",
+            "avatar": "e881e8f509f99517dda4b4baffca56ca"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 10
+      },
+      {
+        "gid": 288,
+        "groupName": "Dorothy",
+        "users": [
+          {
+            "username": "Dorothy",
+            "avatar": "bad780810bdec3abb13714d8f5aa8b44"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 289,
+        "groupName": "MMMMM",
+        "users": [
+          {
+            "username": "Moira 吴",
+            "avatar": "32c47f3268c42fd5fbae8c532326fbbe"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 290,
+        "groupName": "狂病心丧人肉矿机",
+        "users": [
+          {
+            "username": "xili04",
+            "avatar": "7347bce0fc6bc4cd5b8f46254fdc059e"
+          },
+          {
+            "username": "bulesama",
+            "avatar": "54e3cab1b5e68ede1ba8440e120cad04"
+          },
+          {
+            "username": "Neal",
+            "avatar": "6c8e597d5440ab5da4ab7cdd0b4f965a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 291,
+        "groupName": "mu",
+        "users": [
+          {
+            "username": "111",
+            "avatar": "85e4a222c7019b24623aa94af2169b02"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 292,
+        "groupName": "环游世界的卡布",
+        "users": [
+          {
+            "username": "卡布",
+            "avatar": "17ffc3a52a9136c5f2ee17bcf9b1ce8e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 293,
+        "groupName": ".",
+        "users": [
+          {
+            "username": "Lin",
+            "avatar": "aaf4e100245033d40ad32f6afbe17e32"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 294,
+        "groupName": "yigedami",
+        "users": [
+          {
+            "username": "mika、gege、+2、dabu",
+            "avatar": "f26c5a172acfd180a0b469e0fe395bbe"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 11
+      },
+      {
+        "gid": 295,
+        "groupName": "CornSnaky",
+        "users": [
+          {
+            "username": "CornSnaky",
+            "avatar": "342de92828bccbbe4533740a5b3666c7"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 296,
+        "groupName": "猫咪无双",
+        "users": [
+          {
+            "username": "小猫咪",
+            "avatar": "378f6dee4e47b5531b2bdf6ff9d5a2c6"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 297,
+        "groupName": "vision",
+        "users": [
+          {
+            "username": "羟羟",
+            "avatar": ""
+          },
+          {
+            "username": "xx",
+            "avatar": ""
+          },
+          {
+            "username": "ta",
+            "avatar": "eaad5e7aa6126bc6c14b3f6ee02a6278"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 298,
+        "groupName": "不知道取啥名",
+        "users": [
+          {
+            "username": "666",
+            "avatar": "a19027175e572dd47d3e1717b6cac80f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 299,
+        "groupName": "江湖有缘再见",
+        "users": [
+          {
+            "username": "Linsa",
+            "avatar": "d98ad60cc46bd6f44fa33c5504a6739b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 300,
+        "groupName": "z",
+        "users": [
+          {
+            "username": "zzz",
+            "avatar": "e9e5f3c3a67d97d86c4798bb138e5467"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 301,
+        "groupName": "关注泠鸢yousa",
+        "users": [
+          {
+            "username": "梦章鱼",
+            "avatar": "b4d5e149f4f734f9dac1533eb3ec65d0"
+          },
+          {
+            "username": "北风之神",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 302,
+        "groupName": "Snowmakkr",
+        "users": [
+          {
+            "username": "Snowmakkr",
+            "avatar": "caf94977d9b02768285904a5de667569"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 303,
+        "groupName": "dva前来围观",
+        "users": [
+          {
+            "username": "dva",
+            "avatar": "3c7eaeba3195e6a288b099d38886a4bf"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 304,
+        "groupName": "TANGO",
+        "users": [
+          {
+            "username": "SOFIA",
+            "avatar": "f0841d000476f8c3e62a708d31f52233"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 305,
+        "groupName": "Cyfur🐺🐺",
+        "users": [
+          {
+            "username": "狼灰",
+            "avatar": "0cbd7560bcd092448d50d20de975ef37"
+          },
+          {
+            "username": "霜影丶Frostwolf",
+            "avatar": ""
+          },
+          {
+            "username": "So0O0o0O0ocn",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 306,
+        "groupName": "ls",
+        "users": [
+          {
+            "username": "ls",
+            "avatar": "a29c0a45e25c96bf4b6fb3f6ef23b48a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 27
+      },
+      {
+        "gid": 307,
+        "groupName": "该队伍已注销",
+        "users": [
+          {
+            "username": "chrysl",
+            "avatar": "532046c7faf8732916f7377e1e27c132"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 308,
+        "groupName": "king",
+        "users": [
+          {
+            "username": "JIAN KANG",
+            "avatar": "2797783955eed275adcbe1a2103fcc92"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 309,
+        "groupName": "不小心忘记密码只好人生重来",
+        "users": [
+          {
+            "username": "Dorință",
+            "avatar": "755a0d181198dce7112baf1c1a3f3aee"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 310,
+        "groupName": "standalone",
+        "users": [
+          {
+            "username": "LBS",
+            "avatar": "e4ede62fa918757125ff8ee055ba3540"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 311,
+        "groupName": "Alpaca Puzzles",
+        "users": [
+          {
+            "username": "majickace",
+            "avatar": "70da0e980c3799fb0032bbc8bbb155de"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 312,
+        "groupName": "Underflow",
+        "users": [
+          {
+            "username": "xysdd",
+            "avatar": "25240cb92f95b72b718bfc009f43dc86"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 313,
+        "groupName": "myteam",
+        "users": [
+          {
+            "username": "MyTeam Member",
+            "avatar": "00d265604e3dde33ffcf23e54d07a50f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 314,
+        "groupName": "Intervarsi-Teammate: Tour and Sinnoh More",
+        "users": [
+          {
+            "username": "Eugene",
+            "avatar": "1f619121e66d3141ed8ec04bc0dea6e8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 315,
+        "groupName": "soothers",
+        "users": [
+          {
+            "username": "blue",
+            "avatar": "68411c0eb14ec93333670ecb22d5ae93"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 316,
+        "groupName": "Awdc",
+        "users": [
+          {
+            "username": "usman",
+            "avatar": "d6a96b5c67a6bf9e06a7519b03829ef8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 317,
+        "groupName": "1234",
+        "users": [
+          {
+            "username": "Moira",
+            "avatar": "eecf5892574ccd4269f48796323b3cbf"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 318,
+        "groupName": "真相猎人观光队",
+        "users": [
+          {
+            "username": "看看题",
+            "avatar": "39f5251c61698e31cf7f0fda728a3beb"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 319,
+        "groupName": "rrre",
+        "users": [
+          {
+            "username": "reee",
+            "avatar": "fdc16e06897ec2254a91027465751bf3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 320,
+        "groupName": "P for Puzzles and more",
+        "users": [
+          {
+            "username": "PeterRed",
+            "avatar": "843a5c7a6487400341345a08d281931a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 11
+      },
+      {
+        "gid": 321,
+        "groupName": "Register a new team",
+        "users": [
+          {
+            "username": "123456",
+            "avatar": "dbe0fc4c505a34117b63cc088f069ae8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 322,
+        "groupName": "Leung来打酱油了",
+        "users": [
+          {
+            "username": "Mr.Leung",
+            "avatar": "6b6c3c835d78393d25557511f69d2cab"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 323,
+        "groupName": "66666",
+        "users": [
+          {
+            "username": "66666",
+            "avatar": "6dc9257813b0a33b83c6a579f98efcb8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 324,
+        "groupName": "NFLS & Fan's Lucky Star",
+        "users": [
+          {
+            "username": "Dogma.I.Definitely",
+            "avatar": "511c42da852e17d331a93d270749a5a6"
+          },
+          {
+            "username": "DT",
+            "avatar": "844cf9697a7a5fb072c874b21b3c3825"
+          },
+          {
+            "username": "zpySunny",
+            "avatar": "95038569adfb079d261e0cacaa2b7157"
+          },
+          {
+            "username": "KD Ji",
+            "avatar": "41d3fd4abd8ee9b333de95d9c6ad231f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 24
+      },
+      {
+        "gid": 325,
+        "groupName": "Afternoon",
+        "users": [
+          {
+            "username": "Fu",
+            "avatar": "794a62624d09c3da4f3fbbd277ef4576"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 326,
+        "groupName": "nanan",
+        "users": [
+          {
+            "username": "k.g",
+            "avatar": "dfa3fba0244e4e1dd4cc5c4b54950e45"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 8
+      },
+      {
+        "gid": 327,
+        "groupName": "Hitori Person",
+        "users": [
+          {
+            "username": "ILaoyu",
+            "avatar": "a6cf7d655125d5f51637a13a0d8fdeac"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 328,
+        "groupName": "Rabbit",
+        "users": [
+          {
+            "username": "Rabbit",
+            "avatar": "aebd9af04a3fd26800230d5ddc8c43a2"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 329,
+        "groupName": "Tairitsu",
+        "users": [
+          {
+            "username": "群愿",
+            "avatar": "6173de94151213f9bd4070dbae4b64d2"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 330,
+        "groupName": "SeptaCube",
+        "users": [
+          {
+            "username": "SeptaCube",
+            "avatar": "cf3b6ae44e5489d7eb89b098f987fdbe"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 331,
+        "groupName": "Evolt",
+        "users": [
+          {
+            "username": "Evolt",
+            "avatar": "5365812b405765f929a6613d48ddb2e3"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 332,
+        "groupName": "DragonEngineer",
+        "users": [
+          {
+            "username": "Eann Lawing",
+            "avatar": "c4b59b8b2e37b7ff91f8cc943919886a"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 333,
+        "groupName": "demon666",
+        "users": [
+          {
+            "username": "demon666",
+            "avatar": "c8c21746bc3524fb1b531ec1521f6f41"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 334,
+        "groupName": "The 25 Venters",
+        "users": [
+          {
+            "username": "Tony Martin",
+            "avatar": "c390e373f51feb1acaa2dd3a3fc8af72"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 335,
+        "groupName": "Lil Stoop",
+        "users": [
+          {
+            "username": "Joshua Taylor",
+            "avatar": "0b1c320ed030e546081c994918e4f6ed"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 336,
+        "groupName": "昼夜予行",
+        "users": [
+          {
+            "username": "昼夜予行",
+            "avatar": "6c5ee7b482b2a4840be12bad02a832ed"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 337,
+        "groupName": "10,000 onions",
+        "users": [
+          {
+            "username": "mbuo",
+            "avatar": "c7c13b02da29857b956c321965912552"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 338,
+        "groupName": "鲵！唔！",
+        "users": [
+          {
+            "username": "SwParallel",
+            "avatar": "d1ed04deff0df07871d578b643f40209"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 18
+      },
+      {
+        "gid": 339,
+        "groupName": "糨糊杰米",
+        "users": [
+          {
+            "username": "Pony Guo",
+            "avatar": "3b911e5badc07282bb01526aaf76fce8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 340,
+        "groupName": "ZZZ",
+        "users": [
+          {
+            "username": "常峻硕",
+            "avatar": "b918e35a7985e240997b605b272e3ef4"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 341,
+        "groupName": "punt",
+        "users": [
+          {
+            "username": "e",
+            "avatar": "7fc71e26f371517511e16da710d18962"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 342,
+        "groupName": "Team to be named at a later date",
+        "users": [
+          {
+            "username": "Logan Neidert",
+            "avatar": "c51b247cb12334b3557d07ec71df6985"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 343,
+        "groupName": "Gilbert",
+        "users": [
+          {
+            "username": "Gilbert",
+            "avatar": "78f2738fbc593ba44b820924095f0ed5"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 344,
+        "groupName": "Gillgot",
+        "users": [
+          {
+            "username": "Gillgor",
+            "avatar": "ff5ed2be856b29599dfa402c38080d1f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 345,
+        "groupName": "the federal reserve bank of coby tran",
+        "users": [
+          {
+            "username": "rosie",
+            "avatar": "6526da810afaa0b7f0d2942cf0842597"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 346,
+        "groupName": "LinMoShu",
+        "users": [
+          {
+            "username": "LinMoShu",
+            "avatar": "b8749fc2ebda5887d6693258956ac14e"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 347,
+        "groupName": "aurune",
+        "users": [
+          {
+            "username": "Aurune",
+            "avatar": "d83c1c498a992d29131887b4fce32754"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 348,
+        "groupName": "玩玩",
+        "users": [
+          {
+            "username": "孤身勇往",
+            "avatar": "60f99589e9dd6b494176aa00b9c06092"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 349,
+        "groupName": "胡爷爷下凡",
+        "users": [
+          {
+            "username": "tkof",
+            "avatar": "711d6f8562a805ef9bd5dd26c0363d6f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 24
+      },
+      {
+        "gid": 350,
+        "groupName": "mri",
+        "users": [
+          {
+            "username": "hitya",
+            "avatar": "ea12f36546092aae31f296ada670aae8"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 351,
+        "groupName": "Team Konpeki",
+        "users": [
+          {
+            "username": "Loraen",
+            "avatar": "2e4ff1aebc53282df3305e053825d94b"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 5
+      },
+      {
+        "gid": 352,
+        "groupName": "Kirie",
+        "users": [
+          {
+            "username": "kkkkkk",
+            "avatar": "0a3fb2ffc2ccd7769220bd9f6f32bb38"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 353,
+        "groupName": "Lonely",
+        "users": [
+          {
+            "username": "Z",
+            "avatar": "b0b494a70df2ee844cc436613fe14569"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 354,
+        "groupName": "普陀女人王",
+        "users": [
+          {
+            "username": "sksks",
+            "avatar": "a00bf2bba6df9e257d47823a86e67f81"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 355,
+        "groupName": "Fodola members",
+        "users": [
+          {
+            "username": "GlassSwordtr",
+            "avatar": "b983680cc70efca5604a55f3a8e06d76"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 356,
+        "groupName": "NXTeam",
+        "users": [
+          {
+            "username": "NXTeamA",
+            "avatar": "9bcb01651505995441d3f73a48e05d74"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 357,
+        "groupName": "man！",
+        "users": [
+          {
+            "username": "我不是白夜",
+            "avatar": "98716e36d287cfb967c5164f2894cb29"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 358,
+        "groupName": "SXYC",
+        "users": [
+          {
+            "username": "邵宇辰",
+            "avatar": "3c37767d9b07b40b095904c1f2b4e47f"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 7
+      },
+      {
+        "gid": 359,
+        "groupName": "TeamSUA",
+        "users": [
+          {
+            "username": "heyshb",
+            "avatar": "3bd666751120d5520f138d0a0af5eecb"
+          },
+          {
+            "username": "oipotato",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 2
+      },
+      {
+        "gid": 360,
+        "groupName": "RandomDudeSoloing",
+        "users": [
+          {
+            "username": "Ivan",
+            "avatar": "63e173ed5d9b08e273aa23b55a3919ed"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 361,
+        "groupName": "猛女队",
+        "users": [
+          {
+            "username": "刘雨晴",
+            "avatar": "668af6ffe1ff9f6753854f37b9dae144"
+          },
+          {
+            "username": "大花生",
+            "avatar": ""
+          },
+          {
+            "username": "虾仁公子",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 6
+      },
+      {
+        "gid": 362,
+        "groupName": "puzzle examiners",
+        "users": [
+          {
+            "username": "kfcruan",
+            "avatar": "99ac09aa4c933425641d2a94764fbd29"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 363,
+        "groupName": "icantfind",
+        "users": [
+          {
+            "username": "sssswwww",
+            "avatar": "a092dd00c91e59e0e9bcc631e8d17a5d"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 3
+      },
+      {
+        "gid": 364,
+        "groupName": "安安",
+        "users": [
+          {
+            "username": "安安",
+            "avatar": "1da9eb2dc181255af05f4e48834b24b1"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 365,
+        "groupName": "linlin",
+        "users": [
+          {
+            "username": "lin",
+            "avatar": "d6ffb94557ac65e760d96a7e644d4508"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 366,
+        "groupName": "swordk",
+        "users": [
+          {
+            "username": "key",
+            "avatar": "1296b3cb97e4b8977e5d74c8c0a064f0"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 367,
+        "groupName": "DylanTheBest",
+        "users": [
+          {
+            "username": "Dylannn",
+            "avatar": "3a7601f38bb9b485dcbcdb8ee9935231"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 368,
+        "groupName": "朋友们和一些东西",
+        "users": [
+          {
+            "username": "诸葛亮",
+            "avatar": "6ca2047938fda2db1995fee13cb27449"
+          },
+          {
+            "username": "臭皮匠 1",
+            "avatar": ""
+          },
+          {
+            "username": "臭皮匠 2",
+            "avatar": ""
+          },
+          {
+            "username": "臭皮匠 3",
+            "avatar": ""
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 369,
+        "groupName": "原神启动",
+        "users": [
+          {
+            "username": "磬绿薄绒荷",
+            "avatar": "0d8a54a5f16f195b7f8d687576ca77af"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 15
+      },
+      {
+        "gid": 370,
+        "groupName": "鸡一昂喝污积液么衣",
+        "users": [
+          {
+            "username": "yyj",
+            "avatar": "943959cf22f9a729fb01fbdcb07fabd9"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 1
+      },
+      {
+        "gid": 371,
+        "groupName": "萨卡班甲鱼",
+        "users": [
+          {
+            "username": "陈咸鱼",
+            "avatar": "3a8ac72d966d45d137cada5fd4d2bc28"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      },
+      {
+        "gid": 372,
+        "groupName": "1",
+        "users": [
+          {
+            "username": "1",
+            "avatar": "f7bcde1847ce9ca2d0e814d732809bbd"
+          }
+        ],
+        "isFinish": 0,
+        "totalTime": null,
+        "finishedPuzzleCount": 0
+      }
+    ]
+  }
+}

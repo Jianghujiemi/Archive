@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狐狸怎么叫？ - 江湖解谜 2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <style>
+        body {
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .questions-table {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            margin: auto;
+            padding: 5px;
+        }
+        .questions-table td {
+            border: 1px solid #000;
+            padding: 5px;
+            width: 5rem;
+            text-align: center;
+            cursor: pointer;
+        }
+        .solved-question {
+            background-color: #4de886;
+        }
+        .selected-question {
+            background-color: #000!important;
+            color: #fff;
+        }
+        .galatic-btn {
+            background: rgb(0, 85, 170);
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .galatic-btn:hover {
+            background: #2af;
+            color: #fff;
+        }
+        .d-none {
+            display: none !important;
+        }
+        .alert {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .alert-danger {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        #reflection-container {
+            border-radius: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: #EAF7FA;
+        }
+        #guess {
+            width: 60%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        #submit {
+            width: 20%;
+        }
+        .split {
+            border-top: 1px solid #dee2e6;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="global-error" class="d-none alert alert-danger"></div>
+
+        <p>请帮我整理一下小白狐主持的答题节目里的历届冠军题吧！他们对应的冠军感言似乎全出问题了！</p>
+
+        <table class="questions-table">
+            <tbody>
+                <tr>
+                    <td id="q0">B4</td>
+                    <td id="q1">G3</td>
+                    <td id="q2">H2</td>
+                    <td id="q3">H4</td>
+                    <td id="q4">K4</td>
+                    <td id="q5">L2</td>
+                    <td id="q6">L2</td>
+                    <td id="q7">Q2</td>
+                </tr>
+                <tr>
+                    <td id="q8">Q3</td>
+                    <td id="q9">S5</td>
+                    <td id="q10">W4</td>
+                    <td id="q11">X4</td>
+                    <td id="q12">X4</td>
+                    <td id="q13">X5</td>
+                    <td id="q14">Z3</td>
+                    <td id="q15">Z4</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="my-4 split"></div>
+
+        <div class="container p-5 border border-black mb-3">
+            <div id="hint1" class="text-end my-3"></div>
+            <div class="my-3 border border-black"></div>
+            <div id="hint2" class="text-start my-3"></div>
+
+            <form id="submit-form" autocomplete="off" action="javascript:void(0);">
+                <div class="my-3 row">
+                    <input id="guess" type="text">
+                    <button id="submit" class="btn galatic-btn" type="submit">确认</button>
+                </div>
+            </form>
+
+            <div id="guess-result" class="d-none guess-result m-auto text-center col-4 col-md-2">
+                <div id="guess-reflection" class="alert" role="alert"></div>
+            </div>
+        </div>
+
+        <div id="reflection-container" class="d-none container mb-3">
+            <h3>冠军感言</h3>
+            <div id="reflection" class="container-fluid text-center"></div>
+        </div>
+
+        <div>
+            <h4>去掉答案的第一个字后，凯撒主任将会从主持人开始颁发奖金……</h4>
+            <ul>
+                <li>¥190</li>
+                <li>¥200</li>
+                <li>¥150</li>
+                <li>¥150</li>
+                <li>¥150</li>
+                <li>¥50</li>
+                <li>¥0</li>
+                <li>¥190</li>
+                <li>¥150</li>
+                <li>¥120</li>
+                <li>¥20</li>
+                <li>¥140</li>
+                <li>¥250</li>
+                <li>¥0</li>
+                <li>¥190</li>
+                <li>¥200</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const ANSWERS = {
+            0: '碧蓝航线',
+            1: '过年好',
+            2: '壶壶',
+            3: '海角七号',
+            4: '孔融让梨',
+            5: '蓝猫',
+            6: '老舍',
+            7: '旗袍',
+            8: '秋田犬',
+            9: '史蒂芬霍金',
+            10: '武汉大学',
+            11: '小美人鱼',
+            12: '新浪微博',
+            13: '辛普森一家',
+            14: '中元节',
+            15: '浙江大学',
+        };
+
+        const REFLECTIONS = {
+            0: '因为练得多啊，天天练，天天练，这操作已经深入我的骨髓了。',
+            1: '不用具体形容，也不用具体比较，我也对你有非常强烈的感觉。',
+            2: '请帮我整理一下小白狐主持的答题节目里的历届冠军题吧！他们对应的冠军感言似乎全出问题了！',
+            3: '因为我不住在海边啊，而且我觉得这东西也不算稀罕吧，就一贝壳。',
+            4: '它是一个藏在互联网里的世界，里面有着穿着银色锡箔衣服的外星人和聪明的老爷爷。',
+            5: '那得是三一重工，专门做泥头车的，制造能力那是刚刚的。',
+            6: '都没有，看来君子之道还是算遵守了。还是要每天多反思反思。',
+            7: '感觉春熙路上全是，到处都是一帮喝醉的人。',
+            8: '随着时间，下一代的教授会培养出更优秀的人才。所以我相信未来会更好。',
+            9: '以一天比喻一生，此乃我等人类。',
+            10: '你刚被对面一套技能秒了，不过临死前把对面输出带走了。',
+            11: '反正不是王一博，也不是胡歌，找个你能见到的男人吧，别做梦了。',
+            12: '虽然它确保了制空权，也拥有喷火的能力，不过它还是不够敏捷，可以用机动部队速攻来取胜。',
+            13: '此乃：一曰傲雪，二曰识途，三曰冰寒。',
+            14: '根据法律来讲，任何非法占有行为都是算的。',
+            15: '我这么可爱的女孩子，当然早上是草莓，中午是草莓，晚上也是草莓啦~',
+        };
+
+        const hint1_texts = [
+            "5a6D5Lul5Liw5a+M55qE576O5bCR5aWz6Ze75ZCN77yM5ZCM5pe25Y+v5Lul57uE5bu66Iiw6Zif6L+b6KGM5oiY5paX44CC6K+l5ri45oiP55qE6Z+p5paH54mI55Sx5b+D5Yqo5Y+R6KGM44CC",
+            "6L+Z6YOoMjAxNuW5tOeahOi0uuWygeeJh+iusui/sOS6huWMluWtpuiAgeW4iOWSjOWtpueUn+S5i+mXtOeahOaVheS6i+OAgg",
+            "5a6D5pyA5pep55m75Zy65LqO57O75YiX5L2c5ZOB55qE56ys5LqM5LiW5Luj77yM6K6+6K6h5p2l5rqQ5LqO6Jek5aO277yM5Lul5p6B5L2O55qE56e75Yqo6YCf5bqm6Ze75ZCN44CC",
+            "5a6D55Sx6IyD6YC46Iej5Li75ryU77yM5Lul5Li05pe25LmQ5Zui55qE5Ymn5oOF5aS65b6X5LqG6YeR6ams5aWW55qE5bm05bqm55S15b2x44CC",
+            "6K+l5L2c5ZOB5Y+W5p2Q5LqO5LiJ5Zu95pe25pyf77yM6K6y6L+w5LqG5YWE5byf5LmL6Ze06LCm6K6p55qE5pWF5LqL77yM5bm26KKr5byV55So6Ieq44CK5LiJ5a2X57uP44CL5Lit44CC",
+            "5a6D57uZ6K645aSa6KeC5LyX5Lyg6YCS5LqG55+l6K+G77yM5bm25oul5pyJ5LiA5Y+q6ICB6byg5L2c5Li65pCt5qGj44CC5a6D55qE6YWN6Z+z5ryU5ZGY5pu05piv55+l5ZCN55qE6ay855Wc57Sg5p2Q44CC",
+            "5LuW5pu+6KKr5Lyg5o+Q5ZCN6K+66LSd5bCU5aWW77yM5Zyo5YyX5Lqs77yM5bGx5Lic6YeN5bqG6YO95pyJ5a6D55qE5pWF5bGF77yM6JGX5ZCN5L2c5ZOB6K6y6L+w5LqG6buE5YyF6L2m5aSr55qE5pWF5LqL44CC",
+            "5a6D5Y+R5rqQ5LqO5rCR5Zu95pe25pyf77yM546w5bi455So5Lid57u45Yi25L2c44CC",
+            "5LuW5pyA5pep5Y+R5rqQ5LqO5pel5pys77yM5piv5LiA5Liq6JGX5ZCN5qKX5Zu+5Lul5Y+K6K6y6L+w5Lq65LiO5Yqo54mp5YWz57O755qE55S15b2x55qE5Li76KeS44CC",
+            "5Z2Q5Zyo6L2u5qSF5LiK55qE5LuW5LiN5LuF6IO95aSf56CU56m25aSq56m65rex5aSE55qE77yM6L+Y6IO95YaZ5L2c5LiO5pe26Ze05pyJ5YWz55qE55WF6ZSA5Lmm44CC",
+            "6L+Z5Liq5pWZ6IKy5py65p6E5Zyo54+e54+I5bGx5LiK77yM5bm25LiU5pyJ6K645aSa5Lq65pil5aSp5p2l5q2k6LWP6Iqx44CC",
+            "5a6D5rqQ6Ieq5Li56bqm56ul6K+d77yM6K6y6L+w5LqG5Li65LqG54ix5oOF5Y+Y5oiQ5LqG5q6L55a+5Lq655qE5pWF5LqL77yM5YW255S15b2x5Li76KeS5byV6LW35LqG5LqS6IGU572R5LiK55qE5LqJ6K6u44CC",
+            "5a6D5piv5LiA5Liq5YiG5Lqr6Ieq5oiR55qE5bmz5Y+w77yM5pu+57uP5Y+q6IO95L2/55So5b6I5bCR55qE5a2X5pWw44CC546w5Zyo5a6D5bey57uP5LuO5q+N5YWs5Y+45YiG5ouG5LiK5biC5bm25Y675o6J5LqG5q+N5YWs5Y+455qE5ZCN56ew44CC",
+            "5a6D6K6y6L+w5LqG576O5Zu95LiA5Liq5oul5pyJ5LiJ5Liq5a2p5a2Q55qE6buE55qu6IKk5a625bqt55qE5pWF5LqL44CC",
+            "6L+Z5piv5LiA5Liq5LiD5pyI5Lu955qE6ay86IqC77yM5Lmf5piv6K645aSa5L2b5pWZ5paH5YyW5b2x5ZON55qE5Zu95a625bi46L+H55qE6IqC5pel44CC",
+            "5a6D55Sx5Zub5Liq5a2m5qCh5ZCI5bm26ICM5oiQ77yM5L2N5LqO5oiR5Zu955qE6ICB5ZKM5bGx5LiK44CC5pyA5pep5Y+r5YGa5rGC5piv5a2m6Zmi44CC",
+        ];
+        const hint2_texts = [
+            "4oCm4oCm6K+36Zeu6L+Z5Liq5ZKM5oiY5LqJ5pyJ5YWz55qE55S15a2Q5ri45oiP5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z6YOo6LW15pys5bGx5Ye65ryU55qE5L2c5ZOB5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z56eN6buE6Imy55qE6Jma5ouf55Sf54mp5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Liq5YWz5LqO6Z+z5LmQ55qE54ix5oOF5pWF5LqL5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Liq6ZiQ6L+w5LqG5Lq655Sf6YGT55CG55qE5L2c5ZOB5piv77yf",
+            "4oCm4oCm6K+36Zeu5p2l6Ieq5LqO5Lit5Zu95YS/56ul5ZCR5L2c5ZOB55qE5a6D5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5L2N5Lit5Zu95L2c5a625piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z56eN5pyA5pep5rqQ6Ieq5LqO55S35oCn6KOF5p2f55qE5aWz5oCn5pyN6aWw5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z56eN5q+b5Y+R6KaG55uW55qE54qs56eR6aOf6IKJ5Yqo54mp5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5L2N54mp55CG5a2m5a625piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Liq5peF5ri45pmv54K55piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z6YOo5oul5pyJ5ZCM5ZCN6Iie5Y+w5Ymn55qE55S15b2x5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5a625LqS6IGU572R5YWs5Y+45piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Liq5oOF5pmv5Zac5Ymn5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Lit5Zu95Lyg57uf6IqC5pel5piv77yf",
+            "4oCm4oCm6K+36Zeu6L+Z5Liq5pWZ6IKy5py65p6E5piv77yf",
+        ];
+
+        let questionSolveStatus = 0;
+        let answers_solved = ["","","","","","","","","","","","","","","",""];
+        let reflections_solved = ["","","","","","","","","","","","","","","",""];
+        let currentActiveQuestion = 0;
+
+        function decodeQuestionText(cipher) {
+            return new TextDecoder().decode(Uint8Array.from(atob(cipher), (m) => m.codePointAt(0)));
+        }
+
+        function switchQuestion(questionId) {
+            for (let i = 0; i < 16; i++) $('#q' + i).removeClass('selected-question');
+            if (!(typeof questionId === 'number' && questionId >= 0 && questionId <= 15)) return;
+            
+            const questionHint1 = decodeQuestionText(hint1_texts[questionId]);
+            const questionHint2 = decodeQuestionText(hint2_texts[questionId]);
+            $('#hint1').text(questionHint1);
+            $('#hint2').text(questionHint2);
+            
+            const questionSolved = questionSolveStatus & (1 << questionId);
+            if (questionSolved) {
+                $('#guess').val(answers_solved[questionId]);
+                $('#reflection').text(reflections_solved[questionId]);
+                $('#guess').prop('disabled', true);
+                $('#submit').prop('disabled', true);
+                $('#guess-reflection').text("正确！");
+                $('#guess-reflection').removeClass('alert-danger');
+                $('#guess-reflection').addClass('alert-success');
+                $('#guess-result').removeClass('d-none');
+                $('#reflection-container').removeClass('d-none');
+            } else {
+                $('#guess').val("");
+                $('#guess').prop('disabled', false);
+                $('#submit').prop('disabled', false);
+                $('#guess-result').addClass('d-none');
+                $('#reflection-container').addClass('d-none');
+            }
+            $('#q' + questionId).addClass('selected-question');
+            currentActiveQuestion = questionId;
+        }
+
+        function submit() {
+            $('#guess').prop("disabled", true);
+            $('#submit').prop("disabled", true);
+            
+            const guess = $('#guess').val();
+            const isCorrect = ANSWERS[currentActiveQuestion] === guess;
+            
+            if (isCorrect) {
+                $('#guess-reflection').text("正确！");
+                $('#q' + currentActiveQuestion).addClass('solved-question');
+                $('#reflection-container').removeClass('d-none');
+                $('#reflection').text(REFLECTIONS[currentActiveQuestion]);
+                questionSolveStatus |= (1 << currentActiveQuestion);
+                answers_solved[currentActiveQuestion] = ANSWERS[currentActiveQuestion];
+                reflections_solved[currentActiveQuestion] = REFLECTIONS[currentActiveQuestion];
+                $('#guess-reflection').removeClass('alert-danger');
+                $('#guess-reflection').addClass('alert-success');
+            } else {
+                $('#guess-reflection').text("错误！");
+                $('#guess-reflection').addClass('alert-danger');
+                $('#guess-reflection').removeClass('alert-success');
+            }
+            
+            $('#guess-result').removeClass('d-none');
+            $('#guess').prop("disabled", false);
+            $('#submit').prop("disabled", false);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            $('#submit-form').on('submit', submit);
+            for (let i = 0; i < 16; i++) {
+                $('#q'+i).on('click', () => switchQuestion(i));
+            }
+            switchQuestion(0);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "type": "problem",
+  "title": "世界奇妙物语",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/world/img_world.webp\" width=100% height=100% alt=\"\">",
+  "answer": "ROMANIA",
+  "desc": "",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "T和F，Wrong和Right等是表达正误的一些判断词，对每行的国家给出了是否符合该列的条件。"
+    },
+    {
+      "title": "我看不懂第一列。",
+      "content": "+86和电话指向了你们需要寻找关于国家的什么数字，而红色代表你需要关注这个数字的哪一位。这是一个很简单的数字规律，不要想复杂。"
+    },
+    {
+      "title": "我看不懂第二列。",
+      "content": "这个图标表示你要去查看国家的什么东西。把满足的和不满足的整理归类一下，找找规律。"
+    },
+    {
+      "title": "我看不懂 第三列。",
+      "content": "这是一个波浪的标志，也许与水有关。"
+    },
+    {
+      "title": "我看不懂第四列。",
+      "content": "图标和cn告诉你要找这个国家的一个两位字母组合，常以.xx形式出现。红色代表你们要关注这个组合的哪一位。也许把它当做数字能更好的看出规律。"
+    },
+    {
+      "title": "我看不懂第五列。",
+      "content": "这是一个在地图上常见的标记，也许和地理信息有关。"
+    },
+    {
+      "title": "我得到了里程碑，但不知道要做什么。",
+      "content": "好奇怪，这张纸条为什么不全用T和F呢？"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "answerfrontcountry",
+      "message": "目前为止正确，继续加油！",
+      "extra": ""
+    },
+    {
+      "answer": "frontcountry",
+      "message": "目前为止正确，继续加油！",
+      "extra": ""
+    },
+    {
+      "answer": "front",
+      "message": "目前为止正确，继续加油！",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 79,
+    "total_guesses": 516,
+    "unique_teams": 81
+  },
+  "answerAnalysis": "\n\n\nesc\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

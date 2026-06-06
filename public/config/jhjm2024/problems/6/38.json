@@ -1,0 +1,73 @@
+{
+  "type": "problem",
+  "title": "经文残本",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<style>\n.boxed {\n    display: inline-block;\n    border: 1px solid black;\n    padding: 0.25em 0.5em;\n}\ntable.split-table {\n  border-collapse: separate;\n  border-spacing: 5px;\n}\n.split-table td {\n  border: 1px solid black!important;\n  padding: 8px!important;\n  text-align: center;\n  width: 10%; /* 设置一个较小的百分比宽度 */\n  border-radius: 5px;\n}\n</style>\n<h1>\n    封面\n</h1>\n<ul>\n  <li>动物</li>\n  <li>国家</li>\n  <li>美国州</li>\n  <li>古罗马军事家</li>\n  <li>布拉德·皮特主演电影</li>\n  <li>群岛</li>\n  <li>西班牙省份</li>\n  <li>日本料理</li>\n  <li>幻之宝可梦</li>\n  <li>航天器</li>\n  <li>体育项目</li>\n  <li>文学名著</li>\n  <li>披头士歌曲</li>\n  <li>仪器</li>\n</ul>\n<h1>\n    碎片\n</h1>\n<table class=\"split-table\">\n  <tr>\n    <td>AND</td>\n    <td>ER</td>\n    <td>GA</td>\n    <td>GE</td>\n    <td>GONE</td>\n    <td>HIP</td>\n    <td>I</td>\n    <td>IALA</td>\n    <td>INGBE</td>\n    <td>IPPI</td>\n  </tr>\n  <tr>\n    <td>ISLANDS</td>\n    <td>JIKIS</td>\n    <td>K</td>\n    <td>L</td>\n    <td>LLI</td>\n    <td>MA</td>\n    <td>MI</td>\n    <td>MOMET</td>\n    <td>N</td>\n    <td>ND</td>\n  </tr>\n  <tr>\n    <td>R</td>\n    <td>RAGO</td>\n    <td>S</td>\n    <td>S</td>\n    <td>SA</td>\n    <td>SMAR</td>\n    <td>SSMITH</td>\n    <td>SU</td>\n    <td>TAL</td>\n    <td>TAMUS</td>\n  </tr>\n  <tr>\n    <td>TH</td>\n    <td>THTHE</td>\n    <td>YA</td>\n  </tr>\n</table>",
+  "answer": "KARL MARX",
+  "desc": "这是散落各处的经文残本。相传，为了保守其中蕴藏的秘密，弟子们将全卷拆开后，留下了一部分用以相互印证。",
+  "tips": [
+    {
+      "title": "我毫无头绪。",
+      "content": "将碎片组合成单词或词组。但是每个单词或词组都有一部分被消去了。JIKIS和TAMUS可以是切入点。"
+    },
+    {
+      "title": "我得到了14个单词或词组，如何继续？",
+      "content": "注意每个单词或词组被消去的部分。将他们连起来，你会得到4个新的单词。"
+    },
+    {
+      "title": "我得到了一些新的单词，如何继续？",
+      "content": "每个单词都可以用一个字母表示。"
+    },
+    {
+      "title": "我得到了一些字母，如何继续？",
+      "content": "添加两个相同的字母对（四个字母），得到8个字母的答案。答案是人名。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "klmx",
+      "message": "目前为止完全正确，继续加油！",
+      "extra": ""
+    },
+    {
+      "answer": "POTASSIUM",
+      "message": "这是正确的中间答案之一。",
+      "extra": ""
+    },
+    {
+      "answer": "RYUZAKI",
+      "message": "这是正确的中间答案之一。",
+      "extra": ""
+    },
+    {
+      "answer": "METER",
+      "message": "这是正确的中间答案之一。",
+      "extra": ""
+    },
+    {
+      "answer": "TWITTER",
+      "message": "这是正确的中间答案之一。",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 82,
+    "total_guesses": 303,
+    "unique_teams": 88
+  },
+  "answerAnalysis": "\n\n\nSevenkplus\n\n\n\n将碎片组合成单词或词组。每个单词或词组都需要加上两对相同的字母。结果如下表。\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>线索</td>\n            <td>单词或词组</td>\n            <td>插入的字母</td>\n        </tr>\n        <tr>\n            <td>动物</td>\n            <td>HIP[PO][PO]TAMUS</td>\n            <td>PO</td>\n        </tr>\n        <tr>\n            <td>国家</td>\n            <td>[TA]JIKIS[TA]N</td>\n            <td>TA</td>\n        </tr>\n        <tr>\n            <td>美国州</td>\n            <td>MI[SS]I[SS]IPPI</td>\n            <td>SS</td>\n        </tr>\n        <tr>\n            <td>古罗马军事家</td>\n            <td>GA[IU]SMAR[IU]S</td>\n            <td>IU</td>\n        </tr>\n        <tr>\n            <td>布拉德·皮特主演电影</td>\n            <td>[MR]AND[MR]SSMITH</td>\n            <td>MR</td>\n        </tr>\n        <tr>\n            <td>群岛</td>\n            <td>R[YU]K[YU]ISLANDS</td>\n            <td>YU</td>\n        </tr>\n        <tr>\n            <td>西班牙省份</td>\n            <td>[ZA]RAGO[ZA]</td>\n            <td>ZA</td>\n        </tr>\n        <tr>\n            <td>日本料理</td>\n            <td>SU[KI]YA[KI]</td>\n            <td>KI</td>\n        </tr>\n        <tr>\n            <td>幻之宝可梦</td>\n            <td>[ME]L[ME]TAL</td>\n            <td>ME</td>\n        </tr>\n        <tr>\n            <td>航天器</td>\n            <td>SA[TE]LLI[TE]</td>\n            <td>TE</td>\n        </tr>\n        <tr>\n            <td>体育项目</td>\n            <td>MA[RT]IALA[RT]S</td>\n            <td>RT</td>\n        </tr>\n        <tr>\n            <td>文学名著</td>\n            <td>GONE[WI]THTHE[WI]ND</td>\n            <td>WI</td>\n        </tr>\n        <tr>\n            <td>披头士歌曲</td>\n            <td>GE[TT]INGBE[TT]ER</td>\n            <td>TT</td>\n        </tr>\n        <tr>\n            <td>仪器</td>\n            <td>TH[ER]MOMET[ER]</td>\n            <td>ER</td>\n        </tr>\n    </table>\n</div>\n\n将插入的字母连起来，得到四个单词 POTASSIUM RYUZAKI METER TWITTER。\n\n每个单词都对应一个字母，转换后得到四个字母 KLMX。\n\n插入一对相同的字母后得到答案 **KARL MARX** 。\n\n\n"
+}

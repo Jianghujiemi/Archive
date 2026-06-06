@@ -1,0 +1,132 @@
+{
+  "title": "玉虚宫练武",
+  "scene": "成为了外门弟子后，他就开始和内门弟子一起训练了。除了巩固呼吸吐纳之术以外，还有三门主要功课。同时，在一年之后，还会有一场跨宗门的门生大战。每个门派都会选出自己最强的几位弟子，进行新一代的门生大战。陈子题听说外门虽然基本没有机会，但是要是课业成绩好，宗门小比成绩优异，也不是不可以。 <br><br>\n但是，这三门课的总教头可都不是什么好惹的对象：<br><br>\n拳法总教头是被称之为极武之躯的黄大权，传说中任性，暴力且酗酒，但一手太极拳耍的虎虎生风，据说他的身体凝结了巨大的力量。<br><br>\n身法总教头是被称之为水兑之灵的司马君实，他很厉害。<br><br>\n剑法教头洪幻道长，一把剑刷得无人能敌。传说中他的剑法终结了整个魔教。不过洪师父总是忧心忡忡，似乎曾有一段伤心的往事。<br><br>\n上课的地方就是武当的大殿——玉虚宫。陈子题能不能经受得住这些课程呢？",
+  "problems": [
+    {
+      "pid": 35,
+      "title": "太极拳法",
+      "type": 1,
+      "path": "/problems/jhjm2024/5/35"
+    },
+    {
+      "pid": 36,
+      "title": "玄门剑修",
+      "type": 1,
+      "path": "/problems/jhjm2024/5/36"
+    },
+    {
+      "pid": 37,
+      "title": "凌波微步",
+      "type": 1,
+      "path": "/problems/jhjm2024/5/37"
+    },
+    {
+      "pid": 20,
+      "title": "午间随笔",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/20"
+    },
+    {
+      "pid": 19,
+      "title": "试问前程",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/19"
+    },
+    {
+      "pid": 17,
+      "title": "思维驰",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/17"
+    },
+    {
+      "pid": 23,
+      "title": "亮点自寻",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/23"
+    },
+    {
+      "pid": 21,
+      "title": "神鹿",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/21"
+    },
+    {
+      "pid": 30,
+      "title": "无中生有",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/30"
+    },
+    {
+      "pid": 33,
+      "title": "口算300练",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/33"
+    },
+    {
+      "pid": 22,
+      "title": "遨游江湖",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/22"
+    },
+    {
+      "pid": 26,
+      "title": "日行千里",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/26"
+    },
+    {
+      "pid": 25,
+      "title": "斥候外传",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/25"
+    },
+    {
+      "pid": 27,
+      "title": "诗词大赛",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/27"
+    },
+    {
+      "pid": 24,
+      "title": "云端学习",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/24"
+    },
+    {
+      "pid": 18,
+      "title": "猪逻辑公园",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/18"
+    },
+    {
+      "pid": 34,
+      "title": "赛博记录员",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/34"
+    },
+    {
+      "pid": 31,
+      "title": "大通灵师",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/31"
+    },
+    {
+      "pid": 28,
+      "title": "浊理一新",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/28"
+    },
+    {
+      "pid": 32,
+      "title": "城市漫游",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/32"
+    },
+    {
+      "pid": 29,
+      "title": "最美心意",
+      "type": 0,
+      "path": "/problems/jhjm2024/5/29"
+    }
+  ]
+}

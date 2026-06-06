@@ -1,0 +1,54 @@
+{
+  "type": "problem",
+  "title": "行间字里",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<div class=\"container\">\n<h3>例</h3>\n<div class=\"text-center\">\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/byline/byline_1.webp\" alt=\"\" class=\"w-75 my-3 mx-auto\">\n</div>\n<div class=\"my-5 split\"></div>\n<hr /><div class=\"text-center\">\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/byline/byline_2.webp\" alt=\"\" class=\"w-75 my-3 mx-auto\">\n</div>\n</div>",
+  "answer": "gomphocarpus physocarpus",
+  "desc": "",
+  "tips": [
+    {
+      "title": "我（自认为）是一个解谜新手！能为我介绍一下一道谜题的各个组成部分吗？",
+      "content": "好的！ 一道谜题通常由4个部分组成：标题（可能是这道题相关的主题），flavor text（缩写为ft，通常是前几行的斜体字，可能暗示着这道题的突破口甚至是核心机制），主体部分（可能由文字，图片，音频，视频等组成）和提取部分（用某种方式得出这道题的答案）。"
+    },
+    {
+      "title": "我（自认为）是一个解谜新手！能为我解释一下谜题中常见的这些稀奇古怪的符号吗？",
+      "content": "通常情况下，每段横线或问号会代表一个未知字符。题目中出现的数字有时用来排序，有时提供了答案的某种性质。每道题中出现的其它符号在不同的题中可能代表不同的含义。"
+    },
+    {
+      "title": "这道题需要我做什么？",
+      "content": "例题中指示了你应该如何填写问号，你也可以在微信公众号【咚咚谜】找到很多类似的题目。"
+    },
+    {
+      "title": "我找到了一些答案！但我拼不出有意义的内容。",
+      "content": "你可能需要对各个小题答案进行拆分、拼合、翻转等操作，来使拼合后的结果能够成为汉字。你也可以在微信公众号【咚咚谜】学习类似的技巧。"
+    },
+    {
+      "title": "有某道小题的答案好像与众不同，但我感觉自己也没做错啊？",
+      "content": "这道小题使用了带衬线的字体，与其他小题有些许不同，你可以思考其中原因。"
+    },
+    {
+      "title": "这真的是答案？",
+      "content": "答案是挺长的。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "初入武当",
+    "path": "/area/jhjm2024/4",
+    "pgid": 4
+  },
+  "_stats": {
+    "correct_count": 163,
+    "total_guesses": 379,
+    "unique_teams": 168
+  },
+  "answerAnalysis": "\n\n\n火冬\n\n\n\n首先我们来看看示例:\n\n<div class=\"container p-3\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_1.webp\" class=\"w-100\" alt=\"pic\">\n</div>\n\n从示例中看到，我们的答案需要和谜题的问号一样进行伸缩。\n其中第一个谜题为“筒”去掉“同”的部件，即竹字头；第二个谜题是safe（安全）的下半部分，其中文部分的下半部分为“女王”。\n\n<div class=\"container p-3\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_2.webp\" class=\"w-100\" alt=\"pic\">\n</div>\n\n那现在，让我们来观察原图。\n\n<h2>小题</h2>\n\n<h3>犬和三撇</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_3.webp\" alt=\"pic\">\n</div>\n\n这里指的是“倏”和“修”两个汉字的右下角。方格上方都标注了拼音。这个的正确答案是“亻”，单人旁。左上角的版本需要转置。\n\n<h3>讯计</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_4.webp\" alt=\"pic\">\n</div>\n\n本题需要的部件是“讯”和“计”的差值，即横斜钩。\n\n<h3>PULL PUSH</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_5.webp\" alt=\"pic\">\n</div>\n\n本题巧妙地运用了中文“推拉”和英文pull，push相同的左侧。答案为“推拉”共同的左侧，“扌”。\n\n<h3>横竖</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_6.webp\" alt=\"pic\">\n</div>\n\n“横”的右半部分是“黄”，所以提取“竖”的下半部分，“立”。\n\n<h3>Dog</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_7.webp\" alt=\"pic\">\n</div>\n\n这里是dog，也就是“犬”的上半部分，即横，一小竖和点的结构。\n\n<h3>化学式</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_8.webp\" alt=\"pic\">\n</div>\n\n这是“王水”的化学方程式。\n\n<h3>1=A</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_9.webp\" alt=\"pic\">\n</div>\n\n这是扑克牌的点数，其中11 = J， 注意J是衬线字体。\n\n<h3>音和义</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_10.webp\" alt=\"pic\">\n</div>\n\n这个词念作 *fengxian* ，意思为付出，该词语答案为“奉献”，提取答案左边的下方，得到两横一竖的结果。\n\n<h3>多多</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_11.webp\" alt=\"pic\">\n</div>\n\n这里其实是“七夕”，代表有七个“夕”字。\n\n<h3>图形类比</h3>\n\n<div class=\"container p-3 text-center\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_12.webp\" alt=\"pic\">\n</div>\n\n简单图的互补关系（右边图形加上左边图形构成X个顶点互相相连一次的图形），右边是一个长方形。\n\n<h2>提取</h2>\n\n<div class=\"container p-3\">\n    <img src=\"/config/jhjm2024/static/assets/solution_resources/byline/byline_13.webp\" class=\"w-100\" alt=\"pic\">\n</div>\n\n可以看出“气球花拉丁名”六个字[^1]，因此答案就是气球花这个物种的拉丁名称，<br>\n**GOMPHOCARPUS PHYSOCARPUS**，同样满足右下角的（12 11）枚举。\n\n[^1]: “气”其实缺一横，不过看得出来。\n\n<style>\n.container {\n    margin: auto;\n}\n</style>\n\n\n\n\n"
+}

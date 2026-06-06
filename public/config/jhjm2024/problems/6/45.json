@@ -1,0 +1,39 @@
+{
+  "type": "problem",
+  "title": "交点之下",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/crossover/img_crossover.webp\" width=100% height=100% alt=\"\">",
+  "answer": "KID CUDI",
+  "desc": "基因，线缆，或是人的命运，都在无时无刻的相互交织。",
+  "tips": [
+    {
+      "title": "这是什么密码？",
+      "content": "这是利用25对电线根据颜色组成的编码。青青是Z。"
+    },
+    {
+      "title": "我破译了这个“染色体”的密码，我应该干什么？",
+      "content": "你找到的两个交错的答案里，包括了某些角色，他们其中有一些也“交错”在两者中。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 87,
+    "total_guesses": 204,
+    "unique_teams": 88
+  },
+  "answerAnalysis": "\n\n\n温\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

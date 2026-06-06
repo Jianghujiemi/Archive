@@ -1,0 +1,60 @@
+{
+  "title": "门生擂台",
+  "scene": "很没有悬念的，在被三个导师大力推荐后，陈子题成为了这场门生对决的参赛者。当他坐上了马车前往武汉时，心中满满的都是激动。<br>\n“比赛！比赛！”他一边开心的喊着，全然不知当他见到目标地点的彪形大汉们时，是什么想法。",
+  "problems": [
+    {
+      "pid": 44,
+      "title": "PUZZLE",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/44"
+    },
+    {
+      "pid": 45,
+      "title": "交点之下",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/45"
+    },
+    {
+      "pid": 38,
+      "title": "经文残本",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/38"
+    },
+    {
+      "pid": 40,
+      "title": "狐狸怎么叫？",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/40"
+    },
+    {
+      "pid": 39,
+      "title": "密宗筑基",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/39"
+    },
+    {
+      "pid": 41,
+      "title": "谢邀，人在江湖，身不由己",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/41"
+    },
+    {
+      "pid": 42,
+      "title": "世界奇妙物语",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/42"
+    },
+    {
+      "pid": 43,
+      "title": "失联星球",
+      "type": 0,
+      "path": "/problems/jhjm2024/6/43"
+    },
+    {
+      "pid": 46,
+      "title": "打得一拳开",
+      "type": 1,
+      "path": "/problems/jhjm2024/6/46"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>江湖解谜</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <style>
+        @font-face {
+            font-family: 'yizhiti';
+            /* src: url('../static/misc/fonts/YiZhiTi.ttf') format('truetype');*/
+            /*src: url('../static/misc/fonts/YiZhiTi.woff2') format('truetype');*/
+            src: url('../static/misc/fonts/miniYiZhiTi.woff2') format('truetype');
+        }
+
+        body {
+            position: relative;
+            /* Needed for z-index to work */
+            z-index: -1;
+        }
+
+        body::before {
+            content: "";
+            background-image: url("/static/images/bg/background-paper.efe8022c7de5.webp");
+            background-size: cover;
+            /* Cover the entire page */
+            background-repeat: round;
+            /* Do not repeat the image */
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+
+        .body-container {
+            max-width: 1200px;
+            margin: auto;
+            padding-bottom: 50px;
+            z-index: 1;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .body-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        nav {
+            z-index: 1;
+        }
+
+        .nav-btn-link {
+            width: 16.67%;
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-container overflow-y-scroll vh-100">
+        <div class="content">
+            <main style="text-align: center" class="white-75-background">
+                <!-- <div>
+        <h3 class="fw-bold">恭喜您江湖解谜完赛!</h3>
+        <div>欢迎您加入我们的通关QQ群：838986595，与其他完赛选手一起讨论。</div>
+    </div> -->
+                <div class="mt-5">
+                    <h3 class="fw-bold">江湖解谜 Staff 一览</h3>
+                    <table class="staff-list">
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class="head">出题人总表（按题目数量/首字母顺序）</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">小白狐九月</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">肥鱼</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">鸣秋</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Caiji</td>
+                                <td colspan="2">Sevenkplus</td>
+                            </tr>
+                            <tr>
+                                <td>esc</td>
+                                <td>火冬</td>
+                                <td>落葉子</td>
+                                <td>温</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="head" style="background-color: #666; padding: 0.5rem;">备用题出题人
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ES8730</td>
+                                <td>Fivero</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" class="head">网站搭建</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">网站汉化</td>
+                                <td colspan="2">Sapium，小白狐九月，JCarlson</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">碎银（提示）系统开发</td>
+                                <td colspan="2">Sapium</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">图片素材</td>
+                                <td colspan="2">鸣秋，小白狐九月</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">题目排版与美化</td>
+                                <td colspan="2">JCarlson，小白狐九月</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">剧情</td>
+                                <td colspan="2">小白狐九月</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">缺陷管理</td>
+                                <td colspan="2">JCarlson，Sapium，kinami</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">存档站</td>
+                                <td colspan="2">EterIll</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">赞助</td>
+                                <td colspan="2">小白狐九月</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" class="head">活动宣发</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">海报</td>
+                                <td colspan="2">鱼左</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">宣传</td>
+                                <td colspan="2">鱼左</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" class="head">测试</td>
+                            </tr>
+                            <tr>
+                                <td>冰枫凌</td>
+                                <td>Erebus</td>
+                                <td>esc</td>
+                                <td>Fuyuki</td>
+                            </tr>
+                            <tr>
+                                <td>糖纸</td>
+                                <td>Sapium</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" class="head">其他事宜</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">邮件回复</td>
+                                <td colspan="2">小白狐九月</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">人工提示回复</td>
+                                <td colspan="2">冰枫凌，Erebus，Fuyuki，糖纸</td>
+                            </tr>
+
+                            <tr>
+                                <td class="head">区域1</td>
+                                <td class="head">主体结构</td>
+                                <td class="head">美工</td>
+                                <td class="head">技术实现</td>
+                            </tr>
+                            <tr>
+                                <td>绝情本是</td>
+                                <td>小白狐九月</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>古城记忆</td>
+                                <td>肥鱼</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>上元节灯会</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>行间字里</td>
+                                <td>火冬</td>
+                                <td>火冬</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>吃货考试</td>
+                                <td>肥鱼</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Meta: 吐纳心法</td>
+                                <td>小白狐九月</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td class="head">区域2</td>
+                                <td class="head">主体结构</td>
+                                <td class="head">美工</td>
+                                <td class="head">技术实现</td>
+                            </tr>
+                            <tr>
+                                <td>思维驰</td>
+                                <td>Caiji</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>猪逻辑公园</td>
+                                <td>落葉子</td>
+                                <td>落葉子</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>试问前程</td>
+                                <td>肥鱼</td>
+                                <td>JCarlson</td>
+                                <td>JCarlson</td>
+                            </tr>
+                            <tr>
+                                <td>午间随笔</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>神鹿</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>遨游江湖</td>
+                                <td>肥鱼</td>
+                                <td>鸣秋</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Meta: 太极拳法</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td class="head">区域3</td>
+                                <td class="head">主体结构</td>
+                                <td class="head">美工</td>
+                                <td class="head">技术实现</td>
+                            </tr>
+                            <tr>
+                                <td>亮点自寻</td>
+                                <td>鸣秋</td>
+                                <td>Caiji，鸣秋</td>
+                                <td>Caiji</td>
+                            </tr>
+                            <tr>
+                                <td>云端学习</td>
+                                <td>鸣秋</td>
+                                <td>鸣秋</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>斥候外传</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>日行千里</td>
+                                <td>鸣秋</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>另起六十二行的自由</td>
+                                <td>肥鱼</td>
+                                <td>JCarlson，糖纸</td>
+                                <td>Sapium</td>
+                            </tr>
+                            <tr>
+                                <td>浊理一新</td>
+                                <td>鸣秋</td>
+                                <td>鸣秋</td>
+                                <td>JCarlson</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Meta: 玄门剑修</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td class="head">区域4</td>
+                                <td class="head">主体结构</td>
+                                <td class="head">美工</td>
+                                <td class="head">技术实现</td>
+                            </tr>
+                            <tr>
+                                <td>最美心意</td>
+                                <td>肥鱼</td>
+                                <td>肥鱼</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>无中生有</td>
+                                <td>Caiji</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>大通灵师</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td>Sapium，JCarlson</td>
+                            </tr>
+                            <tr>
+                                <td>城市漫游</td>
+                                <td>小白狐九月</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>口算300练</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>赛博记录员</td>
+                                <td>鸣秋</td>
+                                <td>鸣秋</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Meta: 凌波微步</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td class="head">区域5</td>
+                                <td class="head">主体结构</td>
+                                <td class="head">美工</td>
+                                <td class="head">技术实现</td>
+                            </tr>
+                            <tr>
+                                <td>经文残本</td>
+                                <td>Sevenkplus</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>密宗筑基</td>
+                                <td>Sevenkplus</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>狐狸怎么叫？</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td>JCarlson</td>
+                            </tr>
+                            <tr>
+                                <td>谢邀，人在江湖，身不由己</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>走向世界</td>
+                                <td>esc</td>
+                                <td>esc</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>失联星球</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>PUZZLE</td>
+                                <td>肥鱼</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>交点之下</td>
+                                <td>温</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Meta: 打得一拳开</td>
+                                <td>小白狐九月</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-5">
+                    <h3 class="fw-bold">特别鸣谢</h3>
+                    <div>待添加……</div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="fw-bold">分享活动鸣谢</h3>
+                    <div>待添加……</div>
+                </div>
+            </main>
+            <style>
+                .staff-list {
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 2px solid black !important;
+                    width: 80%;
+                }
+
+                .staff-list td {
+                    border: 1px solid black !important;
+                    text-align: center;
+                    width: 25%;
+                    padding: 1rem;
+                }
+
+                .staff-list .head {
+                    background-color: black;
+                    color: white;
+                    font-weight: bold;
+                }
+            </style>
+
+        </div>
+        <footer>
+
+            <div class="mt-5">
+                <a target="_blank" rel="noopener" class="site-info"
+                    href="https://github.com/EternalIllusion/PuzzleHuntArchives">Powered by EterIll's PH Archive with
+                    CCXCArchiveEvolved</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

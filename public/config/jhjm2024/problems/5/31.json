@@ -1,0 +1,49 @@
+{
+  "type": "problem",
+  "title": "大通灵师",
+  "extendContent": " (原题通过后没有附加内容)\n\n小白狐在提到存档站的时候，曾在P&KU群中激情献唱：\n\n\n\n<video src=\"/config/jhjm2024/static/assets/puzzle_resources/psychic/fox_said.mp4\" controls height=\"120\">您的浏览器不支持video标签</video>",
+  "contentType": 3,
+  "vueScript": "/config/jhjm2024/problems/5/31.vue",
+  "content": "",
+  "answer": "SOMEDAY OR ONE DAY",
+  "desc": "",
+  "tips": [
+    {
+      "title": "请问我应该干什么？",
+      "content": "每一段都是凯撒密码，进一步指示在第一个用户的名称里。"
+    },
+    {
+      "title": "账号密码已输入，请告诉我所有的【密文】来帮我往下走！！",
+      "content": "【腾讯文档】大通灵师：信息 https://docs.qq.com/doc/DSHhqRGRPWnJwTE9t"
+    },
+    {
+      "title": "【那玩意儿】到底卖多少钱啊？",
+      "content": "那玩意儿卖多少钱不重要，但是注意你是知道两位的凯撒位移多少的。另外注意他们的位移方向和你的解码方向相反。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "Last Dance",
+      "message": "随着时钟滴滴答答的旋转，你看到了过去，未来，以及现在。一个人在你耳边轻轻地说到：“SOMEDAY OR ONE DAY, 我总会见到你的。”",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 80,
+    "total_guesses": 167,
+    "unique_teams": 86
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

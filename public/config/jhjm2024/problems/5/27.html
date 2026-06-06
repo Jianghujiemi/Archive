@@ -1,0 +1,1113 @@
+<head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <style>
+        .grid-container {
+            max-width: 83rem;
+            overflow-x: auto;
+            overflow-y: visible;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 2rem repeat(5, 7.5rem) 4rem repeat(5, 7.5rem) 2rem;
+            grid-template-rows: repeat(31, 2rem);
+            padding-bottom: 5px;
+            background-color: #f0f0f0;
+        }
+
+        .grid-item {
+            font-size: 1.7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input-cell {
+            background-color: #f0f8ff;
+            height: 100%;
+            font-size: 0.95rem;
+        }
+
+        .output-cell {
+            background-color: #ffffff;
+            height: 100%;
+        }
+
+        .output-left {
+            justify-self: end;
+        }
+
+        .output-right {
+            justify-self: start;
+        }
+
+        .output-2 {
+            width: 4rem;
+        }
+
+        .output-1 {
+            width: 2rem;
+        }
+    </style>
+
+    <div class="container">
+
+        <div id="responsive-alert" class="alert alert-warning alert-dismissible fade show my-5">
+            请注意，本题并未针对手机端进行优化。我们强烈建议使用 PC 端查看本题页面。<br>骗你的存档站也没有优化(bushi)(<br />期末周结束了我要是还想得起来我就回来优化（x<br />
+            此外，本题不保存中间结果，请注意及时记录解谜进展。
+        </div>
+
+        <div id="global-error" class="d-none alert alert-danger"></div>
+
+        <!-- <div class="container p-5 border border-black mb-3"> -->
+
+        <form id="submit-form" class="container-fluid" autocomplete="off" action="javascript:void(0);">
+            <div class="grid-container" id="myGrid"></div>
+
+            <script>
+                const cellContents = {
+                    '0-0': '虬',
+                    '2-0': '桃',
+                    '4-0': '火',
+                    '6-0': '烟',
+                    '8-0': '安',
+                    '10-0': '侵',
+                    '12-0': '边',
+                    '14-0': '斋',
+                    '16-0': '海',
+                    '18-0': '桥',
+                    '20-0': '横',
+                    '22-0': '耶',
+                    '24-0': '崩',
+                    '26-0': '秋',
+                    '28-0': '泉',
+                    '30-0': '润',
+                    '30-12': '依',
+                    '28-12': '春',
+                    '26-12': '颜',
+                    '24-12': '息',
+                    '22-12': '晴',
+                    '20-12': '君',
+                    '18-12': '悠',
+                    '16-12': '间',
+                    '14-12': '夜',
+                    '12-12': '国',
+                    '10-12': '寻',
+                    '8-12': '开',
+                    '6-12': '剪',
+                    '4-12': '花',
+                    '2-12': '晚',
+                    '0-12': '满'
+                };
+                const inputSlut = {
+                    '0-1': 'level_0_box_0',
+                    '2-1': 'level_0_box_1',
+                    '4-1': 'level_0_box_2',
+                    '6-1': 'level_0_box_3',
+                    '8-1': 'level_0_box_4',
+                    '10-1': 'level_0_box_5',
+                    '12-1': 'level_0_box_6',
+                    '14-1': 'level_0_box_7',
+                    '16-1': 'level_0_box_8',
+                    '18-1': 'level_0_box_9',
+                    '20-1': 'level_0_box_10',
+                    '22-1': 'level_0_box_11',
+                    '24-1': 'level_0_box_12',
+                    '26-1': 'level_0_box_13',
+                    '28-1': 'level_0_box_14',
+                    '30-1': 'level_0_box_15',
+                    '30-11': 'level_0_box_16',
+                    '28-11': 'level_0_box_17',
+                    '26-11': 'level_0_box_18',
+                    '24-11': 'level_0_box_19',
+                    '22-11': 'level_0_box_20',
+                    '20-11': 'level_0_box_21',
+                    '18-11': 'level_0_box_22',
+                    '16-11': 'level_0_box_23',
+                    '14-11': 'level_0_box_24',
+                    '12-11': 'level_0_box_25',
+                    '10-11': 'level_0_box_26',
+                    '8-11': 'level_0_box_27',
+                    '6-11': 'level_0_box_28',
+                    '4-11': 'level_0_box_29',
+                    '2-11': 'level_0_box_30',
+                    '0-11': 'level_0_box_31',
+                    '1-2': 'level_1_box_0',
+                    '5-2': 'level_1_box_1',
+                    '9-2': 'level_1_box_2',
+                    '13-2': 'level_1_box_3',
+                    '17-2': 'level_1_box_4',
+                    '21-2': 'level_1_box_5',
+                    '25-2': 'level_1_box_6',
+                    '29-2': 'level_1_box_7',
+                    '29-10': 'level_1_box_8',
+                    '25-10': 'level_1_box_9',
+                    '21-10': 'level_1_box_10',
+                    '17-10': 'level_1_box_11',
+                    '13-10': 'level_1_box_12',
+                    '9-10': 'level_1_box_13',
+                    '5-10': 'level_1_box_14',
+                    '1-10': 'level_1_box_15',
+                    '3-3': 'level_2_box_0',
+                    '11-3': 'level_2_box_1',
+                    '19-3': 'level_2_box_2',
+                    '27-3': 'level_2_box_3',
+                    '27-9': 'level_2_box_4',
+                    '19-9': 'level_2_box_5',
+                    '11-9': 'level_2_box_6',
+                    '3-9': 'level_2_box_7',
+                    '7-4': 'level_3_box_0',
+                    '23-4': 'level_3_box_1',
+                    '23-8': 'level_3_box_2',
+                    '7-8': 'level_3_box_3',
+                    '15-5': 'level_4_box_0',
+                    '15-7': 'level_4_box_1'
+                };
+                const outputSlut = {
+                    '1-1': 'level_1_cir_0',
+                    '5-1': 'level_1_cir_1',
+                    '9-1': 'level_1_cir_2',
+                    '13-1': 'level_1_cir_3',
+                    '17-1': 'level_1_cir_4',
+                    '21-1': 'level_1_cir_5',
+                    '25-1': 'level_1_cir_6',
+                    '29-1': 'level_1_cir_7',
+                    '29-11': 'level_1_cir_8',
+                    '25-11': 'level_1_cir_9',
+                    '21-11': 'level_1_cir_10',
+                    '17-11': 'level_1_cir_11',
+                    '13-11': 'level_1_cir_12',
+                    '9-11': 'level_1_cir_13',
+                    '5-11': 'level_1_cir_14',
+                    '1-11': 'level_1_cir_15',
+                    '3-2': 'level_2_cir_0',
+                    '11-2': 'level_2_cir_1',
+                    '19-2': 'level_2_cir_2',
+                    '27-2': 'level_2_cir_3',
+                    '27-10': 'level_2_cir_4',
+                    '19-10': 'level_2_cir_5',
+                    '11-10': 'level_2_cir_6',
+                    '3-10': 'level_2_cir_7',
+                    '7-3': 'level_3_cir_0',
+                    '23-3': 'level_3_cir_1',
+                    '23-9': 'level_3_cir_2',
+                    '7-9': 'level_3_cir_3',
+                    '15-4': 'level_4_cir_0',
+                    '15-8': 'level_4_cir_1',
+                    '15-6': 'level_5_cir_0'
+                };
+
+                const grid = document.getElementById('myGrid');
+
+                for (let i = 0; i < 31; i++) {
+                    for (let j = 0; j < 13; j++) {
+                        const key = `${i}-${j}`;
+                        let gridItem;
+
+                        // 检查key是否在inputSlut或outputSlut中
+                        if (inputSlut.hasOwnProperty(key)) {
+                            gridItem = document.createElement('input');
+                            gridItem.id = inputSlut[key];
+                            gridItem.classList.add('input-cell');
+                        } else if (outputSlut.hasOwnProperty(key)) {
+                            gridItem = document.createElement('div');
+                            gridItem.id = outputSlut[key];
+                            gridItem.classList.add('output-cell');
+                            if (j < 5) {
+                                gridItem.classList.add('output-left');
+                            } else {
+                                gridItem.classList.add('output-right');
+                            }
+                            if (outputSlut[key].includes('level_1') || outputSlut[key].includes('level_3') || outputSlut[key].includes('level_5')) {
+                                gridItem.classList.add('output-2');
+                            } else {
+                                gridItem.classList.add('output-1');
+                            }
+                        } else if (cellContents.hasOwnProperty(key)) {
+                            gridItem = document.createElement('div');
+                            gridItem.textContent = cellContents[key];
+                            gridItem.classList.add('output-cell');
+                        } else {
+                            gridItem = document.createElement('div');
+                        }
+
+                        gridItem.classList.add('grid-item');
+                        document.getElementById('myGrid').appendChild(gridItem);
+                    }
+                }
+
+                // 当你接收到请求体后，你可以使用以下代码来更新输出单元格的内容
+                function updateOutputCells(requestBody) {
+                    for (const key in outputSlut) {
+                        if (requestBody.hasOwnProperty(outputSlut[key])) {
+                            const outputCell = document.getElementById(outputSlut[key]);
+                            outputCell.textContent = requestBody[outputSlut[key]];
+                        }
+                    }
+                }
+
+            </script>
+            <div class="container text-center mt-3">
+                <button id="submit" class="btn galatic-btn" type="submit">确认</button>
+            </div>
+    </div>
+    </form>
+
+    <div>
+        <table style="font-size:1.5rem;" class="mx-auto">
+            <tr>
+                <td>作者</td>
+                <td>诗名/词名</td>
+                <td>作者</td>
+                <td>诗名/词名</td>
+                <td>作者</td>
+                <td>诗名/词名</td>
+                <td>作者</td>
+                <td>诗名/词名</td>
+            </tr>
+            <tr>
+                <td>白居易</td>
+                <td>长恨歌</td>
+                <td>杜甫</td>
+                <td>八阵图</td>
+                <td>李之仪</td>
+                <td>卜算子·我住长江头</td>
+                <td>叶绍翁</td>
+                <td>游园不值</td>
+            </tr>
+            <tr>
+                <td>白居易</td>
+                <td>大林寺桃花</td>
+                <td>杜甫</td>
+                <td>兵车行</td>
+                <td>刘禹锡</td>
+                <td>再游玄都观</td>
+                <td>佚名</td>
+                <td>采薇</td>
+            </tr>
+            <tr>
+                <td>白居易</td>
+                <td>赋得古原草送别</td>
+                <td>杜甫</td>
+                <td>春望</td>
+                <td>柳永</td>
+                <td>少年游·长安古道马迟迟</td>
+                <td>佚名</td>
+                <td>孔雀东南飞</td>
+            </tr>
+            <tr>
+                <td>白居易</td>
+                <td>琵琶行</td>
+                <td>杜甫</td>
+                <td>春夜喜雨</td>
+                <td>卢钺</td>
+                <td>雪梅·其一</td>
+                <td>于谦</td>
+                <td>石灰吟</td>
+            </tr>
+            <tr>
+                <td>鲍溶</td>
+                <td>壮士行</td>
+                <td>杜甫</td>
+                <td>登高</td>
+                <td>卢照邻</td>
+                <td>长安古意</td>
+                <td>张籍</td>
+                <td>秋思</td>
+            </tr>
+            <tr>
+                <td>曹丕</td>
+                <td>杂诗二首·其一</td>
+                <td>杜甫</td>
+                <td>曲江二首·其二</td>
+                <td>陆游</td>
+                <td>书愤五首·其一</td>
+                <td>张九龄</td>
+                <td>望月怀远</td>
+            </tr>
+            <tr>
+                <td>岑参</td>
+                <td>白雪歌送武判官归京</td>
+                <td>杜甫</td>
+                <td>蜀相</td>
+                <td>马致远</td>
+                <td>天净沙·秋思</td>
+                <td>张若虚</td>
+                <td>春江花月夜</td>
+            </tr>
+            <tr>
+                <td>崔护</td>
+                <td>题都城南庄</td>
+                <td>杜甫</td>
+                <td>闻官军收河南河北</td>
+                <td>钱起</td>
+                <td>归雁</td>
+                <td>郑谷</td>
+                <td>淮上与友人别</td>
+            </tr>
+            <tr>
+                <td>杜牧</td>
+                <td>寄扬州韩绰判官</td>
+                <td>李白</td>
+                <td>黄鹤楼送孟浩然之广陵</td>
+                <td>秦观</td>
+                <td>鹊桥仙·纤云弄巧</td>
+                <td>郑燮</td>
+                <td>潍县署中画竹 呈年伯包大丞括</td>
+            </tr>
+            <tr>
+                <td>范成大</td>
+                <td>四时田园杂兴·其二十五</td>
+                <td>李白</td>
+                <td>梦游天姥吟留别</td>
+                <td>苏轼</td>
+                <td>水调歌头·明月几时有</td>
+                <td>志南</td>
+                <td>绝句·古木阴中系短篷</td>
+            </tr>
+            <tr>
+                <td>高鼎</td>
+                <td>村居</td>
+                <td>李白</td>
+                <td>蜀道难</td>
+                <td>王安石</td>
+                <td>泊船瓜洲</td>
+                <td>朱熹</td>
+                <td>春日</td>
+            </tr>
+            <tr>
+                <td>高适</td>
+                <td>别董大二首·其一</td>
+                <td>李白</td>
+                <td>送友人</td>
+                <td>王之涣</td>
+                <td>凉州词二首·其一</td>
+                <td>曾几</td>
+                <td>三衢道中</td>
+            </tr>
+            <tr>
+                <td>韩愈</td>
+                <td>春雪</td>
+                <td>李白</td>
+                <td>侠客行</td>
+                <td>吴伟业</td>
+                <td>圆圆曲</td>
+                <td>_ _ _</td>
+                <td>_ _ _ · _ _ _ _ _ _</td>
+            </tr>
+            <tr>
+                <td>贺知章</td>
+                <td>咏柳</td>
+                <td>李白</td>
+                <td>月下独酌·其三</td>
+                <td>徐凝</td>
+                <td>忆扬州</td>
+                <td>_ _ _</td>
+                <td>_ _ _ · _ _ _</td>
+            </tr>
+            <tr>
+                <td>寇准</td>
+                <td>咏华山</td>
+                <td>李白</td>
+                <td>子夜吴歌·秋歌</td>
+                <td>杨万里</td>
+                <td>宿新市徐公店二首·其一</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>李白</td>
+                <td>春夜洛城闻笛</td>
+                <td>李峤</td>
+                <td>风</td>
+                <td>杨万里</td>
+                <td>小池</td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!-- </div> -->
+    <style>
+        #guess {
+            width: 60%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        #submit {
+            width: 20%;
+        }
+
+        .qt-progress {
+            width: 20%;
+            border-right: 2px solid white;
+        }
+
+        .empty-progress {
+            width: 0%;
+        }
+
+        .qt-p0 {
+            background-color: #999;
+        }
+
+        .qt-p1 {
+            background-color: #F5B7B1;
+        }
+
+        .qt-p2 {
+            background-color: #F9E79F;
+        }
+
+        .qt-p3 {
+            background-color: #D4EFDF;
+        }
+
+        .qt-p4 {
+            background-color: #0F0;
+        }
+
+        .galatic-btn {
+            background: rgb(0, 85, 170);
+            color: #fff;
+        }
+
+        .galatic-btn:hover,
+        .galatic-btn:focus {
+            color: #fff;
+            background: #2af;
+        }
+    </style>
+
+    <script>
+        async function submit() {
+            $('#submit').prop("disabled", true);
+            let requestBody = {};
+            for (const key in inputSlut) {
+                requestBody[inputSlut[key]] = $('#' + inputSlut[key]).val();
+            }
+
+            console.log("requestBody: ", requestBody);
+
+
+            try {
+                let result = BCKE_submit(requestBody);
+
+                console.log("server response: ", result);
+
+                let res = await result;
+                if (res.error != "") {
+                    $('#global-error').text(`Error: ${res.error}`);
+                    $('#global-error').removeClass('d-none');
+                } else {
+                    updateOutputCells(res.ret_dict);
+
+                    console.log("updateOutputCells called");
+
+                }
+
+            } catch (e) {
+                $('#global-error').text(`Error: ${e}`);
+                $('#global-error').removeClass('d-none');
+            }
+            $('#submit').prop("disabled", false);
+        }
+
+
+        $('#submit-form').on('submit', submit);
+
+        const responsiveAlert = document.getElementById('responsive-alert')
+        responsiveAlert.addEventListener('closed.bs.alert', event => {
+            document.getElementById('myGrid').focus();
+        })
+
+        const BCKED = {
+            "level_0_box_0": {
+                "expected_length": 7,
+                "position": [
+                    5,
+                    6
+                ],
+                "poetry": "青虬紫燕坐春风"
+            },
+            "level_0_box_1": {
+                "expected_length": 7,
+                "position": [
+                    5,
+                    6
+                ],
+                "poetry": "桃花依旧笑春风"
+            },
+            "level_0_box_2": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "烽火连三月"
+            },
+            "level_0_box_3": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "烟花三月下扬州"
+            },
+            "level_0_box_4": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "长安古道马迟迟"
+            },
+            "level_0_box_5": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "远芳侵古道"
+            },
+            "level_0_box_6": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "无边落木萧萧下"
+            },
+            "level_0_box_7": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "衙斋卧听萧萧竹"
+            },
+            "level_0_box_8": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "海上生明月"
+            },
+            "level_0_box_9": {
+                "expected_length": 5,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "二十四桥明月夜"
+            },
+            "level_0_box_10": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "横剑别妻子"
+            },
+            "level_0_box_11": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "耶娘妻子走相送"
+            },
+            "level_0_box_12": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "地崩山摧壮士死"
+            },
+            "level_0_box_13": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "千秋二壮士"
+            },
+            "level_0_box_14": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "泉眼无声惜细流"
+            },
+            "level_0_box_15": {
+                "expected_length": 5,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "润物细无声"
+            },
+            "level_0_box_16": {
+                "expected_length": 4,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "杨柳依依"
+            },
+            "level_0_box_17": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "扬子江头杨柳春"
+            },
+            "level_0_box_18": {
+                "expected_length": 5,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "使我不得开心颜"
+            },
+            "level_0_box_19": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "夜夜不得息"
+            },
+            "level_0_box_20": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "梅子黄时日日晴"
+            },
+            "level_0_box_21": {
+                "expected_length": 5,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "日日思君不见君"
+            },
+            "level_0_box_22": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "白云一片去悠悠"
+            },
+            "level_0_box_23": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "黄河远上白云间"
+            },
+            "level_0_box_24": {
+                "expected_length": 5,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "天下三分明月夜"
+            },
+            "level_0_box_25": {
+                "expected_length": 5,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "功盖三分国"
+            },
+            "level_0_box_26": {
+                "expected_length": 5,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "飞入菜花无处寻"
+            },
+            "level_0_box_27": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "桃花净尽菜花开"
+            },
+            "level_0_box_28": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "二月春风似剪刀"
+            },
+            "level_0_box_29": {
+                "expected_length": 5,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "能开二月花"
+            },
+            "level_0_box_30": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "白雪却嫌春色晚"
+            },
+            "level_0_box_31": {
+                "expected_length": 5,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "春色满园关不住"
+            },
+            "level_1_box_0": {
+                "expected_length": 7,
+                "position": [
+                    6
+                ],
+                "poetry": "散入春风满洛城"
+            },
+            "level_1_box_1": {
+                "expected_length": 7,
+                "position": [
+                    4
+                ],
+                "poetry": "三月咸阳城"
+            },
+            "level_1_box_2": {
+                "expected_length": 7,
+                "position": [
+                    5
+                ],
+                "poetry": "古道西风瘦马"
+            },
+            "level_1_box_3": {
+                "expected_length": 7,
+                "position": [
+                    3
+                ],
+                "poetry": "萧萧班马鸣"
+            },
+            "level_1_box_4": {
+                "expected_length": 7,
+                "position": [
+                    2
+                ],
+                "poetry": "明月何时照我还"
+            },
+            "level_1_box_5": {
+                "expected_length": 7,
+                "position": [
+                    5
+                ],
+                "poetry": "却看妻子愁何在"
+            },
+            "level_1_box_6": {
+                "expected_length": 7,
+                "position": [
+                    6
+                ],
+                "poetry": "若非壮士全师胜"
+            },
+            "level_1_box_7": {
+                "expected_length": 7,
+                "position": [
+                    4
+                ],
+                "poetry": "此时无声胜有声"
+            },
+            "level_1_box_8": {
+                "expected_length": 7,
+                "position": [
+                    1
+                ],
+                "poetry": "吹面不寒杨柳风"
+            },
+            "level_1_box_9": {
+                "expected_length": 7,
+                "position": [
+                    3
+                ],
+                "poetry": "君王掩面救不得"
+            },
+            "level_1_box_10": {
+                "expected_length": 7,
+                "position": [
+                    1
+                ],
+                "poetry": "朝回日日典春衣"
+            },
+            "level_1_box_11": {
+                "expected_length": 7,
+                "position": [
+                    0
+                ],
+                "poetry": "回首白云低"
+            },
+            "level_1_box_12": {
+                "expected_length": 7,
+                "position": [
+                    3
+                ],
+                "poetry": "梅须逊雪三分白"
+            },
+            "level_1_box_13": {
+                "expected_length": 7,
+                "position": [
+                    2
+                ],
+                "poetry": "麦花雪白菜花稀"
+            },
+            "level_1_box_14": {
+                "expected_length": 7,
+                "position": [
+                    0
+                ],
+                "poetry": "草长莺飞二月天"
+            },
+            "level_1_box_15": {
+                "expected_length": 7,
+                "position": [
+                    3
+                ],
+                "poetry": "映阶碧草自春色"
+            },
+            "level_2_box_0": {
+                "expected_length": 7,
+                "position": [
+                    5,
+                    6
+                ],
+                "poetry": "洛阳城里见秋风"
+            },
+            "level_2_box_1": {
+                "expected_length": 7,
+                "position": [
+                    2,
+                    3
+                ],
+                "poetry": "铁马秋风大散关"
+            },
+            "level_2_box_2": {
+                "expected_length": 7,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "何似在人间"
+            },
+            "level_2_box_3": {
+                "expected_length": 7,
+                "position": [
+                    3,
+                    4
+                ],
+                "poetry": "便胜却人间无数"
+            },
+            "level_2_box_4": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "等闲识得东风面"
+            },
+            "level_2_box_5": {
+                "expected_length": 7,
+                "position": [
+                    4,
+                    5
+                ],
+                "poetry": "潇湘何事等闲回"
+            },
+            "level_2_box_6": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "北风吹雁雪纷纷"
+            },
+            "level_2_box_7": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "北风卷地白草折"
+            },
+            "level_3_box_0": {
+                "expected_length": 7,
+                "position": [
+                    4
+                ],
+                "poetry": "秋风吹不尽"
+            },
+            "level_3_box_1": {
+                "expected_length": 7,
+                "position": [
+                    6
+                ],
+                "poetry": "人间四月芳菲尽"
+            },
+            "level_3_box_2": {
+                "expected_length": 7,
+                "position": [
+                    0
+                ],
+                "poetry": "烈火焚烧若等闲"
+            },
+            "level_3_box_3": {
+                "expected_length": 7,
+                "position": [
+                    0
+                ],
+                "poetry": "烈烈北风凉"
+            },
+            "level_4_box_0": {
+                "expected_length": 7,
+                "position": [
+                    1,
+                    2
+                ],
+                "poetry": "尽西风"
+            },
+            "level_4_box_1": {
+                "expected_length": 7,
+                "position": [
+                    0,
+                    1
+                ],
+                "poetry": "西风烈"
+            }
+        }
+
+        const BCKE_input_sluts = Object.keys(BCKED);
+        const BCKE_output_sluts = [...new Set(
+            BCKE_input_sluts
+                .filter(input_slut => input_slut.replace("box", "cir"))
+                .map(input_slut => input_slut.replace("box", "cir"))
+                .filter(cir => cir[6] !== "0")
+                .concat(["level_5_cir_0"])
+        )].sort().reverse();
+
+        function BCKE_operatorBox(cfg_0, cfg_1, in_str_0, in_str_1) {
+            const expected_length_0 = cfg_0.poetry.length;
+            let revealed_word_0;
+
+            if (in_str_0 === "") {
+                revealed_word_0 = "";
+            } else if (in_str_0.length !== expected_length_0) {
+                revealed_word_0 = null;
+            } else {
+                revealed_word_0 = cfg_0.position.map(pos_idx => in_str_0[pos_idx]).join(""); // "北风"
+            }
+
+            const expected_length_1 = cfg_1.poetry.length;
+            let revealed_word_1;
+
+            if (in_str_1 === "") {
+                revealed_word_1 = "";
+            } else if (in_str_1.length !== expected_length_1) {
+                revealed_word_1 = null;
+            } else {
+                revealed_word_1 = cfg_1.position.map(pos_idx => in_str_1[pos_idx]).join(""); // "北风"
+            }
+
+            let revealed_word;
+            if (revealed_word_0 === null || revealed_word_1 === null) {
+                revealed_word = "错啦".substring(0, cfg_0.position.length);
+            } else if (revealed_word_0 === "") {
+                console.log(`empty revealed_word_0=${revealed_word_0}, return ${revealed_word_1}`);
+                revealed_word = revealed_word_1;
+            } else if (revealed_word_1 === "") {
+                console.log(`empty revealed_word_0=${revealed_word_1}, return ${revealed_word_0}`);
+                revealed_word = revealed_word_0;
+            } else if (revealed_word_0 === revealed_word_1) {
+                console.log(`hooray! ${revealed_word_0}`);
+                revealed_word = revealed_word_0;
+            } else {
+                revealed_word = "错啦".substring(0, cfg_0.position.length);
+            }
+
+            return revealed_word;
+        }
+
+        function BCKE_refreshState(requestBody) {
+            const retDict = {};
+
+            for (const output_slut of BCKE_output_sluts) {
+                const out_lvl = parseInt(output_slut[6]);
+                const out_idx = parseInt(output_slut.substring(12));
+                const in_lvl = out_lvl - 1;
+                const in_idx_0 = 2 * out_idx;
+                const in_idx_1 = 2 * out_idx + 1;
+                const in_slut_0 = `level_${in_lvl}_box_${in_idx_0}`;
+                const in_slut_1 = `level_${in_lvl}_box_${in_idx_1}`;
+
+                const cfg_0 = BCKED[in_slut_0];
+                const cfg_1 = BCKED[in_slut_1];
+                const in_str_0 = requestBody[in_slut_0];
+                const in_str_1 = requestBody[in_slut_1];
+                const revealed_word = BCKE_operatorBox(cfg_0, cfg_1, in_str_0, in_str_1);
+                retDict[output_slut] = revealed_word;
+            }
+
+            return retDict;
+        }
+
+        function BCKE_submit(req) {
+            try {
+                const body = typeof req === 'string' ? JSON.parse(req) : req;
+                const retDict = BCKE_refreshState(body);
+
+                return {
+                    error: "",
+                    ret_dict: retDict,
+                };
+
+            } catch (error) {
+                console.error(error);
+
+                return {
+                    error: "Error Occured. Please Contact Staff.",
+                    ret_dict: {},
+                };
+            }
+        }
+
+    </script>
+
+    <div class="alert alert-info mt-3 w-50 mx-auto text-center">
+        你可以访问 <a href="https://docs.qq.com/sheet/DWEVDSGtCU3NWQ3lQ?tab=BB08J2" target="_blank">腾讯文档</div>
+    </div>
+
+    </div>
+
+</body>

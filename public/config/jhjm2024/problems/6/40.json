@@ -1,0 +1,51 @@
+{
+  "type": "problem",
+  "title": "狐狸怎么叫？",
+  "extendData": "",
+  "contentType": 3,
+  "vueScript":"/config/jhjm2024/problems/6/40.vue",
+  "content": "",
+  "answer": "NINE TAILED",
+  "desc": "",
+  "tips": [
+    {
+      "title": "我要干什么？",
+      "content": "这种游戏里，字母代表拼音首字母，而数字代表长度。下面的描述描述了你要猜的词语，例如【B2】代表第一个字的拼音以B开头的两字词语，比如“白菜”。"
+    },
+    {
+      "title": "冠军感言如何解读？",
+      "content": "冠军们正在回答采访者的问题——对，他们真的在回答某些非常知名的问题，例如“想要问问你敢不敢，像你说过那样的爱我”或是“谁动了我的奶酪”"
+    },
+    {
+      "title": "我想我懂了一部分冠军感言，但是这些冠军感言有什么用呢？",
+      "content": "注意这些冠军感言和本题的枚举的关系，也注意一下题目的排版很有意思。"
+    },
+    {
+      "title": "我觉得我懂了一些感言，也找到他们和题目本身的关系，但是这种关系是不是太薄弱了一点？",
+      "content": "是的，但是如果使用其他题目的信息，那么这个题目的关联就变得非常的强了"
+    },
+    {
+      "title": "怎么提取？",
+      "content": "前一步中，你根据对应关系创造出了某种特定的环形顺序。接下来把**实际的答案**去掉首字后把他们按顺序进行凯撒位移，开始的地方的话，别忘了主持人是谁。提取的结果应当以AN开头。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 54,
+    "total_guesses": 231,
+    "unique_teams": 69
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "problem",
+  "title": "打得一拳开",
+  "extendData": "",
+  "extendContent": "<div class=\"collapse mb-2\" id=\"post-solve-scene-collapse\">\n<div class=\"white-75-background\">\n<p>\n陈子题想起了自己被打飞在空中时的失重感受，他好像掌握了使用身法的真正办法。当武僧用棍子向他打来时，利用练拳得来的扎实脚步，他一个蹬腿就飞上了天。利用身法交给他的平衡之术，一下子就飞上了天空。这一刻，他掌控了冲刺的奥义（DASH JOCKEY），让对手那恐怖的一棍全部落空。陈子题从天而降，一剑刺穿了对手的手臂。<br><br>\n打得一拳开，免得百拳来，这伤也帮助他积累了许多的伤害，让武僧无法有效的进攻和防守，最后无奈的被击倒在地。陈子题望着对手，释怀的笑了。他想起了当年那个痴迷的自己，是多么想证明武当有多强大。而他如今终于能初步证明这一切了。<br><br>\n而陈子题的江湖故事，还远远没有结束……<br><br>\n恭喜完赛！请查看<a href=\"/config/jhjm2024/victory.html\">致谢页面</a>。\n</p>\n</div>\n</div>",
+  "contentType": 1,
+  "content": "\n<img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/duel_round_meta/duel_meta.webp\" class=\"w-100\" />",
+  "answer": "DASH JOCKEY",
+  "desc": "\"切，我还以为别的门派都是什么怪物，结果一个二个打的还不如崽崽打的疼！\"陈子题不屑一顾的看着敌人，一路过关斩将，闯入决赛。<br><br>\n而他的对手，是少林最强的年轻武僧，棍法无敌，腿法扎实，拳掌更是凌厉。<br><br>\n陈子题也严肃了起来，不敢小心怠慢对手。<br><br>\n<br><br>\n\"打得一拳开，免得百拳来！\" 师父的谆谆教诲还依旧在我心中，\"打出一拳后，要关注你的招式衔接。\"<br><br>\n面对强敌，我应该用什么招式应对他们？\n",
+  "tips": [
+    {
+      "title": "我应该从哪里开始?",
+      "content": "这是一道语意谜题。想想有什么关键词和这些词汇有关，他们和“打”又有什么关系。"
+    },
+    {
+      "title": "我找不太到我想要的啊？",
+      "content": "这些词和一些“Da”有关的词相关，将他们填入格子里"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "提取横向拳头后面的第一个字母，注意还有一个纵向拳头"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 93,
+    "total_guesses": 701,
+    "unique_teams": 94
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "problem",
+  "title": "凌波微步",
+  "extendData": "",
+  "extendContent": "\n<p>\n\"穿好鞋！\"司马君实拍了拍陈子题的肩膀，说完，绝尘而去。<br><br>\n陈子题摸了摸之前司马君实穿的靴子，好家伙，全是负重。怪不得他换上让脚更轻松的运动鞋（ EASY SNEAKERS ）之后就跟风一样飞快了。果不其然，他的身法水平提高了很多，不过飞的还是没有被黄大权打飞的快。\n</p>\n",
+  "contentType": 1,
+  "content": "<style>\n  table.kungfu-move-table {\n    border-collapse: collapse;\n    width: 60%;\n    text-align: center;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .kungfu-move-table td {\n    border: 1px solid black!important;\n    padding: 5px;\n    min-width: 12rem;\n  }\n</style>\n<div class=\"container\">\n  <table class=\"kungfu-move-table\">\n    <tbody>\n      <tr>\n        <td class=\"text-center\">月</td>\n        <td rowspan=\"7\"> <img src= \"/config/jhjm2024/static/assets/puzzles/puzzle_resources/kungfu_meta_move/img_thing.webp\" style=\"width:100%;\"> </td>\n        <td class=\"text-center\">日</td>\n      </tr>\n      <tr>\n        <td>_ _ _ _ -4</td>\n        <td>_ _ _ _ -13</td>\n      </tr>\n      <tr>\n        <td>_ _ _ _ _ +5</td>\n        <td>_ _ -4</td>\n      </tr>\n      <tr>\n        <td>_ _ -6</td>\n        <td>_ _ _   -22</td>\n      </tr>\n      <tr>\n        <td>_ _ +3</td>\n        <td>_ _  -23</td>\n      </tr>\n      <tr>\n        <td>_ _ -5</td>\n        <td>_ _ _ _ _ -20</td>\n      </tr>\n      <tr>\n        <td>_ _ _ -4</td>\n        <td>_ _ -22</td>\n      </tr>\n    </tbody>\n  </table>\n  <hr />\n  <div class=\"text-center fw-bold\">\n    B[D] A[M] B[M] A[D] D[M] E[D] C[M] E[M] F[D] D[D] C[D] F[M]\n  </div>\n</div>",
+  "answer": "EASY SNEAKERS",
+  "desc": "\n<h3>水兑之灵司马君实</h3>\n<p>\n\"崽崽……崽崽师傅，司马君实是个什么样的人啊？\"陈子题说。<br><br>\n\"哦，他是个好人。\"黄大权一边撸猫，一边说。\n</p>\n\n\n\n---\n*ft:*\n\n\n君实真人告诉我，如果想要练好身法，就一定要追寻最快的事物以及最快的那些人。\n从他们身上我学到了什么?\n",
+  "tips": [
+    {
+      "title": "最快的东西是什么？",
+      "content": "你说呢？就是你想的那个世界上最快的速度（以及题目中间展示的那个）！"
+    },
+    {
+      "title": "最快的人是谁？",
+      "content": "那当然是名字当中藏着最快的东西的人了！每一个答案都和一个这样的人有关。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 93,
+    "total_guesses": 419,
+    "unique_teams": 95
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\n本题用到的答案为：\n\n- BRAGGY PHILANTHROPIST\n- WHITE GOODS\n- SOMEDAY OR ONE DAY\n- EUCLID'S ELEMENT\n- NOSTALGIC POETRY\n- NUKE PHYSICS\n\n首先，根据题意，我们应该关注“世界上最快的物体”和相应的人。前者很容易意识到，是“光”。\n\n那么人呢？我们通过仔细观察后，我们会发现：\n\n- 似乎光左右的字符长度都不超过5个，看起来很像汉语拼音的长度。\n- 两个汉字之间都是“光”。三个字似乎看起来也是人名。\n- 君实，如果对历史足够熟悉，是“司马光”的字。\n\n通过对于答案的仔细观察以及知识了解，我们会发现这些词都会和一个名字叫做“X光X”的人有关！\n\n因此，我们可以通过对应其姓名首字母将其填入格子。 名字是根据字母顺序排序的，可以帮助你部分确认答案。 \n\n接下来，通过对于其生日的加减，得到提取索引，提取对应字母。\n\n<table class=\"solution-table\">\n    <tr>\n        <td style=\"width: 7rem;\">姓名</td>\n        <td>对应答案</td>\n        <td>生日 </td>\n        <td>第一个对应提取</td>\n        <td>第二个对应提取</td>\n        <td>提取字母</td>\n        <td>解释</td>\n    </tr>\n    <tr>\n        <td>陈光标</td>\n        <td>BRAGGY PHILANTHROPIST</td>\n        <td>7.19</td>\n        <td>3 </td>\n        <td>6</td>\n        <td>AY</td>\n        <td>陈光标以他高调的慈善闻名，曾为“中国首善”。</td>\n    </tr>\n    <tr>\n        <td>黄光裕</td>\n        <td>WHITE GOODS</td>\n        <td>5.9</td>\n        <td>10</td>\n        <td>5</td>\n        <td>SE</td>\n        <td>黄光裕为知名家电品牌“国美”的创始人。</td>\n    </tr>\n    <tr>\n        <td>许光汉</td>\n        <td>SOMEDAY OR ONE DAY</td>\n        <td>10.31</td>\n        <td>4</td>\n        <td>9</td>\n        <td>ER</td>\n        <td>许光汉因出演《想见你》成名。</td>\n    </tr>\n    <tr>\n        <td>徐光启</td>\n        <td>EUCLID&#39;S ELEMENT</td>\n        <td>4.24</td>\n        <td>7</td>\n        <td>1</td>\n        <td>SE</td>\n        <td>徐光启为第一位将《几何原本》翻译为中文的人。</td>\n    </tr>\n    <tr>\n        <td>余光中</td>\n        <td>NOSTALGIC POETRY</td>\n        <td>10.21</td>\n        <td>5</td>\n        <td>1</td>\n        <td>AN</td>\n        <td>余光中著有知名现代诗《乡愁》。</td>\n    </tr>\n    <tr>\n        <td>朱光亚</td>\n        <td>NUKE PHYSICS</td>\n        <td>12.25</td>\n        <td>8</td>\n        <td>3</td>\n        <td>SK</td>\n        <td>朱光亚为中国的知名核物理学家，也是两弹一星元勋。</td>\n    </tr>\n</table>\n\n按照下方的字母顺序（A[M]即为第一个人的月份位移量提取结果，以此类推）最终我们得到答案：**EASY SNEAKERS**。\n\n"
+}

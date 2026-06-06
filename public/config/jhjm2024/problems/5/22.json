@@ -1,0 +1,59 @@
+{
+  "type": "problem",
+  "title": "遨游江湖",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<div class=\"container text-center\">\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_1.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  8  _  _  _  _  _  _ )</div>\n    </div>\n    <div class=\"split my-3\"></div>\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_2.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  _  _  _  3  _  7  _  _  _  _ )</div>\n    </div>\n    <div class=\"split my-3\"></div>\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_3.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  _  _  1  _  _  _  _  4 )</div>\n    </div>\n    <div class=\"split my-3\"></div>\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_4.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  _  _  _  _  _  9  _  _  5  _  _ )</div>\n    </div>\n    <div class=\"split my-3\"></div>\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_5.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  _  _  _  6  _  _  _  _ )</div>\n    </div>\n    <div class=\"split my-3\"></div>\n    <div class=\"mt-3\">\n        <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/swim/img_6.webp\" alt=\"\" class=\"w-100\">\n        <div class=\"fw-bold mt-2\">( _  _  _  _  _  _  _  2 )</div>\n    </div>\n</div>",
+  "answer": "ISLAMABAD",
+  "desc": "相濡以沫，不如相忘于江湖。",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "所有画作有一些共同点，标题中和ft中都提示了这一点。但它们也有彼此隐藏的不同之处。"
+    },
+    {
+      "title": "我好像有点想法……但是我不太相信这个东西是正确的思路，你肯定在骗我。",
+      "content": "试一试呗？如果你对每张图中的它进行计数，能够得到一个有助于提取的【里程碑】。"
+    },
+    {
+      "title": "我应该如何找到这些图片对应的来源并确认它们正确与否？",
+      "content": "”西塞山前白鹭飞，桃花流水鳜鱼肥“……，可以据此搜索以及根据【里程碑】的指引进行提取。如果未能辨认出图片场景（一时间脑筋没反应过来），请在询道时以“肥鱼肥鱼游游”开头，肥鱼会尽快回复并提供更有意义的信息。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "general",
+      "message": "不是这个啦…不要自己加字母哦",
+      "extra": ""
+    },
+    {
+      "answer": "genera",
+      "message": "目前为止正确……也许它能联系上每张图片的【hint1的最后4个字】？",
+      "extra": ""
+    },
+    {
+      "answer": "lateolabrax",
+      "message": "这首诗歌没错，但这个属不对，可以仔细查证一下。",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 124,
+    "total_guesses": 408,
+    "unique_teams": 124
+  },
+  "answerAnalysis": "\n\n\n肥鱼\n\n\n\n标题和ft都指向了很关键的意象：鱼。\n\n但是这道题里所有的红鲱鱼是伪装成红鲱鱼的鱼：它们事实上与本道题有关，且正是本题的关键部分。\n\n对每张图片中的红鲱鱼数量进行计数并A1Z26转为字母后，可以得到里程碑GENERA（pl.（生物）属），也即这题需要寻找的是每张图片中原本应该出现的鱼的属名（英文）。事实上，我们常说的各种鱼大多都是属名，鲤鱼、斑鱼等“属”里面有很多不同的鲤鱼和不同的斑鱼的“种”。\n\n而比较明显的一张青箬笠，绿蓑衣的图片能够让我们意识到需要寻找一些包含鱼类的诗词。\n\n所有对应关系如下：\n\n<div class=\"container\">\n    <table class=\"solution-table\">\n        <tr>\n            <td>对应诗句</td>\n            <td>对应鱼类</td>\n            <td>属名</td>\n            <td>英文属名</td>\n            <td>提取</td>\n            <td>序号</td>\n        </tr>\n        <tr>\n            <td>竹外桃花三两枝，春江水暖鸭先知。<br>蒌蒿满地芦芽短，正是<span class=\"emph\">河豚</span>欲上时。</td>\n            <td>河豚</td>\n            <td>东方鲀属</td>\n            <td>T<span class=\"emph\">a</span>kifugu</td>\n            <td>A</td>\n            <td>8</td>\n        </tr>\n        <tr>\n            <td>才饮长沙水， 又食<span class=\"emph\">武昌鱼</span>。<br>万里长江横渡， 极目楚天舒。</td>\n            <td>武昌鱼（团头鲂）</td>\n            <td>鲂属</td>\n            <td>Mega<span class=\"emph\">l</span>o<span class=\"emph\">b</span>rama</td>\n            <td>L B</td>\n            <td>3 7</td>\n        </tr>\n        <tr>\n            <td>西塞山前白鹭飞，桃花流水<span class=\"emph\">鳜鱼</span>肥。<br>青箬笠，绿蓑衣，斜风细雨不须归。</td>\n            <td>鳜鱼</td>\n            <td>鳜属</td>\n            <td>Sin<span class=\"emph\">i</span>perc<span class=\"emph\">a</span></td>\n            <td>I A</td>\n            <td>1 4</td>\n        </tr>\n        <tr>\n            <td>江上往来人，但爱<span class=\"emph\">鲈鱼</span>美。<br>君看一叶舟，出没风波里。</td>\n            <td>鲈鱼</td>\n            <td>*松江鲈属</td>\n            <td>Trachi <span class=\"emph\">d</span>er<span class=\"emph\">m</span>us</td>\n            <td>D M</td>\n            <td>9 5</td>\n        </tr>\n        <tr>\n            <td>鸟外渔歌断水烟，隔江唤过打鱼船。<br><span class=\"emph\">鲥鱼</span>出网鲜犹活，笑掷船头三百钱。</td>\n            <td>鲥鱼</td>\n            <td>鲥属</td>\n            <td>tenu<span class=\"emph\">a</span>losa</td>\n            <td>A</td>\n            <td>6</td>\n        </tr>\n        <tr>\n            <td>回望高城落晓河，长亭窗户压微波。<br>水仙欲上<span class=\"emph\">鲤鱼</span>去，一夜芙蓉红泪多。</td>\n            <td>鲤鱼</td>\n            <td>鲤属</td>\n            <td>Cyprinu<span class=\"emph\">s</span></td>\n            <td>S</td>\n            <td>2</td>\n        </tr>\n    </table>\n</div>\n\n从而提取答案 **ISLAMABAD** 。\n\n\n\n这道题的私货是松江鲈鱼。\n\n松江鲈鱼作为古代的美味，原产于松江县，在今上海、苏州一带。\n《三国演义》第六十八回中称，左慈在曹操的宴席上当众钓出一条松江四鳃鲈；《后汉书·左慈传》也有类似描述。\n苏轼在《后赤壁赋》中也说“今者薄暮，举网得鱼，巨口细鳞，状如松江之鲈”。“莼鲈之思”也指松江鲈鱼。\n\n松江鲈鱼属于鲉形目杜父鱼科松江鲈属，自然与鲈形目鲈科鲈属的河鲈或是鲈形目花鲈科花鲈属的花鲈不相同\n（它们甚至关系远到不是同一个目；鲉形目的其他不少鱼类的背鳍有毒）。\n\n范仲淹写下《江上渔者》时任苏州知州，“江上往来人，但爱鲈鱼美”也应当是松江上的人爱松江鲈鱼。\n\n肥鱼当然要出一道鱼题啦（逃）\n\n"
+}

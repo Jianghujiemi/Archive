@@ -1,0 +1,80 @@
+{
+  "type": "problem",
+  "title": "谢邀，人在江湖，身不由己",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<div class=\"container\">\n本题的所有答案都是中文，请输入相应的拼音进行验证。\n</div>\n<div class=\"container mt-3\">\n    <img src=\"/config/jhjm2024/static/assets/puzzles/puzzle_resources/zhihu/img_zhihu.webp\" width=100% height=100% alt=\"\">\n</div>\n<div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n    你可以访问 <a href=\"https://docs.qq.com/doc/DSEJFTkhaeEJ1Y0JN\" target=\"_blank\">腾讯文档</div>\n</div>",
+  "answer": "UCHIAGE HANABI",
+  "desc": "",
+  "tips": [
+    {
+      "title": "请问第一个用户的谜题怎么做？",
+      "content": "香港，又叫东方之珠。本题需要一系形如XX之X的词语。每行需要两个这样子的词语。最终你会提取出两个词语，用“之”衔接他们会告诉你一个电影。"
+    },
+    {
+      "title": "请问第二个用户的谜题是？",
+      "content": "本题的谜题和外语词汇有关。Warum nennen die Chinesen den Namen unseres Landes „Wille“?Vielleicht verwenden Chinesen auch andere Wörter in anderen Sprachen."
+    },
+    {
+      "title": "第三个用户的谜题是什么？",
+      "content": "两边做一定的类比，通过类比关系推理出答案。例如，有两个关系是“西方神明和东方节日”以及“求和”。观察一下你得到的答案的第一个字。"
+    },
+    {
+      "title": "第四个用户的谜题是什么？",
+      "content": "是多音字。你需要同时用这些多音字进行谐音。但既然是多音字，你应该考虑一下……使用多音字的另一个读音！最终需要使用“反切”提取"
+    },
+    {
+      "title": "提问者的谜题是什么？",
+      "content": "整道谜题有一个非常强烈的主题，无论是对于某个音乐合集或是这个合集的制作者的提示。在这个音乐合集中，你可以找到一系列音乐。他们和剩下的小题答案有着重叠的关系。"
+    },
+    {
+      "title": "等下，这种题目类型是什么意思？",
+      "content": "这种类型的题目叫做“元谜题匹配”，在上一个区的最后你应该已经见过了。你需要从给定的词语列表中抽出符合小题需求的答案，代入题目中进行解密"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "dashanghuahuo",
+      "message": "道理都懂，但这题的实际答案是他的罗马音UCHIAGE HANABI。",
+      "extra": ""
+    },
+    {
+      "answer": "sanda",
+      "message": "正确答案就是“散打”！",
+      "extra": ""
+    },
+    {
+      "answer": "kongzhonghuayuan",
+      "message": "正确答案就是“空中花园”！",
+      "extra": ""
+    },
+    {
+      "answer": "shanghaitan",
+      "message": "正确答案就是“上海滩”！",
+      "extra": ""
+    },
+    {
+      "answer": "yamaxunzhihuo",
+      "message": "正确答案就是“亚马逊之火”！",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "门生擂台",
+    "path": "/area/jhjm2024/6",
+    "pgid": 6
+  },
+  "_stats": {
+    "correct_count": 51,
+    "total_guesses": 537,
+    "unique_teams": 78
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

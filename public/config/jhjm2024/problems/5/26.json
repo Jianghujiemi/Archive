@@ -1,0 +1,47 @@
+{
+  "type": "problem",
+  "title": "日行千里",
+  "extendData": "",
+  "extendContent": "",
+  "contentType": 1,
+  "content": "<style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-top: 20px;\n        }\n        \n        .header-cell {\n            text-align: center;\n            padding: 10px;\n            font-weight: bold;\n        }\n        \n        .image-cell {\n            text-align: center;\n            vertical-align: middle;\n            padding: 20px 0;\n        }\n        \n        .dot-cell {\n            text-align: center;\n            vertical-align: middle;\n            padding: 20px 0;\n            font-size: 24px;\n        }\n        \n        .split-row {\n            height: 40px; /* 相当于原来的my-5 split */\n        }\n        \n        img {\n            width: 100%;\n            max-width: 100%;\n            height: auto;\n        }\n        \n        .col-4-width {\n            width: 33.33%;\n        }\n        \n        .col-1-width {\n            width: 8.33%;\n        }\n        \n        .offset-4 {\n            margin-left: 33.33%;\n        }\n        \n        .offset-2 {\n            margin-left: 16.66%;\n        }\n h3{font-weight:500}   .fw-bold{font-weight:1000;font-synthesis: weight;}</style>\n    <table>\n        <!-- 表头行 -->\n        <tr>\n            <td class=\"header-cell col-4-width\">起点</td>\n            <td class=\"header-cell col-1-width\"></td>\n            <td class=\"header-cell col-1-width offset-2\"></td>\n            <td class=\"header-cell col-4-width offset-4\">终点</td>\n        </tr>\n        \n        <!-- 图片对比行1 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_1.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_11.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 图片对比行2 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_2.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_22.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 图片对比行3 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_3.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_33.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 图片对比行4 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_4.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_44.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 图片对比行5 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_5.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_55.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 图片对比行6 -->\n        <tr>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_6.webp\" alt=\"\">\n            </td>\n            <td class=\"dot-cell col-1-width\">·</td>\n            <td class=\"dot-cell col-1-width offset-2\">·</td>\n            <td class=\"image-cell col-4-width\">\n                <img src=\"/config/jhjm2024/static/assets/puzzle_resources/trip/img_66.webp\" alt=\"\">\n            </td>\n        </tr>\n        \n        <!-- 分割行 -->\n        <tr class=\"split-row\">\n            <td colspan=\"4\" style=\"border: none; padding: 20px 0;\">\n                <hr style=\"border: none; border-top: 1px solid #ccc; margin: 0;\">\n            </td>\n        </tr>\n    </table><br /><div class=\"my-5 split\"></div><h4>旅行时间：2024年2月16日</h4><div><h3><span class=\"fw-bold\">高</span>规格的旅程</h3><ul><li>早上八点20分从这条路出发，用了37分钟终于走到了那条路的南边</li><li>早上九点44分从这条路的东边出发，一直到十点18分才到达那条路的东边</li><li>早上六点57分从这条路出发，47分钟后抵达那条路</li><li>下午四点48分从这条路出发，晚上七点半到了那条路的北边</li><li>早上九点43分从那条路的东边出发，过了33分钟回到了这条路的东边</li></ul><h3><span class=\"fw-bold\">低</span>规格的旅程</h3><ul><li>半夜十一点36分从这条路的北边出发，花了12分钟去到那条路</li><li>早上八点37分从这条路出发，花了八小时34分钟才来到那条路</li></ul><h2>这究竟是什么旅行方式啊？！</h2></div><div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n        你可以下载 <a href=\"/config/jhjm2024/static/assets/puzzle_resources/trip/trip.zip\" download=\"\"><strong>高清</strong>原图</a>，一个大约14MB的压缩包\n    </div></div>",
+  "answer": "HOME RUN",
+  "desc": "听说练就一种本领可以日行千里。",
+  "tips": [
+    {
+      "title": "我毫无头绪，首先应该做些什么？",
+      "content": "“网络迷踪”，又叫“街景挑战”或“图寻”，是一种通过照片/街景图片寻找拍摄照片位置的挑战游戏。本题中，这些照片都来源于百度街景，并且都有着奇怪的红色遮挡。"
+    },
+    {
+      "title": "该如何提取？",
+      "content": "每段旅程能够关联到一个四位数，其中四个数字并不是按照从小到大的顺序排列的。也许“Have You Tried...\"文档中有这样的提取方式。"
+    },
+    {
+      "title": "我应该如何理解“旅程”？",
+      "content": "它能够被分为题目中加粗的“高G”和“低D”两种，诶，用什么执行旅程的时候会碰到他们呢？"
+    },
+    {
+      "title": "有一句话我好像怎么也找不到对应的……",
+      "content": "注意题目中提及的今日的日期，可以尝试带着日期一起去搜索。"
+    }
+  ],
+  "additionalAnswers": [],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "玉虚宫练武",
+    "path": "/area/jhjm2024/5",
+    "pgid": 5
+  },
+  "_stats": {
+    "correct_count": 75,
+    "total_guesses": 310,
+    "unique_teams": 93
+  },
+  "answerAnalysis": "\n\n\n鸣秋\n\n\n\nEach answer has a double letter[^1]. Each answer also has a distinct length from 4 to 9. Sort by the length and read the double letters. They say **SAMPLE**.\n\n[^1]: Two consecutive letters that are the same.\n\n*[SAMPLE]: sample puzzle\n\n\n\nhi\n\n\n\nFancy Title\n\n\n\nLength | Answer        | Double Letter\n------ | ------------- | -------------\n4      | BA**SS**      | S\n5      | IS**AA**C     | A\n6      | HA**MM**ER    | M\n7      | SCRI**PP**S   | P\n8      | PARA**LL**EL  | L\n9      | ENGIN**EE**RS | E\n\n"
+}

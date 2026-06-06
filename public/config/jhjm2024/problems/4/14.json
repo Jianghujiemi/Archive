@@ -1,0 +1,86 @@
+{
+  "type": "problem",
+  "title": "上元节灯会",
+  "extendData": "",
+  "contentType": 1,
+  "content": "<div class=\"container text-center\">\n<img src=\"/config/jhjm2024/static/assets/puzzle_resources/lantern/img_lantern.webp\" class=\"w-100\" alt=\"\">\n</div>\n\n<div class=\"alert alert-info mt-3 w-50 mx-auto text-center\">\n    你可以访问 <a href=\"https://docs.qq.com/sheet/DSFZheWd2Q3Jud2JF?tab=BB08J2\" target=\"_blank\">腾讯文档</div>\n</div>",
+  "answer": "campus",
+  "desc": "横平竖直点捺勾折皆变化，笔走龙蛇墨书春秋尽潇洒。<br>这**五种笔画**描绘的，<br>既是上元节的习俗，也是千古以来我们写字的方法。",
+  "tips": [
+    {
+      "title": "我（自认为）是一个解谜新手！能为我介绍一下一道谜题的各个组成部分吗？",
+      "content": "好的！ 一道谜题通常由4个部分组成：标题（可能是这道题相关的主题），flavor text（缩写为ft，通常是前几行的斜体字，可能暗示着这道题的突破口甚至是核心机制），主体部分（可能由文字，图片，音频，视频等组成）和提取部分（用某种方式得出这道题的答案）。"
+    },
+    {
+      "title": "我（自认为）是一个解谜新手！能为我解释一下谜题中常见的这些稀奇古怪的符号吗？",
+      "content": "通常情况下，每段横线或问号会代表一个未知字符。题目中出现的数字有时用来排序，有时提供了答案的某种性质。每道题中出现的其它符号在不同的题中可能代表不同的含义。"
+    },
+    {
+      "title": "首先，我应该干什么呢？",
+      "content": "这些是我们中秋的传统活动——灯谜！这些很特别的是字谜。风味文字中常常提到的《横竖撇点折》就使用了许多灯谜。特别的，这些都是字谜"
+    },
+    {
+      "title": "我认为我解出了每个灯笼上的谜题，我应该做什么？",
+      "content": "五种笔画是我们写字的方式，古代人用笔，而现代的人更多的用的是“五笔”输入法。（P.S. 这里我们需要用一个简单的版本）"
+    },
+    {
+      "title": "那么下面的小摊贩是干什么的？",
+      "content": "也许你现在得到了一些有意义的词语，试着以一行为单位找到他们的共同点。然后再做一次。"
+    }
+  ],
+  "additionalAnswers": [
+    {
+      "answer": "disco",
+      "message": "好！",
+      "extra": ""
+    },
+    {
+      "answer": "andy",
+      "message": "太对了！",
+      "extra": ""
+    },
+    {
+      "answer": "game",
+      "message": "牛啊！",
+      "extra": ""
+    },
+    {
+      "answer": "drama",
+      "message": "那没错！",
+      "extra": ""
+    },
+    {
+      "answer": "kiss",
+      "message": "对啦！",
+      "extra": ""
+    },
+    {
+      "answer": "kin",
+      "message": "您猜怎么着？ 对啦！",
+      "extra": ""
+    },
+    {
+      "answer": "xidiqin",
+      "message": "你在正确的道路上！",
+      "extra": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "索引页",
+      "type": "index",
+      "path": "jhjm2024/index"
+    }
+  ],
+  "arealink": {
+    "title": "初入武当",
+    "path": "/area/jhjm2024/4",
+    "pgid": 4
+  },
+  "_stats": {
+    "correct_count": 125,
+    "total_guesses": 290,
+    "unique_teams": 149
+  },
+  "answerAnalysis": "\n\n\n小白狐九月\n\n\n\n根据风味文本的提示，这首歌《横竖撇点折》是一首用灯谜描绘五种笔画的歌曲，分别代表了我们题目的两个主题：上元节的习俗，灯谜；\n以及千百年来我们写字的方法——不过这里指的不是单纯的笔顺，而是现代人的方法，即五笔输入法。\n首先，让我们先解答这些灯谜：\n\n<table class=\"solution-table\">\n    <thead>\n        <td>谜面</td>\n        <td>答案</td>\n        <td>解释</td>\n        <td>五笔简码</td>\n    </thead>\n    <tbody>\n        <tr>\n            <td>升上一线</td>\n            <td>开</td>\n            <td>“升”字上面画一条线</td>\n            <td>ga</td>\n        </tr>\n        <tr>\n            <td>滑旱冰</td>\n            <td>骨</td>\n            <td>“滑冰”两字去掉所有的水（包括偏旁）</td>\n            <td class=\"bottom-border\">me</td>\n        </tr>\n        <tr>\n            <td>小白的厂</td>\n            <td>原</td>\n            <td>小白厂三个字拼起来</td>\n            <td>dr</td>\n        </tr>\n        <tr>\n            <td>变项</td>\n            <td>贡</td>\n            <td>“项”字重组</td>\n            <td>am</td>\n        </tr>\n        <tr class=\"bottom-border\">\n            <td>上头长，下头长，中间窄</td>\n            <td>工</td>\n            <td>字形</td>\n            <td>a</td>\n        </tr>\n        <tr>\n            <td>岩下东沙</td>\n            <td>砂</td>\n            <td>“岩”字下面的“石”<br>+“沙”字右边（东边）的“少”</td>\n            <td>di</td>\n        </tr>\n        <tr>\n            <td>树挪一寸</td>\n            <td>权</td>\n            <td>树 - 寸</td>\n            <td>sc</td>\n        </tr>\n        <tr>\n            <td>往中间上一点点力</td>\n            <td>为</td>\n            <td>力 + 中间和上面的各一点</td>\n            <td class=\"bottom-border\">o</td>\n        </tr>\n        <tr>\n            <td>水泄不通</td>\n            <td>世</td>\n            <td>泄 - 三点水</td>\n            <td>an</td>\n        </tr>\n        <tr class=\"bottom-border\">\n            <td>除狗以外大一点</td>\n            <td>太</td>\n            <td>大 + 丶， 且答案不是犬</td>\n            <td>dy</td>\n        </tr>\n        <tr>\n            <td>叶变成了十</td>\n            <td>吵</td>\n            <td>“少口”合起来</td>\n            <td>ki</td>\n        </tr>\n        <tr>\n            <td>两棵树</td>\n            <td>林</td>\n            <td>木 + 木</td>\n            <td class=\"bottom-border\">ss</td>\n        </tr>\n        <tr>\n            <td>撸串撸一半</td>\n            <td>中</td>\n            <td>去掉串的一半</td>\n            <td>k</td>\n        </tr>\n        <tr>\n            <td>左三点，右三点，下面横躺一个钩</td>\n            <td>沁</td>\n            <td>字形</td>\n            <td>in</td>\n        </tr>\n    </tbody>\n</table>\n\n得到这些答案后，根据分行，我们得到了三组英文单词。每组英文单词之间都共同表示一个中文字，与下面的六八九的笔画顺序相符：\n\n| 单词1   | 意思  | 单词2   | 意思 | 共同字 | 笔画数 | 五笔 |\n| ----- | --- | ----- | -- | --- | --- | -- |\n| game  | 游戏  | drama | 戏剧 | 戏   | 六   | ca |\n| disco | 迪斯科 | andy  | 安迪 | 迪   | 八   | mp |\n| kiss  | 亲吻  | kin   | 亲属 | 亲   | 九   | us |\n\n再次转换为五笔，我们得到答案：**CAMPUS**。\n\n<style>\n.bottom-border {\n    border-bottom: 2px solid black;\n}\n</style>\n\n"
+}
