@@ -1,0 +1,35 @@
+{% extends "puzzle.html" %}
+{% block puzzle-body-md %}
+
+听说这只猫猫虫啃一口地球能啃出火山喷发……<br>也许向它学习当个吃货也是种嘴上功夫？就是不知道它今天想吃啥。
+{: .flavor}
+
+<div class="container text-center">
+    {% for i in '123456789'|make_list %}
+    <div class="row my-4 text-center">
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-{{ i }}-1.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-{{ i }}-2.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-{{ i }}-3.webp" class="w-100"  alt=""></div>
+    </div>
+    <div class="my-4 split"></div>
+    {% endfor %}
+    <div class="row my-4 text-center">
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-10-1.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-10-2.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-10-3.webp" class="w-100"  alt=""></div>
+    </div>
+    <div class="my-4 split"></div>
+    <div class="row my-4 text-center">
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-11-1.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-11-2.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-11-3.webp" class="w-100"  alt=""></div>
+    </div>
+    <div class="my-4 split"></div>
+    <div class="row my-4 text-center">
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-12-1.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-12-2.webp" class="w-100" alt=""></div>
+        <div class="col-4"><img src="/static/puzzle_resources/eat_it/img-12-3.webp" class="w-100"  alt=""></div>
+    </div>
+</div>
+
+{% endblock %}

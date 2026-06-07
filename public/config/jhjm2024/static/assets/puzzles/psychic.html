@@ -1,0 +1,408 @@
+{% extends "puzzle.html" %}
+{% block puzzle-body-md %}
+
+<div class="container">
+    <div>
+        <div>
+            "zl anzr vf ovonv. guvf vf gur zrffntr ba orunys bs gur grfgref. nyy bs bhe zrffntrf ner pnrfne-fuvsgrq, qrfcvgr
+            fbzr znl or gura pvcurerq hfvat ivtrarer.
+            v yvxr cevzr ahzoref, naq zl vq vf bar bs gurz. fnqyl, zl cny nakvnb'f vf abg."
+        </div>
+        <div class="my-4 split"></div>
+        <div class="">
+            <div class="text-center">
+                <img src="/static/puzzle_resources/psychic/psychic-1.webp" alt="psychic-1" class="w-75"> 
+            </div>
+            <p>
+                w wacz hz hmo aj nabsywjz ypq ai aj xsqccalz qthzzf. qmf aonl, gpf ymewsc lzmsp sfy hsw kgoncwm sluz gcgwk wwysjt cc kwhoazgms.
+                mml d tzjyzh hzaxv tk ocwnz. xpb qsuo hhg, lcfpw ga hsw lzoxesosd khzov xjzbnz jzowdq rswd. zjkpnwm, hswq ycy'l ddyp egmgp ugys.
+                dhwvytfy jt xgjns, ezw hcckw gcgwj ispvk oc fkw ovp ughdflwm rfjaiu ewko gzdnz, pfl fpamwj awgw vjsdf'l.							
+            </p>      
+        </div>
+        <div class="my-4 split"></div>
+        <div>
+            c ug nby lcxxfy aoymmyl, uhx sym, c mjyue zlyhwb. c ug lyuffs mfijjs qcnb gs mjlyuxmbyyn. nbun'm qbs c ume nby mjlyuxmbyyn guhuayl ni mupy nbcm gymmuay. cm cn ylsoy il nbun xoxy qcnb cx hogvyl nqi? c'g hin moly. mjyuecha iz cxm, gs cx cm mguffyl nbuh nby mfuweyl, uhx nby vlucffy yhnbomcumn bum u alyunyl cx nbuh vinb. qyff, nby yhnbomcumnm uly chnylymncha. ylsoy fipym u wcjbyl qcnb xin, von uhrcui xiymh'n.
+        </div>
+        <div class="my-4 split"></div>
+        <div>
+            <div class="text-center">
+                <img src="/static/puzzle_resources/psychic/psychic-2.webp" alt="psychic-2" class="w-75">
+            </div>
+            <p>
+                eky, z'qy jhqydu qlus tkzyk uj dkcuhe sydg ud vhqdsu, s'uij fekhgkey deki fqhbedi jhui ryud vhqdsqyi. kdu
+                qdusteju qckiqdju: xyuh, dejhu fhewhqccukh uj sxudxk iedj iehjyi tyduh, uj ybi edj jeki tukn tusytu tu
+                cetyvyuh
+                sxqskd tu bukhi junjui t'kd cedjqdj ugkylqbudj q bukh fhefhu yt fbki bu fhyn t'kdu fehjyed ceouddu tu hqcud
+                tu
+                bqdpxek.
+            </p>
+        </div>
+        <div class="my-4 split"></div>
+        <div style="display: flex; width: 100%;">
+            <div style="flex: 1; background-color: #f8f8f8; padding: 10px; white-space: pre-wrap; font-family: monospace;">
+def key():
+    return potpal[::-1]
+            </div>
+            <div style="flex: 3; padding: 10px;">
+                z gh sbvk vmnamrshdl. rvrg, h bzrxy xynkkmcut knvs vzkczdh xykigo'n zj vmx oyk
+                nkuxbkm'r cy, ftz hm oyk htfozvgd ia knz nncvx. jtl pjkm muhv on nom wghhft eghd imukmdx vcvczvzkoxzfgp.
+                vvrmrfxy hm hp bdfyivxz jyt. rrg hh gfczq wvjk.
+
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 split"></div>
+
+    {% if not request.session.passed_stage1 %}
+
+    <!-- Stage 1 -->
+    <div style="width: 75%; margin: auto; padding: 20px;">
+        {% csrf_token %}
+        <form id="psychic" autocomplete="off" action="javascript:void(0);" style="display: flex; flex-wrap: wrap; align-items: center;">
+            <div style="display: flex; justify-content: center; align-items: center; flex: 1; white-space: nowrap;">
+                <input type="text" name="username" placeholder="用户名">
+            </div>
+    
+            <div style="display: flex; justify-content: center; align-items: center; flex: 1; white-space: nowrap;">
+                <input type="password" name="password" placeholder="密码">
+            </div>
+    
+            <div style="display: flex; justify-content: center; align-items: center; width: 100px;">
+                <button id="psychic-submit" class="btn galatic-btn" type="submit">确认</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            function getCookie(name) {
+                var cookieValue = null;
+                if (document.cookie && document.cookie !== '') {
+                    var cookies = document.cookie.split(';');
+                    for (var i = 0; i < cookies.length; i++) {
+                        var cookie = cookies[i].trim();
+                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+        
+            async function submit(event) {
+                event.preventDefault();
+        
+                let csrftoken = getCookie('csrftoken');
+                let requestBody = {
+                    'username': document.querySelector('input[name="username"]').value,
+                    'password': document.querySelector('input[name="password"]').value,
+                };
+                
+                try {
+                    let result = await fetch("/puzzle/psychic/submit", {
+                        method: 'POST',
+                        body: JSON.stringify(requestBody),
+                        headers: { 
+                            "X-CSRFToken": csrftoken 
+                        },
+                    });
+                    if (!result.ok) {
+                        $('#global-error').text(`出现错误 ${result.status} ${result.statusText} 请联系管理员解决！`);
+                        $('#global-error').removeClass('d-none');
+                    } else {
+                        if (result.error && result.error != "") {
+                            $('#global-error').text(`Error: ${result.error}`);
+                            $('#global-error').removeClass('d-none');
+                        } else {
+                            location.reload();
+                        }
+                    }
+                } catch (e) {
+                    alert(`Error: ${e}`);
+                }
+            }
+            document.getElementById('psychic').addEventListener('submit', submit);
+        });
+    </script>
+
+    <!-- Stage 2 -->
+    {% else %}
+    <div class="container text-center fw-bold mb-4">
+        欢迎您， anbichenduer ！
+    </div>
+    <form id="psychic-stage2" autocomplete="off" action="javascript:void(0);" style="flex-wrap: wrap; align-items: center;">
+        {% csrf_token %}
+        <div style="display: flex; gap: 20px;" class="my-3">
+            <h5>ID：1</h5>
+            <div style="display: flex; flex: 1;">
+                <label for="choice1">姓名</label>
+                <select name="choice1" id="choice1">
+                    <option value="1">安晓 anxiao</option>
+                    <option value="2">毕白 bibai</option>
+                    <option value="3">陈湖 chenhu</option>
+                    <option value="4">杜玖 dujiu</option>
+                    <option value="5">二月 eryue</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice2">分工</label>
+                <select name="choice2" id="choice2">
+                    <option value="1">队长</option>
+                    <option value="2">文档管理</option>
+                    <option value="3">猜谜王</option>
+                    <option value="4">程序佬</option>
+                    <option value="5">划水怪</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice3">加密偏好</label>
+                <select name="choice3" id="choice3">
+                    <option value="1">猪圈</option>
+                    <option value="2">旗语</option>
+                    <option value="3">盲文</option>
+                    <option value="4">二进制</option>
+                    <option value="5">摩斯</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; gap: 20px;" class="my-3">
+            <h5>ID：2</h5>
+            <div style="display: flex; flex: 1;">
+                <label for="choice4">姓名</label>
+                <select name="choice4" id="choice4">
+                    <option value="1">安晓 anxiao</option>
+                    <option value="2">毕白 bibai</option>
+                    <option value="3">陈湖 chenhu</option>
+                    <option value="4">杜玖 dujiu</option>
+                    <option value="5">二月 eryue</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice5">分工</label>
+                <select name="choice5" id="choice5">
+                    <option value="1">队长</option>
+                    <option value="2">文档管理</option>
+                    <option value="3">猜谜王</option>
+                    <option value="4">程序佬</option>
+                    <option value="5">划水怪</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice6">加密偏好</label>
+                <select name="choice6" id="choice6">
+                    <option value="1">猪圈</option>
+                    <option value="2">旗语</option>
+                    <option value="3">盲文</option>
+                    <option value="4">二进制</option>
+                    <option value="5">摩斯</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; gap: 20px;" class="my-3">
+            <h5>ID：3</h5>
+            <div style="display: flex; flex: 1;">
+                <label for="choice7">姓名</label>
+                <select name="choice7" id="choice7">
+                    <option value="1">安晓 anxiao</option>
+                    <option value="2">毕白 bibai</option>
+                    <option value="3">陈湖 chenhu</option>
+                    <option value="4">杜玖 dujiu</option>
+                    <option value="5">二月 eryue</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice8">分工</label>
+                <select name="choice8" id="choice8">
+                    <option value="1">队长</option>
+                    <option value="2">文档管理</option>
+                    <option value="3">猜谜王</option>
+                    <option value="4">程序佬</option>
+                    <option value="5">划水怪</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice9">加密偏好</label>
+                <select name="choice9" id="choice9">
+                    <option value="1">猪圈</option>
+                    <option value="2">旗语</option>
+                    <option value="3">盲文</option>
+                    <option value="4">二进制</option>
+                    <option value="5">摩斯</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; gap: 20px;" class="my-3">
+            <h5>ID：4</h5>
+            <div style="display: flex; flex: 1;">
+                <label for="choice10">姓名</label>
+                <select name="choice10" id="choice10">
+                    <option value="1">安晓 anxiao</option>
+                    <option value="2">毕白 bibai</option>
+                    <option value="3">陈湖 chenhu</option>
+                    <option value="4">杜玖 dujiu</option>
+                    <option value="5">二月 eryue</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice11">分工</label>
+                <select name="choice11" id="choice11">
+                    <option value="1">队长</option>
+                    <option value="2">文档管理</option>
+                    <option value="3">猜谜王</option>
+                    <option value="4">程序佬</option>
+                    <option value="5">划水怪</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice12">加密偏好</label>
+                <select name="choice12" id="choice12">
+                    <option value="1">猪圈</option>
+                    <option value="2">旗语</option>
+                    <option value="3">盲文</option>
+                    <option value="4">二进制</option>
+                    <option value="5">摩斯</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; gap: 20px;" class="my-3">
+            <h5>ID：5</h5>
+            <div style="display: flex; flex: 1;">
+                <label for="choice13">姓名</label>
+                <select name="choice13" id="choice13">
+                    <option value="1">安晓 anxiao</option>
+                    <option value="2">毕白 bibai</option>
+                    <option value="3">陈湖 chenhu</option>
+                    <option value="4">杜玖 dujiu</option>
+                    <option value="5">二月 eryue</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice14">分工</label>
+                <select name="choice14" id="choice14">
+                    <option value="1">队长</option>
+                    <option value="2">文档管理</option>
+                    <option value="3">猜谜王</option>
+                    <option value="4">程序佬</option>
+                    <option value="5">划水怪</option>
+                </select>
+            </div>
+            <div style="display: flex; flex: 1;">
+                <label for="choice15">加密偏好</label>
+                <select name="choice15" id="choice15">
+                    <option value="1">猪圈</option>
+                    <option value="2">旗语</option>
+                    <option value="3">盲文</option>
+                    <option value="4">二进制</option>
+                    <option value="5">摩斯</option>
+                </select>
+            </div>
+        </div>
+        <style>
+            #psychic-stage2 * {
+                align-self: center;
+                margin: 0;
+            }
+            #psychic-stage2 h5, #psychic-stage2 label {
+                margin-right: 1rem;
+                text-wrap: nowrap;
+            }
+        </style>
+        {% if not request.session.passed_stage2 %}
+        <div>
+            <button id="psychic-stage2-submit" class="btn galatic-btn" type="submit">确认</button>
+        </div>
+        {% endif %}
+    </form>
+    {% if request.session.passed_stage2 %}
+    <div class="split my-4"></div>
+    <div class="container text-center">
+        <p>正确！谢谢你把我们从腐坏的题目中拯救了出来。将这首歌的歌名作为答案提交，我们就能回到现实生活中了。</p>
+        <div class="mt-3">
+            <audio controls autoplay id="audio">
+                <source src="/static/puzzle_resources/psychic/psychic.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('audio').volume = 0.2;
+        $('select').prop('disabled', true);
+    });
+    </script>
+    {% else %}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    
+        async function submit(event) {
+            event.preventDefault();
+    
+            let csrftoken = getCookie('csrftoken');
+            let requestBody = {
+                'choice1': document.querySelector('select[name="choice1"]').value,
+                'choice2': document.querySelector('select[name="choice2"]').value,
+                'choice3': document.querySelector('select[name="choice3"]').value,
+                'choice4': document.querySelector('select[name="choice4"]').value,
+                'choice5': document.querySelector('select[name="choice5"]').value,
+                'choice6': document.querySelector('select[name="choice6"]').value,
+                'choice7': document.querySelector('select[name="choice7"]').value,
+                'choice8': document.querySelector('select[name="choice8"]').value,
+                'choice9': document.querySelector('select[name="choice9"]').value,
+                'choice10': document.querySelector('select[name="choice10"]').value,
+                'choice11': document.querySelector('select[name="choice11"]').value,
+                'choice12': document.querySelector('select[name="choice12"]').value,
+                'choice13': document.querySelector('select[name="choice13"]').value,
+                'choice14': document.querySelector('select[name="choice14"]').value,
+                'choice15': document.querySelector('select[name="choice15"]').value,
+            };
+            
+            try {
+                let result = await fetch("/puzzle/psychic/submit", {
+                    method: 'POST',
+                    body: JSON.stringify(requestBody),
+                    headers: { 
+                        "X-CSRFToken": csrftoken 
+                    },
+                });
+                if (!result.ok) {
+                    $('#global-error').text(`出现错误 ${result.status} ${result.statusText} 请联系管理员解决！`);
+                    $('#global-error').removeClass('d-none');
+                } else {
+                    if (result.error && result.error != "") {
+                        $('#global-error').text(`Error: ${result.error}`);
+                        $('#global-error').removeClass('d-none');
+                    } else {
+                        location.reload();
+                    }
+                }
+            } catch (e) {
+                alert(`Error: ${e}`);
+            }
+        }
+        document.getElementById('psychic-stage2').addEventListener('submit', submit);
+        });
+    </script>
+    {% endif %}
+
+{% endif %}
+
+    
+</div>
+
+{% endblock %}

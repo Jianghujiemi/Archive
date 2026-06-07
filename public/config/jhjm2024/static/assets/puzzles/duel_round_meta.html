@@ -1,0 +1,45 @@
+{% extends "puzzle.html" %}
+
+{% block pre_solve_scene_btn %}
+<button class="btn" data-bs-toggle="collapse" data-bs-target="#pre-solve-scene-collapse">查看剧情</button>
+{% endblock %}
+
+{% block post_solve_scene_btn %}
+<button class="btn" data-bs-toggle="collapse" data-bs-target="#post-solve-scene-collapse">查看完成剧情</button>
+{% endblock %}
+
+{% block pre_solve_scene %}
+<div class="collapse mb-2" id="pre-solve-scene-collapse">
+<div class="white-75-background">
+<p>
+“切，我还以为别的门派都是什么怪物，结果一个二个打的还不如崽崽打的疼！”陈子题不屑一顾的看着敌人，一路过关斩将，闯入决赛。<br><br>
+而他的对手，是少林最强的年轻武僧，棍法无敌，腿法扎实，拳掌更是凌厉。<br><br>
+陈子题也严肃了起来，不敢小心怠慢对手。
+</p>
+</div>
+</div>
+{% endblock %}
+
+{% block post_solve_scene %}
+<div class="collapse mb-2" id="post-solve-scene-collapse">
+<div class="white-75-background">
+<p>
+陈子题想起了自己被打飞在空中时的失重感受，他好像掌握了使用身法的真正办法。当武僧用棍子向他打来时，利用练拳得来的扎实脚步，他一个蹬腿就飞上了天。利用身法交给他的平衡之术，一下子就飞上了天空。这一刻，他掌控了冲刺的奥义（DASH JOCKEY），让对手那恐怖的一棍全部落空。陈子题从天而降，一剑刺穿了对手的手臂。<br><br>
+打得一拳开，免得百拳来，这伤也帮助他积累了许多的伤害，让武僧无法有效的进攻和防守，最后无奈的被击倒在地。陈子题望着对手，释怀的笑了。他想起了当年那个痴迷的自己，是多么想证明武当有多强大。而他如今终于能初步证明这一切了。<br><br>
+而陈子题的江湖故事，还远远没有结束……<br><br>
+恭喜完赛！请查看<a href="/victory">致谢页面</a>。
+</p>
+</div>
+</div>
+{% endblock %}
+
+{% block puzzle-body-md %}
+
+“**打**得一**拳**开，免得百拳来！” 师父的谆谆教诲还依旧在我心中，“打出一拳后，要关注你的招式衔接。”<br><br>
+面对强敌，我应该用什么招式应对他们？
+{: .flavor}
+
+<div class="container">
+    <img src="/static/puzzle_resources/duel_round_meta/duel_meta.webp" class="w-100">
+</div>
+{% endblock %}

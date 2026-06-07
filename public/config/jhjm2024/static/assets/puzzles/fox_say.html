@@ -1,0 +1,331 @@
+{% extends "puzzle.html" %}
+{% block puzzle-body-md %}
+
+请帮我整理一下小白狐主持的答题节目里的历届冠军题吧！他们对应的冠军感言似乎全出问题了！
+{: .flavor}
+
+<div id="global-error" class="d-none alert alert-danger"></div>
+
+{# Block 1: 选框 #}
+
+<table class="questions-table">
+    <tbody>
+        <tr>
+            <td id="q0">B4</td>
+            <td id="q1">G3</td>
+            <td id="q2">H2</td>
+            <td id="q3">H4</td>
+            <td id="q4">K4</td>
+            <td id="q5">L2</td>
+            <td id="q6">L2</td>
+            <td id="q7">Q2</td>
+        </tr>
+        <tr>
+            <td id="q8">Q3</td>
+            <td id="q9">S5</td>
+            <td id="q10">W4</td>
+            <td id="q11">X4</td>
+            <td id="q12">X4</td>
+            <td id="q13">X5</td>
+            <td id="q14">Z3</td>
+            <td id="q15">Z4</td>
+        </tr>
+    </tbody>
+</table>
+
+{# Block 2: 提示 #}
+
+<div class="my-4 split"></div>
+
+<div class="container p-5 border border-black mb-3">
+    <div id="hint1" class="text-end my-3"></div>
+    <div class="my-3 border border-black"></div>
+    <div id="hint2" class="text-start my-3"></div>
+
+{# Block 3: 提示 #}
+    <form id="submit-form" autocomplete="off" action="javascript:void(0);">
+        {% csrf_token %}
+        <div class="my-3 row">
+            <input id="guess" type="text">
+            <button id="submit" class="btn galatic-btn" type="submit">确认</button>
+        </div>
+    </form>
+
+    <div id="guess-result" class="d-none guess-result m-auto text-center col-4 col-md-2">
+        <div id="guess-reflection" class="alert" role="alert"></div>
+    </div>
+</div>
+
+{# Block 4: 冠军感言 #}
+<div id="reflection-container" class="d-none container mb-3">
+    <h3>冠军感言</h3>
+    <div id="reflection" class="container-fluid text-center"></div>
+
+</div>
+
+<div>
+    <h4>去掉答案的第一个字后，凯撒主任将会从主持人开始颁发奖金……</h4>
+<ul>
+  <li>¥190</li>
+  <li>¥200</li>
+  <li>¥150</li>
+  <li>¥150</li>
+  <li>¥150</li>
+  <li>¥50</li>
+  <li>¥0</li>
+  <li>¥190</li>
+  <li>¥150</li>
+  <li>¥120</li>
+  <li>¥20</li>
+  <li>¥140</li>
+  <li>¥250</li>
+  <li>¥0</li>
+  <li>¥190</li>
+  <li>¥200</li>
+</ul>
+
+</div>
+
+<style>
+    .questions-table {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 5px;
+    }
+    .questions-table td {
+        border: 1px solid #000;
+        padding: 5px;
+        width: 5rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    #reflection-container {
+        border-radius: 20px;
+        padding: 20px;
+        border: 2px solid black;
+        background-color: #EAF7FA;
+    }
+    #reflection-container h2 {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    #guess {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #submit {
+        width: 20%;
+    }
+    .solved-question {
+        background-color: #4de886;
+    }
+    .selected-question {
+        background-color: #000!important;
+        color: #fff;
+    }
+    .galatic-btn {
+        background: rgb(0, 85, 170);
+        color: #fff;
+    }
+    .galatic-btn:hover,
+    .galatic-btn:focus {
+        color: #fff;
+        background: #2af;
+    }
+</style>
+<script>
+var currentActiveQuestion = 0;
+var questionSolveStatus = 0;
+var hint1_texts = [
+"5a6D5Lul5Liw5a+M55qE576O5bCR5aWz6Ze75ZCN77yM5ZCM5pe25Y+v5Lul57uE5bu66Iiw6Zif6L+b6KGM5oiY5paX44CC6K+l5ri45oiP55qE6Z+p5paH54mI55Sx5b+D5Yqo5Y+R6KGM44CC",
+"6L+Z6YOoMjAxNuW5tOeahOi0uuWygeeJh+iusui/sOS6huWMluWtpuiAgeW4iOWSjOWtpueUn+S5i+mXtOeahOaVheS6i+OAgg",
+"5a6D5pyA5pep55m75Zy65LqO57O75YiX5L2c5ZOB55qE56ys5LqM5LiW5Luj77yM6K6+6K6h5p2l5rqQ5LqO6Jek5aO277yM5Lul5p6B5L2O55qE56e75Yqo6YCf5bqm6Ze75ZCN44CC",
+"5a6D55Sx6IyD6YC46Iej5Li75ryU77yM5Lul5Li05pe25LmQ5Zui55qE5Ymn5oOF5aS65b6X5LqG6YeR6ams5aWW55qE5bm05bqm55S15b2x44CC",
+"6K+l5L2c5ZOB5Y+W5p2Q5LqO5LiJ5Zu95pe25pyf77yM6K6y6L+w5LqG5YWE5byf5LmL6Ze06LCm6K6p55qE5pWF5LqL77yM5bm26KKr5byV55So6Ieq44CK5LiJ5a2X57uP44CL5Lit44CC",
+"5a6D57uZ6K645aSa6KeC5LyX5Lyg6YCS5LqG55+l6K+G77yM5bm25oul5pyJ5LiA5Y+q6ICB6byg5L2c5Li65pCt5qGj44CC5a6D55qE6YWN6Z+z5ryU5ZGY5pu05piv55+l5ZCN55qE6ay855Wc57Sg5p2Q44CC",
+"5LuW5pu+6KKr5Lyg5o+Q5ZCN6K+66LSd5bCU5aWW77yM5Zyo5YyX5Lqs77yM5bGx5Lic6YeN5bqG6YO95pyJ5a6D55qE5pWF5bGF77yM6JGX5ZCN5L2c5ZOB6K6y6L+w5LqG6buE5YyF6L2m5aSr55qE5pWF5LqL44CC",
+"5a6D5Y+R5rqQ5LqO5rCR5Zu95pe25pyf77yM546w5bi455So5Lid57u45Yi25L2c44CC",
+"5LuW5pyA5pep5Y+R5rqQ5LqO5pel5pys77yM5piv5LiA5Liq6JGX5ZCN5qKX5Zu+5Lul5Y+K6K6y6L+w5Lq65LiO5Yqo54mp5YWz57O755qE55S15b2x55qE5Li76KeS44CC",
+"5Z2Q5Zyo6L2u5qSF5LiK55qE5LuW5LiN5LuF6IO95aSf56CU56m25aSq56m65rex5aSE55qE77yM6L+Y6IO95YaZ5L2c5LiO5pe26Ze05pyJ5YWz55qE55WF6ZSA5Lmm44CC",
+"6L+Z5Liq5pWZ6IKy5py65p6E5Zyo54+e54+I5bGx5LiK77yM5bm25LiU5pyJ6K645aSa5Lq65pil5aSp5p2l5q2k6LWP6Iqx44CC",
+"5a6D5rqQ6Ieq5Li56bqm56ul6K+d77yM6K6y6L+w5LqG5Li65LqG54ix5oOF5Y+Y5oiQ5LqG5q6L55a+5Lq655qE5pWF5LqL77yM5YW255S15b2x5Li76KeS5byV6LW35LqG5LqS6IGU572R5LiK55qE5LqJ6K6u44CC",
+"5a6D5piv5LiA5Liq5YiG5Lqr6Ieq5oiR55qE5bmz5Y+w77yM5pu+57uP5Y+q6IO95L2/55So5b6I5bCR55qE5a2X5pWw44CC546w5Zyo5a6D5bey57uP5LuO5q+N5YWs5Y+45YiG5ouG5LiK5biC5bm25Y675o6J5LqG5q+N5YWs5Y+455qE5ZCN56ew44CC",
+"5a6D6K6y6L+w5LqG576O5Zu95LiA5Liq5oul5pyJ5LiJ5Liq5a2p5a2Q55qE6buE55qu6IKk5a625bqt55qE5pWF5LqL44CC",
+"6L+Z5piv5LiA5Liq5LiD5pyI5Lu955qE6ay86IqC77yM5Lmf5piv6K645aSa5L2b5pWZ5paH5YyW5b2x5ZON55qE5Zu95a625bi46L+H55qE6IqC5pel44CC",
+"5a6D55Sx5Zub5Liq5a2m5qCh5ZCI5bm26ICM5oiQ77yM5L2N5LqO5oiR5Zu955qE6ICB5ZKM5bGx5LiK44CC5pyA5pep5Y+r5YGa5rGC5piv5a2m6Zmi44CC",
+];
+var hint2_texts = [
+"4oCm4oCm6K+36Zeu6L+Z5Liq5ZKM5oiY5LqJ5pyJ5YWz55qE55S15a2Q5ri45oiP5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z6YOo6LW15pys5bGx5Ye65ryU55qE5L2c5ZOB5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z56eN6buE6Imy55qE6Jma5ouf55Sf54mp5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq5YWz5LqO6Z+z5LmQ55qE54ix5oOF5pWF5LqL5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq6ZiQ6L+w5LqG5Lq655Sf6YGT55CG55qE5L2c5ZOB5piv77yf",
+"4oCm4oCm6K+36Zeu5p2l6Ieq5LqO5Lit5Zu95YS/56ul5ZCR5L2c5ZOB55qE5a6D5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5L2N5Lit5Zu95L2c5a625piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z56eN5pyA5pep5rqQ6Ieq5LqO55S35oCn6KOF5p2f55qE5aWz5oCn5pyN6aWw5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z56eN5q+b5Y+R6KaG55uW55qE54qs56eR6aOf6IKJ5Yqo54mp5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5L2N54mp55CG5a2m5a625piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq5peF5ri45pmv54K55piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z6YOo5oul5pyJ5ZCM5ZCN6Iie5Y+w5Ymn55qE55S15b2x5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5a625LqS6IGU572R5YWs5Y+45piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq5oOF5pmv5Zac5Ymn5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq5Lit5Zu95Lyg57uf6IqC5pel5piv77yf",
+"4oCm4oCm6K+36Zeu6L+Z5Liq5pWZ6IKy5py65p6E5piv77yf",
+];
+var answers = ["","","","","","","","","","","","","","","",""];
+var reflections = ["","","","","","","","","","","","","","","",""];
+document.addEventListener('DOMContentLoaded', () => {
+    async function submit() {
+        $('#guess').prop("disabled", true);
+        $('#submit').prop("disabled", true);
+
+        let csrftoken = getCookie('csrftoken');
+        try {
+            let result = await fetch("/puzzle/fox_say/submit", {
+                method: 'POST',
+                body: JSON.stringify({
+                    subq: currentActiveQuestion,
+                    guess: $('#guess').val(),
+                }),
+                headers: { "X-CSRFToken": csrftoken },
+            });
+            if (!result.ok) {
+                // HTTP response code was not 2xx. Maybe introspect more...
+                $('#guess-reflection').text(`出现错误 ${result.status} ${result.statusText} 请联系管理员解决！`);
+                $('#guess-reflection').addClass('alert-danger');
+                $('#guess-reflection').removeClass('alert-success');
+            } else {
+                let res = await result.json();
+                if (res.error != "") {
+                    $('#guess-reflection').text(`Error: ${res.error}`);
+                    $('#guess-reflection').addClass('alert-danger');
+                    $('#guess-reflection').removeClass('alert-success');
+                } else {
+                    $('#guess-reflection').text(res.solved ? "正确！" : "错误！");
+                    if (res.solved) {
+                        $('#q' + currentActiveQuestion).addClass('solved-question');
+                        $('#reflection-container').removeClass('d-none');
+                        $('#reflection').text(res.reflection);
+                        questionSolveStatus |= (1 << currentActiveQuestion);
+                        answers[currentActiveQuestion] = res.answer;
+                        reflections[currentActiveQuestion] = res.reflection;
+                        $('#guess-reflection').removeClass('alert-danger');
+                        $('#guess-reflection').addClass('alert-success');
+                    } else {
+                        $('#guess-reflection').addClass('alert-danger');
+                        $('#guess-reflection').removeClass('alert-success');
+                    }
+                }
+            }
+            $('#guess-result').removeClass('d-none');
+        } catch (e) {
+            $('#guess-reflection').text(`出现错误 ${e} 请联系管理员解决！`);
+            $('#guess-reflection').addClass('alert-danger');
+            $('#guess-reflection').removeClass('alert-success');
+        }
+        // calls you might make: .val(""), .select(), .focus()
+        $('#guess').prop("disabled", false);
+        $('#submit').prop("disabled", false);
+    }
+
+    // https://docs.djangoproject.com/en/dev/ref/csrf/#ajax
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    function switchQuestion(questionId) {
+        console.log("switch "+questionId);
+        for (let i = 0; i < 16; i++) $('#q' + i).removeClass('selected-question');
+        if (!(typeof questionId === 'number' && questionId >= 0 && questionId <= 15)) return;
+        function decodeQuestionText(cipher) {
+            return new TextDecoder().decode(Uint8Array.from(atob(cipher), (m) => m.codePointAt(0)));
+        }
+        const questionHint1 = decodeQuestionText(hint1_texts[questionId]);
+        const questionHint2 = decodeQuestionText(hint2_texts[questionId]);
+        $('#hint1').text(questionHint1);
+        $('#hint2').text(questionHint2);
+        const questionSolved = questionSolveStatus & (1 << questionId);
+        if (questionSolved) {
+            $('#guess').val(answers[questionId]);
+            $('#reflection').text(reflections[questionId]);
+            $('#guess').prop('disabled', true);
+            $('#submit').prop('disabled', true);
+            $('#guess-reflection').text("正确！");
+            $('#guess-reflection').removeClass('alert-danger');
+            $('#guess-reflection').addClass('alert-success');
+            $('#guess-result').removeClass('d-none');
+            $('#reflection-container').removeClass('d-none');
+        } else {
+            $('#guess').val("");
+            $('#guess').prop('disabled', false);
+            $('#submit').prop('disabled', false);
+            $('#guess-result').addClass('d-none');
+            $('#reflection-container').addClass('d-none');
+        }
+        $('#q' + questionId).addClass('selected-question');
+        currentActiveQuestion = questionId;
+    }
+
+    async function fetchStatus() {
+        let csrftoken = getCookie('csrftoken');
+        try {
+            let result = await fetch("/puzzle/fox_say/result", {
+                method: 'POST',
+                headers: { "X-CSRFToken": csrftoken },
+            });
+            if (!result.ok) {
+                $('#global-error').removeClass('d-none');
+                $('#global-error').text(`获取数据错误 ${result.status} ${result.statusText} 请联系管理员解决！`);
+            } else {
+                let res = await result.json();
+                if (res.error != "") {
+                    $('#global-error').removeClass('d-none');
+                    $('#global-error').text(`获取数据错误 ${res.error} 请联系管理员解决！`);
+                } else {
+                    for (let i = 0; i < res.puzzles.length; i++) {
+                        let data = res.puzzles[i];
+                        if (data.solved) {
+                            questionSolveStatus |= 1 << i;
+                            answers[i] = data.answer;
+                            reflections[i] = data.reflection;
+                            $('#q' + i).addClass('solved-question');
+                        } else {
+                            answers[i] = "";
+                            reflections[i] = "";
+                        }
+                    }
+                    // By default set question 0 as selected
+                    switchQuestion(0);
+                }
+            }
+            $('#guess-result').removeClass('d-none');
+        } catch (e) {
+            console.error(e);
+            $('#guess-reflection').text(`出现错误 ${e} 请联系管理员解决！`);
+            $('#guess-reflection').addClass('alert-danger');
+            $('#guess-reflection').removeClass('alert-success');
+        }
+    }
+
+    $('#submit-form').on('submit', submit);
+    for (let i = 0; i < 16; i++) {
+        $('#q'+i).on('click', switchQuestion, () => switchQuestion(i));
+    }
+    fetchStatus();
+});
+</script>
+{% endblock %}
